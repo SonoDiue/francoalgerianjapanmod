@@ -1,0 +1,1867 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_BIA_dance_in_lagos"
+		texturefile = "gfx/interface/goals/BIA/Dance in Lagos.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_5_times_over_we_will_win"
+		texturefile = "gfx/interface/goals/BIA/Five Times Over We Will Win.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_minor_setbacks"
+		texturefile = "gfx/interface/goals/BIA/Minor Setbacks.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_harsher_punishments"
+		texturefile = "gfx/interface/goals/BIA/Harsher Punishments.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_beaten_back_but_not_lost"
+		texturefile = "gfx/interface/goals/BIA/Beaten Back But Not Lost.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_well_shit"
+		texturefile = "gfx/interface/goals/BIA/Well Shit.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_our_work_done"
+		texturefile = "gfx/interface/goals/BIA/Our Work Done.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_block_cowards_from_fleeing"
+		texturefile = "gfx/interface/goals/BIA/Block Cowards from Fleeing.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_parades_once_were_tears"
+		texturefile = "gfx/interface/goals/BIA/Parades Where Once Were Tears.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_reparations_to_NGA"
+		texturefile = "gfx/interface/goals/BIA/Send Reparations to Nigeria.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_summary_executions"
+		texturefile = "gfx/interface/goals/BIA/Summary Executions.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_the_great_teardown"
+		texturefile = "gfx/interface/goals/BIA/The Great Teardown.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_arighteousvictory"
+		texturefile = "gfx/interface/goals/BIA/A Righteous and Expected Victory.dds"
+	}
+	SpriteType = {
+		name = "GFX_our_patriotism_bolstered"
+		texturefile = "gfx/interface/goals/BIA/Our Patriotism Bolstered.dds"
+	}
+	SpriteType = {
+		name = "GFX_our_military_proud"
+		texturefile = "gfx/interface/goals/BIA/Our Military Proud.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_our_new_money_flowing"
+		texturefile = "gfx/interface/goals/BIA/Our New Money Flowing.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_opening_up_to_new_parties"
+		texturefile = "gfx/interface/goals/BIA/Opening Up To New Parties.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_crossriver_trade"
+		texturefile = "gfx/interface/goals/BIA/Cross-River Trade.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_democratic_naissance"
+		texturefile = "gfx/interface/goals/BIA/Democratic Naissance.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_contain_extremists"
+		texturefile = "gfx/interface/goals/BIA/Contain Extremists.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_fund_edu_tour"
+		texturefile = "gfx/interface/goals/BIA/Fund Education and Tourism.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_econ_divers"
+		texturefile = "gfx/interface/goals/BIA/Diversify our Economy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_keep_econ_growing"
+		texturefile = "gfx/interface/goals/BIA/Keep The Economy Growing.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_bring_benefits"
+		texturefile = "gfx/interface/goals/BIA/Bring the Benefits To The People.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_peaceathome"
+		texturefile = "gfx/interface/goals/BIA/Peace At Home.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_talks_with_lagos"
+		texturefile = "gfx/interface/goals/BIA/Talks with Lagos.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_and_a_beautiful_world_to_see"
+		texturefile = "gfx/interface/goals/BIA/And A Beautiful World to See.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_vision_2030"
+		texturefile = "gfx/interface/goals/BIA/Vision 2030 Project.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_getting_to_DEN"
+		texturefile = "gfx/interface/goals/BIA/Getting to Denmark.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_train_our_people"
+		texturefile = "gfx/interface/goals/BIA/Train Our Own People.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_vision_2030_in_practice"
+		texturefile = "gfx/interface/goals/BIA/Now Where Were We.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_a_new_planned_cap"
+		texturefile = "gfx/interface/goals/BIA/A New Planned Capital.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_economic_diversification"
+		texturefile = "gfx/interface/goals/BIA/Economic Diversification.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_connect_the_nation"
+		texturefile = "gfx/interface/goals/BIA/Connect The Nation.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_21st_century"
+		texturefile = "gfx/interface/goals/BIA/Biafran National Project In The 21st Century.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_nat_public_health_service"
+		texturefile = "gfx/interface/goals/BIA/International Medical Team.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_how_to_pay_for_this"
+		texturefile = "gfx/interface/goals/BIA/How to Pay For All This.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_first_medical_insurance_cards"
+		texturefile = "gfx/interface/goals/BIA/First Medical Insurance Card.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_our_shining_new_city"
+		texturefile = "gfx/interface/goals/BIA/Our Shining New City.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_nationwide_workforce"
+		texturefile = "gfx/interface/goals/BIA/Nationwide Workforce.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_the_architecture"
+		texturefile = "gfx/interface/goals/BIA/The Architecture.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_the_location"
+		texturefile = "gfx/interface/goals/BIA/The Location.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_the_name"
+		texturefile = "gfx/interface/goals/BIA/The Name.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_phase_1_complete"
+		texturefile = "gfx/interface/goals/BIA/Phase 1 Complete.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_joint_military_exercises"
+		texturefile = "gfx/interface/goals/BIA/Joint Military Exercises.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_edoourgreatestfriend"
+		texturefile = "gfx/interface/goals/BIA/Edo Our Greatest Friend.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_keep_our_money_to_ourselves"
+		texturefile = "gfx/interface/goals/BIA/And Keep Our Money to Ourselves.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_anglophone_crisis_revived"
+		texturefile = "gfx/interface/goals/BIA/The Anglophone Crisis Revived.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_moderate_support"
+		texturefile = "gfx/interface/goals/BIA/Limited Support.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_denounce_cameroonian_aggression"
+		texturefile = "gfx/interface/goals/BIA/Denounce Cameroonian Aggression.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_demand_cameroonian_civility"
+		texturefile = "gfx/interface/goals/BIA/Demand Cameroonian Civility.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_stay_on_our_lane"
+		texturefile = "gfx/interface/goals/BIA/Stay On Our Lane.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_expand_border_security"
+		texturefile = "gfx/interface/goals/BIA/Expand Border Security.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_call_for_a_ceasefire"
+		texturefile = "gfx/interface/goals/BIA/Call For A Ceasefire.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_not_our_problem"
+		texturefile = "gfx/interface/goals/BIA/Not Our Problem.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_our_friends_against_autocracy"
+		texturefile = "gfx/interface/goals/BIA/Our Friends Against Autocracy and Revanchism.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_BIA_send_volunteers"
+		texturefile = "gfx/interface/goals/BIA/Send Volunteers.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_operation_common_law"
+		texturefile = "gfx/interface/goals/BIA/Operation Common Law.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_drop_diplomacy_cameroon"
+		texturefile = "gfx/interface/goals/BIA/Drop Diplomacy With Cameroon.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_anti_biya"
+		texturefile = "gfx/interface/goals/BIA/Anti-Biya Crusade.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_send_guns"
+		texturefile = "gfx/interface/goals/BIA/Send Guns.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_and_planes"
+		texturefile = "gfx/interface/goals/BIA/And Planes.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_decide_on_intervention"
+		texturefile = "gfx/interface/goals/BIA/Debate An Intervention.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_BIA_failure"
+		texturefile = "gfx/interface/goals/BIA/We Failed.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_BIA_victorious"
+		texturefile = "gfx/interface/goals/BIA/We Won.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIU_the_total_war_for_national_salvation"
+		texturefile = "gfx/interface/goals/BIA/The Total War for National Salvation.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIU_in_the_life_of_terror"
+		texturefile = "gfx/interface/goals/BIA/In The Life Of Terror.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIU_come_out_ye_collaborators"
+		texturefile = "gfx/interface/goals/BIA/Come Out Ye Collaborators.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIU_the_wolves_among_sheep"
+		texturefile = "gfx/interface/goals/BIA/The Wolves Among Sheep.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIU_violent_reprisals"
+		texturefile = "gfx/interface/goals/BIA/Violent Reprisals.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIU_mobilize_the_population"
+		texturefile = "gfx/interface/goals/BIA/Mobilize The Population.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIU_bootleg_weaponry"
+		texturefile = "gfx/interface/goals/BIA/Bootleg Weaponry.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIU_biological_warfare"
+		texturefile = "gfx/interface/goals/BIA/Biological Warfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIU_destroy_rivers"
+		texturefile = "gfx/interface/goals/BIA/Destroy The Rivers.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIU_call_edo"
+		texturefile = "gfx/interface/goals/BIA/Call For The Edo.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIU_undo_work"
+		texturefile = "gfx/interface/goals/BIA/Undo All Their Work.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIU_take_women"
+		texturefile = "gfx/interface/goals/BIA/Take Their Women.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIU_break_spirit"
+		texturefile = "gfx/interface/goals/BIA/Break Their Spirit.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIU_nigeria_delenda_est"
+		texturefile = "gfx/interface/goals/BIA/Nigeria Delenda Est.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIU_save_yoruba"
+		texturefile = "gfx/interface/goals/BIA/Save The Yoruba From Themselves.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_redirect_water"
+		texturefile = "gfx/interface/goals/SAF/Redirect More Water.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_100_thirsty_days"
+		texturefile = "gfx/interface/goals/SAF/Hundreds of Thirsty Days.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_enact_rationing"
+		texturefile = "gfx/interface/goals/SAF/Enact Rationing.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_host_distractions"
+		texturefile = "gfx/interface/goals/SAF/Host Distractions.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_send_in_dogs"
+		texturefile = "gfx/interface/goals/SAF/Send In The Dogs.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_speak_with_manuel"
+		texturefile = "gfx/interface/goals/SAF/Speak With Manuel.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_speak_with_blanche"
+		texturefile = "gfx/interface/goals/SAF/Speak With Terre'Blanche.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_deciding_new_policy"
+		texturefile = "gfx/interface/goals/SAF/Deciding New Policy.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_car_crash"
+		texturefile = "gfx/interface/goals/SAF/The Car Crash.dds"
+	}
+	SpriteType = {
+		name = "GFX_another_peaceful_day_in_the_war_machine"
+		texturefile = "gfx/interface/goals/SEY/Another Peaceful Day In The War Machine.dds"
+	}
+	SpriteType = {
+		name = "GFX_our_benefactors_yearly_meeting"
+		texturefile = "gfx/interface/goals/SEY/Our Benefactors' Yearly Meeting.dds"
+	}
+	SpriteType = {
+		name = "GFX_the_pretorians"
+		texturefile = "gfx/interface/goals/SEY/The Pretorians.dds"
+	}
+	SpriteType = {
+		name = "GFX_the_washingtonians"
+		texturefile = "gfx/interface/goals/SEY/The Washingtonians.dds"
+	}
+	SpriteType = {
+		name = "GFX_the_parisians"
+		texturefile = "gfx/interface/goals/SEY/The Parisians.dds"
+	}
+	SpriteType = {
+		name = "GFX_hope_for_the_best"
+		texturefile = "gfx/interface/goals/SEY/Hope For The Best.dds"
+	}
+	SpriteType = {
+		name = "GFX_prepare_for_the_worst"
+		texturefile = "gfx/interface/goals/SEY/Prepare For The Worst.dds"
+	}
+	SpriteType = {
+		name = "GFX_foster_americas_orphans"
+		texturefile = "gfx/interface/goals/SEY/Foster America's Orphans.dds"
+	}
+	SpriteType = {
+		name = "GFX_stockpile_currencies"
+		texturefile = "gfx/interface/goals/SEY/Stockpile Currencies.dds"
+	}
+	SpriteType = {
+		name = "GFX_prop_up_madagascan_supply"
+		texturefile = "gfx/interface/goals/SEY/Prop Up Madagascan Supply.dds"
+	}
+	SpriteType = {
+		name = "GFX_for_a_price_of_course"
+		texturefile = "gfx/interface/goals/SEY/For A Price, Of Course.dds"
+	}
+	SpriteType = {
+		name = "GFX_another_year_in_paradise"
+		texturefile = "gfx/interface/goals/SEY/Another Year In Paradise.dds"
+	}
+	SpriteType = {
+		name = "GFX_new_concerns"
+		texturefile = "gfx/interface/goals/SEY/New Concerns.dds"
+	}
+	SpriteType = {
+		name = "GFX_old_friends"
+		texturefile = "gfx/interface/goals/SEY/Old Friends.dds"
+	}
+	SpriteType = {
+		name = "GFX_a_more_humanist_approach"
+		texturefile = "gfx/interface/goals/SAF/A More Humanist Approach.dds"
+	}
+	SpriteType = {
+		name = "GFX_harness_the_sapd"
+		texturefile = "gfx/interface/goals/SAF/Harness The SAPD.dds"
+	}
+	SpriteType = {
+		name = "GFX_accelerate_the_dissolution_of_apartheid"
+		texturefile = "gfx/interface/goals/SAF/Accelerate The Dissolution of Apartheid.dds"
+	}
+	SpriteType = {
+		name = "GFX_halt_the_gas"
+		texturefile = "gfx/interface/goals/SAF/Slam On The Brakes.dds"
+	}
+	SpriteType = {
+		name = "GFX_put_project_eumeswil_to_action"
+		texturefile = "gfx/interface/goals/SAF/Project Eumeswil.dds"
+	}
+	SpriteType = {
+		name = "GFX_expand_our_ranks"
+		texturefile = "gfx/interface/goals/SAF/Expand Our Ranks.dds"
+	}
+	SpriteType = {
+		name = "GFX_put_our_strategies_in_motion"
+		texturefile = "gfx/interface/goals/SAF/Putting Plans Into Action.dds"
+	}
+	SpriteType = {
+		name = "GFX_breakthrough_in_the_orange_river"
+		texturefile = "gfx/interface/goals/SAF/Breakthrough In The Orange.dds"
+	}
+	SpriteType = {
+		name = "GFX_breakthrough_in_the_tugela"
+		texturefile = "gfx/interface/goals/SAF/Breakthrough In The Tugela.dds"
+	}
+	SpriteType = {
+		name = "GFX_breakthrough_in_ovamboland"
+		texturefile = "gfx/interface/goals/SAF/Breakthrough In Ovamboland.dds"
+	}
+	SpriteType = {
+		name = "GFX_help_our_klerksdorpers"
+		texturefile = "gfx/interface/goals/SAF/Help Our Rustenburgers.dds"
+	}
+	SpriteType = {
+		name = "GFX_airdrop_supplies"
+		texturefile = "gfx/interface/goals/SAF/Airdrop Supplies.dds"
+	}
+	SpriteType = {
+		name = "GFX_the_northern_cape_strategy"
+		texturefile = "gfx/interface/goals/SAF/Northern Cape Strategy.dds"
+	}
+	SpriteType = {
+		name = "GFX_the_bloemfontein_strategy"
+		texturefile = "gfx/interface/goals/SAF/The Bloemfontein Strategy.dds"
+	}
+	SpriteType = {
+		name = "GFX_hold_off_white_flight"
+		texturefile = "gfx/interface/goals/SAF/Hold Off White Flight.dds"
+	}
+	SpriteType = {
+		name = "GFX_reassure_our_pioneers"
+		texturefile = "gfx/interface/goals/SAF/Reassure The Pioneers.dds"
+	}
+	SpriteType = {
+		name = "GFX_dismantle_the_anc_gang"
+		texturefile = "gfx/interface/goals/SAF/Dismantle The ANC Gang.dds"
+	}
+	SpriteType = {
+		name = "GFX_clean_up_durban"
+		texturefile = "gfx/interface/goals/SAF/Clean Up Durban.dds"
+	}
+	SpriteType = {
+		name = "GFX_wipe_out_terrorists"
+		texturefile = "gfx/interface/goals/SAF/Wipe Out Terrorists.dds"
+	}
+	SpriteType = {
+		name = "GFX_expand_the_bantustans"
+		texturefile = "gfx/interface/goals/SAF/Expand The Bantustans.dds"
+	}
+	SpriteType = {
+		name = "GFX_and_give_them_more_rights"
+		texturefile = "gfx/interface/goals/SAF/And Give Them More Rights!.dds"
+	}
+	SpriteType = {
+		name = "GFX_a_slow_integration_into_society"
+		texturefile = "gfx/interface/goals/SAF/A Slow Integration Into Society.dds"
+	}
+	SpriteType = {
+		name = "GFX_punish_those_responsible"
+		texturefile = "gfx/interface/goals/SAF/Punish Those Responsible.dds"
+	}
+	SpriteType = {
+		name = "GFX_unite_against_majoritarianism"
+		texturefile = "gfx/interface/goals/SAF/Unite Against Majoritarianism.dds"
+	}
+	SpriteType = {
+		name = "GFX_south_africa_is_white"
+		texturefile = "gfx/interface/goals/SAF/South Africa Is White.dds"
+	}
+	SpriteType = {
+		name = "GFX_south_africa_is_a_rainbow"
+		texturefile = "gfx/interface/goals/SAF/South Africa Is A Rainbow.dds"
+	}
+	SpriteType = {
+		name = "GFX_an_unique_cultural_identity"
+		texturefile = "gfx/interface/goals/SAF/A Unique Cultural Identity.dds"
+	}
+	SpriteType = {
+		name = "GFX_put_a_bandaid_over_it"
+		texturefile = "gfx/interface/goals/SAF/Put A Bandaid Over It.dds"
+	}
+	SpriteType = {
+		name = "GFX_rub_alcohol_on_the_wound"
+		texturefile = "gfx/interface/goals/SAF/Rub Alcohol On The Wound.dds"
+	}
+	SpriteType = {
+		name = "GFX_misson_accomplished"
+		texturefile = "gfx/interface/goals/SAF/Mission Accomplished.dds"
+	}
+	SpriteType = {
+		name = "GFX_protect_their_sovereignity"
+		texturefile = "gfx/interface/goals/SAF/Protect Their Sovereignity.dds"
+	}
+	SpriteType = {
+		name = "GFX_ah_shit"
+		texturefile = "gfx/interface/goals/SEY/Ah, Shit.dds"
+	}
+	SpriteType = {
+		name = "GFX_bring_in_refugees"
+		texturefile = "gfx/interface/goals/SEY/Bring In Refugees.dds"
+	}
+	SpriteType = {
+		name = "GFX_prepare_the_men"
+		texturefile = "gfx/interface/goals/SEY/Prepare The Men.dds"
+	}
+	SpriteType = {
+		name = "GFX_prop_up_the_boats"
+		texturefile = "gfx/interface/goals/SEY/Prop Up The Boats.dds"
+	}
+	SpriteType = {
+		name = "GFX_ready_the_planes"
+		texturefile = "gfx/interface/goals/SEY/Ready The Planes.dds"
+	}
+	SpriteType = {
+		name = "GFX_does_the_boss_go"
+		texturefile = "gfx/interface/goals/SEY/Does The Boss Go.dds"
+	}
+	SpriteType = {
+		name = "GFX_ready_to_rodeo"
+		texturefile = "gfx/interface/goals/SEY/Ready To Rodeo.dds"
+	}
+	SpriteType = {
+		name = "GFX_buonanotte_moneta"
+		texturefile = "gfx/interface/goals/SEY/Buonanotte Moneta.dds"
+	}
+	SpriteType = {
+		name = "GFX_riposare_in_seicelle"
+		texturefile = "gfx/interface/goals/SEY/Riposare In Seicelle.dds"
+	}
+	SpriteType = {
+		name = "GFX_riposare_in_fiume"
+		texturefile = "gfx/interface/goals/SEY/Riposare In Fiume.dds"
+	}
+	SpriteType = {
+		name = "GFX_convene_the_councils"
+		texturefile = "gfx/interface/goals/SEY/Convene The Councils.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_fwd_march_imperialism"
+		texturefile = "gfx/interface/goals/EFF/Forward March Against Imperialism.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_ethekwini"
+		texturefile = "gfx/interface/goals/EFF/Prioritize eThekwini.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_call_salvation"
+		texturefile = "gfx/interface/goals/EFF/A Call For Our Salvation.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_black_lib_not_equal"
+		texturefile = "gfx/interface/goals/EFF/Black Liberation Not Equality.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_burn_the_world_if_need_be"
+		texturefile = "gfx/interface/goals/EFF/Burn The World If Need Be.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_we_have_done_too_much"
+		texturefile = "gfx/interface/goals/EFF/We Have Done Too Much.dds"
+	}
+	SpriteType = {
+		name = "GFX_eff_end_of_the_line"
+		texturefile = "gfx/interface/goals/EFF/End Of The Line.dds"
+	}
+	SpriteType = {
+		name = "GFX_eff_we_havent_done_enough"
+		texturefile = "gfx/interface/goals/EFF/We Havent Done Enough.dds"
+	}
+	SpriteType = {
+		name = "GFX_eff_another_wave_of_fervour"
+		texturefile = "gfx/interface/goals/EFF/Another Wave of Fervour.dds"
+	}
+	SpriteType = {
+		name = "GFX_eff_negotiate_a_defeat"
+		texturefile = "gfx/interface/goals/EFF/Negotiate A Defeat.dds"
+	}
+	SpriteType = {
+		name = "GFX_eff_more_victories_needed"
+		texturefile = "gfx/interface/goals/EFF/More Victories Needed.dds"
+	}
+	SpriteType = {
+		name = "GFX_eff_proletarian_revenge"
+		texturefile = "gfx/interface/goals/EFF/Proletarian Revenge.dds"
+	}
+	SpriteType = {
+		name = "GFX_eff_marx_never_spoke_of_fairness"
+		texturefile = "gfx/interface/goals/EFF/Marx Never Spoke of Fairness.dds"
+	}
+	SpriteType = {
+		name = "GFX_eff_united_front_against_white_supremacy"
+		texturefile = "gfx/interface/goals/EFF/United Front Against White Supremacy.dds"
+	}
+	SpriteType = {
+		name = "GFX_eff_bombardment_of_their_schools"
+		texturefile = "gfx/interface/goals/EFF/Bombardment of Their Schools.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_the_citadel_of_whiteness"
+		texturefile = "gfx/interface/goals/EFF/The Citadel of Whiteness.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_the_battle_against_orania"
+		texturefile = "gfx/interface/goals/EFF/The Battle Against Orania.dds"
+	}
+	SpriteType = {
+		name = "GFX_eff_the_thirsty_soil_demands_it"
+		texturefile = "gfx/interface/goals/EFF/The Thirsty Soil Demands It.dds"
+	}
+	SpriteType = {
+		name = "GFX_eff_prioritize_their_annihilation"
+		texturefile = "gfx/interface/goals/EFF/Prioritize Their Annihilation.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_measured_attacks"
+		texturefile = "gfx/interface/goals/EFF/Measured Attacks.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_bombardments_of_their_schools"
+		texturefile = "gfx/interface/goals/EFF/Bombardment of Their Schools.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_prioritize_their_annihilation"
+		texturefile = "gfx/interface/goals/EFF/Prioritize Their Annihilation.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_the_thirsty_soil_demands_it"
+		texturefile = "gfx/interface/goals/EFF/The Thirsty Soil Demands It.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_another_rorkes_drift"
+		texturefile = "gfx/interface/goals/EFF/Another Rorkes Drift.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_another_wave_of_fervor"
+		texturefile = "gfx/interface/goals/EFF/Another Wave of Fervour.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_we_havent_done_enough"
+		texturefile = "gfx/interface/goals/EFF/We Havent Done Enough.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_negotiate_a_defeat"
+		texturefile = "gfx/interface/goals/EFF/Negotiate A Defeat.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_end_of_the_line"
+		texturefile = "gfx/interface/goals/EFF/End Of The Line.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_a_muchneeded_win"
+		texturefile = "gfx/interface/goals/EFF/A Much Needed Win.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_proletarian_revenge"
+		texturefile = "gfx/interface/goals/EFF/Proletarian Revenge.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_marx_never_spoke_of_fairness"
+		texturefile = "gfx/interface/goals/EFF/Marx Never Spoke of Fairness.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_negotiate_prisoners"
+		texturefile = "gfx/interface/goals/EFF/Negotiate Prisoners.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_united_front_against_white_supremacy"
+		texturefile = "gfx/interface/goals/EFF/United Front Against White Supremacy.dds"
+	}
+	SpriteType = {
+		name = "GFX_EFF_more_victories_are_needed"
+		texturefile = "gfx/interface/goals/EFF/More Victories Needed.dds"
+	}
+	SpriteType = {
+		name = "GFX_AWB_Airdrops_To_Orania"
+		texturefile = "gfx/interface/goals/AWB/Airdrops_To_Orania.dds"
+	}
+	SpriteType = {
+		name = "GFX_AWB_a_centurys_embarassment"
+		texturefile = "gfx/interface/goals/AWB/acenturysembarrassment.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_we_can_do_it_again"
+		texturefile = "gfx/interface/goals/AWB/welldoitagain.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_focus_on_the_swart_bedreiging"
+		texturefile = "gfx/interface/goals/AWB/focusontheswartbedreiging.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_rustenburg_must_go"
+		texturefile = "gfx/interface/goals/AWB/abrokenswordstillcuts.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_a_broken_sword_still_cuts"
+		texturefile = "gfx/interface/goals/AWB/abrokenswordstillcuts.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_a_broken_sword_still_cuts"
+		texturefile = "gfx/interface/goals/AWB/abrokenswordstillcuts.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_a_broken_sword_still_cuts"
+		texturefile = "gfx/interface/goals/AWB/abrokenswordstillcuts.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_rustenburg_must_go"
+		texturefile = "gfx/interface/goals/AWB/rustenburgmustgo.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_negotiate_with_the_stranded"
+		texturefile = "gfx/interface/goals/AWB/negotiatewiththestranded.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_annihilate_the_exclave"
+		texturefile = "gfx/interface/goals/AWB/annihilatetheexclave.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_promise_concessions"
+		texturefile = "gfx/interface/goals/AWB/promiseconcessions.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_merciless_brother_war"
+		texturefile = "gfx/interface/goals/AWB/mercilessbrotherwar.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_enact_the_plan"
+		texturefile = "gfx/interface/goals/AWB/enacttheplan.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_A_VictoryOfFaust"
+		texturefile = "gfx/interface/goals/AWB/A_VictoryOfFaust.dds"
+	}
+	SpriteType = {
+		name = "GFX_AWB_Die_Vaandel_Hog"
+		texturefile = "gfx/interface/goals/AWB/Die_Vaandel_Hog.dds"
+	}
+	SpriteType = {
+		name = "GFX_AWB_ForTheBoers"
+		texturefile = "gfx/interface/goals/AWB/ForTheBoers.dds"
+	}
+	SpriteType = {
+		name = "GFX_AWB_ForTheWhiteRace"
+		texturefile = "gfx/interface/goals/AWB/ForTheWhiteRace.dds"
+	}
+	SpriteType = {
+		name = "GFX_AWB_OnwardsToGreaterObjectives"
+		texturefile = "gfx/interface/goals/AWB/OnwardsToGreaterObjectives.dds"
+	}
+	SpriteType = {
+		name = "GFX_AWB_Rejuvenate_The_Volk"
+		texturefile = "gfx/interface/goals/AWB/Rejuvenate_The_Volk.dds"
+	}
+	SpriteType = {
+		name = "GFX_AWB_Sarie_Marais_Calls_For_Me"
+		texturefile = "gfx/interface/goals/AWB/Sarie_Marais_Calls_For_Me.dds"
+	}
+	SpriteType = {
+		name = "GFX_AWB_SubsumeTheAnglos"
+		texturefile = "gfx/interface/goals/AWB/SubsumeTheAnglos.dds"
+	}
+	SpriteType = {
+		name = "GFX_AWB_Totale_Oorlog"
+		texturefile = "gfx/interface/goals/AWB/Totale_Oorlog.dds"
+	}
+	SpriteType = {
+		name = "GFX_NowLeavingFrownland"
+		texturefile = "gfx/interface/goals/SAF/Now Leaving Frownland.dds"
+	}
+	SpriteType = {
+		name = "GFX_AntiRacismCodified"
+		texturefile = "gfx/interface/goals/SAF/AntiRascismCodified.dds"
+	}
+	SpriteType = {
+		name = "GFX_ChatWithTheIMF"
+		texturefile = "gfx/interface/goals/SAF/ChatWithTheIMF.dds"
+	}
+	SpriteType = {
+		name = "GFX_DemocratizeTheBusinesses"
+		texturefile = "gfx/interface/goals/SAF/DemocratizeTheBuisnesses.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_Restoring_the_economy"
+		texturefile = "gfx/interface/goals/SAF/Restoring_the_economy.dds"
+	}
+	SpriteType = {
+		name = "GFX_SaveOurPeopleFromSlums"
+		texturefile = "gfx/interface/goals/SAF/SaveOurPeopleFromSlums.dds"
+	}
+	SpriteType = {
+		name = "GFX_TalkWithTheExperts"
+		texturefile = "gfx/interface/goals/SAF/TalkWithTheExperts.dds"
+	}
+	SpriteType = {
+		name = "GFX_EfficiencyOverRancor"
+		texturefile = "gfx/interface/goals/SAF/EfficiencyOverRancor.dds"
+	}
+	SpriteType = {
+		name = "GFX_New_cities_across_the_nation"
+		texturefile = "gfx/interface/goals/SAF/New_cities_across_the_nation.dds"
+	}
+	SpriteType = {
+		name = "GFX_PrintBorrowBeg"
+		texturefile = "gfx/interface/goals/SAF/PrintBorrowBeg.dds"
+	}
+	SpriteType = {
+		name = "GFX_OpenUpToParties"
+		texturefile = "gfx/interface/goals/SAF/OpenUpToParties.dds"
+	}
+	SpriteType = {
+		name = "GFX_TheLanguageDebate"
+		texturefile = "gfx/interface/goals/SAF/TheLanguageDebate.dds"
+	}
+	SpriteType = {
+		name = "GFX_ChinUpAndTheSunInOurFaces"
+		texturefile = "gfx/interface/goals/SAF/ChinUpAndTheSunInOurFaces.dds"
+	}
+	SpriteType = {
+		name = "GFX_DeflateTheArmy"
+		texturefile = "gfx/interface/goals/SAF/DeflateTheArmy.dds"
+	}
+	SpriteType = {
+		name = "GFX_DefineOurCommunities"
+		texturefile = "gfx/interface/goals/SAF/DefineOurCommunities.dds"
+	}
+	SpriteType = {
+		name = "GFX_A_NationBreathesOnceMore"
+		texturefile = "gfx/interface/goals/SAF/A_NationBreathesOnceMore.dds"
+	}
+	SpriteType = {
+		name = "GFX_ConsiderLiftingBans"
+		texturefile = "gfx/interface/goals/SAF/ConsiderLiftingBans.dds"
+	}
+	SpriteType = {
+		name = "GFX_ChatWithTheIMF"
+		texturefile = "gfx/interface/goals/SAF/ChatWithTheIMF.dds"
+	}
+	SpriteType = {
+		name = "GFX_Democracy_is_best_served_hot"
+		texturefile = "gfx/interface/goals/SAF/Democracy_is_best_served_hot.dds"
+	}
+	SpriteType = {
+		name = "GFX_NoMercy"
+		texturefile = "gfx/interface/goals/SAF/NoMercy.dds"
+	}
+	SpriteType = {
+		name = "GFX_PrepareForDemocracy"
+		texturefile = "gfx/interface/goals/SAF/PrepareForDemocracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_TheOrangeSword"
+		texturefile = "gfx/interface/goals/SAF/TheOrangeSword.dds"
+	}
+	SpriteType = {
+		name = "GFX_TheRedOliveBranch"
+		texturefile = "gfx/interface/goals/SAF/TheRedOliveBranch.dds"
+	}
+	SpriteType = {
+		name = "GFX_Elections_26"
+		texturefile = "gfx/interface/goals/SAF/Elections_26.dds"
+	}
+	SpriteType = {
+		name = "GFX_FreedomAllianceVictory"
+		texturefile = "gfx/interface/goals/SAF/FreedomAllianceVictory.dds"
+	}
+	SpriteType = {
+		name = "GFX_NoCabinetMajority"
+		texturefile = "gfx/interface/goals/SAF/NoCabinetMajority.dds"
+	}
+	SpriteType = {
+		name = "GFX_PSA_Victory"
+		texturefile = "gfx/interface/goals/SAF/PSA_Victory.dds"
+	}
+	SpriteType = {
+		name = "GFX_AwayFromTheHungerMap"
+		texturefile = "gfx/interface/goals/SAF/AwayFromTheHungerMap.dds"
+	}
+	SpriteType = {
+		name = "GFX_BIA_ACIS"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/ACommonwealthOfIndependentStates.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_AGIEH"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/AGunInEveryHand.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_AALM"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/AidingAfricanLiberationMovements.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_APA"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/APeoplesArmy.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_BIAIU"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/BiafralandIsUntakablepng.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_DOC"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/DiversifyingOurContractors.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_EOSR"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/EmbracingOurSisterRepublics.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_FAC"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/ForcingACeasefire.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_HTL"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/HoldingTheLine.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_IITAI"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/InvestingInTheArmsIndustry.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_LOTS"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/LiberationOfTheSouth.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_LTTH"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/LookingToTheHomefront.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_MM"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/MaintainingMorale.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_MFP"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/MilitaryFirstPolicy.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_PFTNW"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/PrepairingForTheNextWar.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_RA"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/RevanchistAmbitions.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_RSOA"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/RisingSunOfAfrica.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_SB"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/SafeguardingBiafra.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_SOH"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/SeekingOutsideHelp.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_SAS"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/SetbackAfterSetback.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_TI"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/TakingInitiative.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_TL"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/TakingLagos.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_TTDN"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/TowardsTheDevilsNest.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_TOMD"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/TreatyOfMutualDefence.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_UAO"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/UnitedAgainstOppression.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_UIFA"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/UnitedInFaith.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_UIFR"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/UnitedInFreedom.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_WOA"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/WarOfAttrition.png"
+	}
+	SpriteType = {
+		name = "GFX_BIA_WTO"
+		texturefile = "gfx/interface/goals/BIA/starting_remake/WearingThemOut.png"
+	}
+	SpriteType = {
+		name = "GFX_SAF_ROA"
+		texturefile = "gfx/interface/goals/SAF/Referendum On Apartheid.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_DTM"
+		texturefile = "gfx/interface/goals/SAF/Disarm The Mines.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_COTB"
+		texturefile = "gfx/interface/goals/SAF/Clear Out The Barracks.dds"
+	}
+	SpriteType = {
+		name = "GFX_SEY_antifascist_operations"
+		texturefile = "gfx/interface/goals/SEY/AntifascistOperations.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_to_russia_with_love"
+		texturefile = "gfx/interface/goals/SEY/ToRussiaWithLove.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_honour_among_thieves"
+		texturefile = "gfx/interface/goals/SEY/HonorAmongTheives.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_interbloc_diplomacy"
+		texturefile = "gfx/interface/goals/SEY/InterBlocDiplomacy.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_the_kgbs_strongest_soldiers"
+		texturefile = "gfx/interface/goals/SEY/TheKGBsStrongestSoldier.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_smo_honduras"
+		texturefile = "gfx/interface/goals/SEY/SMOHonduras.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_smo_iraq"
+		texturefile = "gfx/interface/goals/SEY/SMOIraq.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_smo_south_africa"
+		texturefile = "gfx/interface/goals/SEY/SMOSouthAfrica.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_smo_alaska"
+		texturefile = "gfx/interface/goals/SEY/SMOAlaska.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_smo_america"
+		texturefile = "gfx/interface/goals/SEY/SMOAmerica.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_moving_beyond_nationhood"
+		texturefile = "gfx/interface/goals/SEY/MovingBeyondNationhood.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_civilianization_of_government"
+		texturefile = "gfx/interface/goals/SEY/CivilianizationOfGovernment.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_rewiring_our_connections"
+		texturefile = "gfx/interface/goals/SEY/RewiringOurConnections.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_centralization_of_the_republic"
+		texturefile = "gfx/interface/goals/SEY/CentralizationOfTheRepublic.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_saluton_al_la_mondo"
+		texturefile = "gfx/interface/goals/SEY/SalutonAlLaMondo.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_antifascism_in_practice"
+		texturefile = "gfx/interface/goals/SEY/AntiFascismInPractice.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_killing_mccarthys_ghost"
+		texturefile = "gfx/interface/goals/SEY/KillingMcCarthysGhost.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_one_common_language"
+		texturefile = "gfx/interface/goals/SEY/OneCommonLanguage.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_new_curriculums"
+		texturefile = "gfx/interface/goals/SEY/NewCirriculums.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_just_getting_started"
+		texturefile = "gfx/interface/goals/SEY/JustGettingStarted.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_first_five_year_plan"
+		texturefile = "gfx/interface/goals/SEY/FirstFiveYearPlan.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_switching_the_lever"
+		texturefile = "gfx/interface/goals/SEY/SwitchingTheLever.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_the_free_seychellois_youth"
+		texturefile = "gfx/interface/goals/SEY/TheSeychellesFreeYouth.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_the_first_of_many_revolutions"
+		texturefile = "gfx/interface/goals/SEY/TheFirstOfManyRevolutions.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_put_into_practice"
+		texturefile = "gfx/interface/goals/SEY/PutIntoPractice.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_a_new_constitution"
+		texturefile = "gfx/interface/goals/SEY/ANewConstitution.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_a_peoples_democracy"
+		texturefile = "gfx/interface/goals/SEY/APeoplesDemocracy.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_a_postnational_community"
+		texturefile = "gfx/interface/goals/SEY/APostNationalCommunity.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_undo_anticommunist_ethos"
+		texturefile = "gfx/interface/goals/SEY/UndoAntiCommunistEthos.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_bottomup_investments"
+		texturefile = "gfx/interface/goals/SEY/BottomsUpInvestment.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_ending_the_dictatorship"
+		texturefile = "gfx/interface/goals/SEY/EndingTheDictatorship.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_a_popular_army"
+		texturefile = "gfx/interface/goals/SEY/APopularArmy.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_army_structure_reforms"
+		texturefile = "gfx/interface/goals/SEY/ArmyStructureReform.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_diplomatic_attach_corps"
+		texturefile = "gfx/interface/goals/SEY/DiplomaticAttacheCorps.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_civilianpmc_integration"
+		texturefile = "gfx/interface/goals/SEY/CivilianPMCIntegration.png"
+	}
+SpriteType = {
+		name = "GFX_SEY_fresh_market_opportunities"
+		texturefile = "gfx/interface/goals/SEY/spicer/FreshMarketOpportunities.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_building_the_next_tomorrow"
+		texturefile = "gfx/interface/goals/SEY/spicer/buildingthenexttomorrow.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_a_welloiled_machine"
+		texturefile = "gfx/interface/goals/SEY/spicer/awelloiledmachine.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_new_research_frontiers"
+		texturefile = "gfx/interface/goals/SEY/spicer/newresearchfrontiers.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_redefining_the_workplace"
+		texturefile = "gfx/interface/goals/SEY/spicer/redifingtheworkplace1.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_global_connections"
+		texturefile = "gfx/interface/goals/SEY/spicer/globalconnections.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_information_control"
+		texturefile = "gfx/interface/goals/SEY/spicer/informationcontrol.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_genetic_control"
+		texturefile = "gfx/interface/goals/SEY/spicer/geneticcontrol.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_attractive_basing_benefits"
+		texturefile = "gfx/interface/goals/SEY/spicer/attractivebasingbenefits.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_networking_global_tech_hubs"
+		texturefile = "gfx/interface/goals/SEY/spicer/NetworkingGlobalTechHubs.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_hostile_takeover"
+		texturefile = "gfx/interface/goals/SEY/spicer/hostiletakeover.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_110_productivity"
+		texturefile = "gfx/interface/goals/SEY/spicer/110productivity.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_usher_in_the_age_of_control"
+		texturefile = "gfx/interface/goals/SEY/spicer/UsherInTheAgeofControl.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_battlefield_control"
+		texturefile = "gfx/interface/goals/SEY/spicer/battlefieldcontrol.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_utilising_our_impact"
+		texturefile = "gfx/interface/goals/SEY/spicer/UtilisingOurImpact.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_new_synergistic_approaches"
+		texturefile = "gfx/interface/goals/SEY/spicer/newsynergisticapproaches.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_where_the_sun_never_sets"
+		texturefile = "gfx/interface/goals/SEY/spicer/thelandwherethesunneversets.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_where_the_sun_always_rises"
+		texturefile = "gfx/interface/goals/SEY/spicer/thelandwherethesunalwaysrises.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_brushing_up_to_brussels"
+		texturefile = "gfx/interface/goals/SEY/spicer/brushinguptobrussels.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_unpacking_in_apac"
+		texturefile = "gfx/interface/goals/SEY/spicer/unpackinginAPAC.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_playing_office_politics"
+		texturefile = "gfx/interface/goals/SEY/spicer/playingofficepolitics.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_project_yellow_sun"
+		texturefile = "gfx/interface/goals/SEY/spicer/ProjectYellowSun.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_project_red_snow"
+		texturefile = "gfx/interface/goals/SEY/spicer/ProjectRedSnow.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_downstream_foundations"
+		texturefile = "gfx/interface/goals/SEY/spicer/DownstreamFoundations.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_project_blue_flame"
+		texturefile = "gfx/interface/goals/SEY/spicer/ProjectBlueFlame.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_project_green_harvest"
+		texturefile = "gfx/interface/goals/SEY/spicer/ProjectGreenHarvest.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_upstream_profits"
+		texturefile = "gfx/interface/goals/SEY/spicer/UpstreamProfits.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_getting_on_the_grid"
+		texturefile = "gfx/interface/goals/SEY/spicer/GettingOnTheGrid.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_rewritten_contracts"
+		texturefile = "gfx/interface/goals/SEY/spicer/RewrittenContracts.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_revitalised_towns"
+		texturefile = "gfx/interface/goals/SEY/spicer/RevitalizedTowns.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_raising_the_roof"
+		texturefile = "gfx/interface/goals/SEY/spicer/RaisingTheRoof.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_billionaires_and_casinos"
+		texturefile = "gfx/interface/goals/SEY/spicer/BIllionariesAndCasinos.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_blockchain_and_credibility"
+		texturefile = "gfx/interface/goals/SEY/spicer/BlockchainAndCredibility.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_companies_and_brands"
+		texturefile = "gfx/interface/goals/SEY/spicer/CompaniesAndBrands.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_cognisance_and_boundaries"
+		texturefile = "gfx/interface/goals/SEY/spicer/CognisanceAndBoundaries.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_an_archipelago_united"
+		texturefile = "gfx/interface/goals/SEY/spicer/AnArchipelagoUnited.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_the_silicon_archipelago"
+		texturefile = "gfx/interface/goals/SEY/spicer/TheSiliconArchipelago.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_climbing_the_corporate_ladder"
+		texturefile = "gfx/interface/goals/SEY/spicer/ClimbingTheCorporateLadder.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_laying_the_brickwork"
+		texturefile = "gfx/interface/goals/SEY/spicer/LayingTheBrickwork.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_seychelles_20"
+		texturefile = "gfx/interface/goals/SEY/spicer/Seychelles20.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_the_final_redemption"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/TheFinalRedemption.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_raids_on_abuja"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/RaidsOnAbuja.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_for_our_posterity"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/ForOurPosterity.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_the_savior_of_the_nation"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/TheSaviorOfTheNation.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_burn_our_promises"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/BurnOurPromises.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_igbo_jewish_renaissance"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/IgboJewishRevival.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_celebrate_our_modern_age"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/CelebrateOurModernAge.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_forever_in_emergency"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/ForeverInEmergency.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_national_salvation"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/NationalSalvation.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_cultural_salvation"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/CulturalSalvation.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_political_salvation"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/PoliticalSalvation.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_enter_into_the_world"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/EnterIntoTheWorld.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_talks_with_japan"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/TalksWithJapan.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_patriotic_socialism"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/PatrioticSocialism.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_let_there_be_expats"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/LetThereBeExpats.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_biafraland_lives"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/BiafralandLives.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_leave_nothing"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/LeaveNothing.png"
+	}
+	SpriteType = {
+		name = "GFX_BIU_the_lagos_dream"
+		texturefile = "gfx/interface/goals/BIA/BIU_postwar/TheLagosDream.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_new_conflicts"
+		texturefile = "gfx/interface/goals/SEY/barlow/New Conflicts.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_new_patrons"
+		texturefile = "gfx/interface/goals/SEY/barlow/New Patrons.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_son_of_uncle_sam_durranistan"
+		texturefile = "gfx/interface/goals/SEY/barlow/Son of Uncle Sam.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_the_french_connection_france"
+		texturefile = "gfx/interface/goals/SEY/barlow/The French Connection.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_the_arushan_candidate_eaf"
+		texturefile = "gfx/interface/goals/SEY/barlow/The Arushan Candidate.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_west_papuas_wild_ride"
+		texturefile = "gfx/interface/goals/SEY/barlow/West Papua's Wild Ride.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_sakura_flowers_over_pyongyang"
+		texturefile = "gfx/interface/goals/SEY/barlow/Sakura Flowers Over Pyongyang.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_big_trouble_in_little_burma"
+		texturefile = "gfx/interface/goals/SEY/barlow/Big Trouble In Little Burma.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_uncle_sams_folly"
+		texturefile = "gfx/interface/goals/SEY/barlow/Uncle Sam's Folly.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_steady_as_she_goes"
+		texturefile = "gfx/interface/goals/SEY/barlow/Steady As She Goes.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_civilianization_of_government_barlow"
+		texturefile = "gfx/interface/goals/SEY/barlow/Civilianization of Government.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_a_ceremonial_president"
+		texturefile = "gfx/interface/goals/SEY/barlow/A Ceremonial President.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_provinces_and_councils"
+		texturefile = "gfx/interface/goals/SEY/barlow/Provinces And Councils.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_adopting_a_constitution"
+		texturefile = "gfx/interface/goals/SEY/barlow/Adopting A Constitution.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_civilian_elections"
+		texturefile = "gfx/interface/goals/SEY/barlow/Civilian Elections.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_expand_military_democracy"
+		texturefile = "gfx/interface/goals/SEY/barlow/Expand Military Democracy.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_playing_it_straight"
+		texturefile = "gfx/interface/goals/SEY/barlow/Playing It Straight.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_fast_and_loose"
+		texturefile = "gfx/interface/goals/SEY/barlow/Fast And Loose.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_the_house_always_wins"
+		texturefile = "gfx/interface/goals/SEY/barlow/The House Always Wins.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_governors_and_mayors"
+		texturefile = "gfx/interface/goals/SEY/barlow/Governors And Mayors.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_prepare_the_ballots"
+		texturefile = "gfx/interface/goals/SEY/barlow/Prepare The Ballots.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_the_middle_road"
+		texturefile = "gfx/interface/goals/SEY/barlow/The Middle Road.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_first_package_delivered"
+		texturefile = "gfx/interface/goals/SEY/barlow/First Package Delivered.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_fighting_stagnation"
+		texturefile = "gfx/interface/goals/SEY/barlow/Fighting Stagnation.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_calls_from_home"
+		texturefile = "gfx/interface/goals/SEY/barlow/Calls From Home.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_the_invisible_army"
+		texturefile = "gfx/interface/goals/SEY/barlow/The Invisible Army.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_shoulder_to_shoulder"
+		texturefile = "gfx/interface/goals/SEY/barlow/Shoulder To Shoulder.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_the_fabian_strategy"
+		texturefile = "gfx/interface/goals/SEY/barlow/The Fabian Strategy.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_tip_of_the_spear_manoeuvres"
+		texturefile = "gfx/interface/goals/SEY/barlow/Tip of the Spear Manoeuvres.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_fait_accompli"
+		texturefile = "gfx/interface/goals/SEY/barlow/Fait Accompli.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_new_way_forward"
+		texturefile = "gfx/interface/goals/SEY/barlow/New Way Forward.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_roads_to_recognition"
+		texturefile = "gfx/interface/goals/SEY/barlow/Road To Recognition.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_making_heaven_on_earth"
+		texturefile = "gfx/interface/goals/SEY/barlow/Heaven On Earth.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_a_peoples_defence_force"
+		texturefile = "gfx/interface/goals/SEY/barlow/A People's Defence Force.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_rebirth_of_azania"
+		texturefile = "gfx/interface/goals/EFF/postwar/RebirthofAzania.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_driving_out_their_people"
+		texturefile = "gfx/interface/goals/EFF/postwar/DrivingOutTheirPeople.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_enlightening_our_people"
+		texturefile = "gfx/interface/goals/EFF/postwar/EnlighteningOurPeople.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_to_take_whats_ours"
+		texturefile = "gfx/interface/goals/EFF/postwar/ToTakeWhatsOurs.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_to_truly_liberate_africa"
+		texturefile = "gfx/interface/goals/EFF/postwar/ToTrulyLiberateAfrica.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_the_rejuvenation_proclamation"
+		texturefile = "gfx/interface/goals/EFF/postwar/RejuvenationProclamation.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_africas_sons_redeemed"
+		texturefile = "gfx/interface/goals/EFF/postwar/AfricasSonsRedeemed.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_consolidating_our_control"
+		texturefile = "gfx/interface/goals/EFF/postwar/ConsolidatingOurPower.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_a_truly_african_freedom"
+		texturefile = "gfx/interface/goals/EFF/postwar/ATrulyAfricanFreedom.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_punishing_those_responsible"
+		texturefile = "gfx/interface/goals/EFF/postwar/PunishingThoseResponcible.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_calling_the_first_congress"
+		texturefile = "gfx/interface/goals/EFF/postwar/CallingTheFirstCongress.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_dismantling_the_pillars_of_oppression"
+		texturefile = "gfx/interface/goals/EFF/postwar/DismantelingThePillarsOfOppression.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_black_white_and_red_all_over"
+		texturefile = "gfx/interface/goals/EFF/postwar/BlackWhiteAndRedAllOver.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_a_bright_future_for_azania"
+		texturefile = "gfx/interface/goals/EFF/postwar/ABrightFutureForAzania.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_a_people_liberated"
+		texturefile = "gfx/interface/goals/EFF/postwar/APeoplesLiberated.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_revolutionary_land_reform"
+		texturefile = "gfx/interface/goals/EFF/postwar/RevolutionaryLandReform.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_delegation_to_china"
+		texturefile = "gfx/interface/goals/EFF/postwar/DelegationToChina.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_black_redemption_without_compensation"
+		texturefile = "gfx/interface/goals/EFF/postwar/BlackRedemptionWithoutCompensation.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_towards_a_cybernetic_economy"
+		texturefile = "gfx/interface/goals/EFF/postwar/TowardsACyberneticEconomy.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_nationalization_of_industry"
+		texturefile = "gfx/interface/goals/EFF/postwar/NationalizationOfIndustry.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_our_soviet_friends"
+		texturefile = "gfx/interface/goals/EFF/postwar/OurSovietFriends.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_a_message_of_unity"
+		texturefile = "gfx/interface/goals/EFF/postwar/AMessageOfUnity.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_first_steps_of_modernization"
+		texturefile = "gfx/interface/goals/EFF/postwar/FirstStepsOfModernization.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_building_on_tribal_structures"
+		texturefile = "gfx/interface/goals/EFF/postwar/BuildingOffTribalStructures.png"
+	}
+	SpriteType = {
+		name = "GFX_EFF_a_confederation_of_free_communes"
+		texturefile = "gfx/interface/goals/EFF/postwar/AConfederationOfFreeCommunes.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_fortress_of_freedom"
+		texturefile = "gfx/interface/goals/SEY/prince/A_Fortress_of_Freedom_other_version.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_god_bless_our_troops"
+		texturefile = "gfx/interface/goals/SEY/prince/gbot.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_calling_forth_the_trumpet"
+		texturefile = "gfx/interface/goals/SEY/prince/Calling_Forth_the_Trumpet.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_keeping_what_works"
+		texturefile = "gfx/interface/goals/SEY/prince/keepingwhatworks.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_saving_the_islands"
+		texturefile = "gfx/interface/goals/SEY/prince/savingtheislands.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_native_labor"
+		texturefile = "gfx/interface/goals/SEY/prince/nativelabour.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_enhanced_recruiting_techniques"
+		texturefile = "gfx/interface/goals/SEY/prince/Enhanced_Recruiting_Techniques.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_a_new_hope"
+		texturefile = "gfx/interface/goals/SEY/prince/anewhope.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_bringing_them_into_our_wing"
+		texturefile = "gfx/interface/goals/SEY/prince/bringingthemintoourwing.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_maskoff_governance"
+		texturefile = "gfx/interface/goals/SEY/prince/maskoff.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_his_truth_is_marching_on"
+		texturefile = "gfx/interface/goals/SEY/prince/histruthismarchingon.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_industrialize_the_islands"
+		texturefile = "gfx/interface/goals/SEY/prince/industrializetheislands.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_our_benefactors_smiling"
+		texturefile = "gfx/interface/goals/SEY/prince/ourbenefactorsmiling.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_more_work_to_be_done"
+		texturefile = "gfx/interface/goals/SEY/prince/worktobedone.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_keeping_our_shareholders_excited"
+		texturefile = "gfx/interface/goals/SEY/prince/keepingourshareholdersexcited.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_breaking_the_competitions_knees"
+		texturefile = "gfx/interface/goals/SEY/prince/breakknees.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_american_values_first"
+		texturefile = "gfx/interface/goals/SEY/prince/americanvalues.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_no_russian"
+		texturefile = "gfx/interface/goals/SEY/prince/norussian.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_built_to_standard"
+		texturefile = "gfx/interface/goals/SEY/prince/builttostandard.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_crown_of_bullets"
+		texturefile = "gfx/interface/goals/SEY/prince/crownofbullets.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_abolishing_military_democracy"
+		texturefile = "gfx/interface/goals/SEY/prince/abolishmildem.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_all_under_the_president"
+		texturefile = "gfx/interface/goals/SEY/prince/allunderthepresident.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_officialize_the_stratocracy"
+		texturefile = "gfx/interface/goals/SEY/prince/officializestratocracy.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_blackwater_centralism"
+		texturefile = "gfx/interface/goals/SEY/prince/blackwatercentralism.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_nucleus_of_a_corporate_state"
+		texturefile = "gfx/interface/goals/SEY/prince/nucleusofcorpo.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_troops_in_tokyo"
+		texturefile = "gfx/interface/goals/SEY/prince/troopsintokyo.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_bases_in_bombay"
+		texturefile = "gfx/interface/goals/SEY/prince/basesinbombay.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_xs_down_in_texas"
+		texturefile = "gfx/interface/goals/SEY/prince/xsintexas.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_intelligence_in_indonesia"
+		texturefile = "gfx/interface/goals/SEY/prince/intelligenceinindonesia.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_the_anticommunist_sword"
+		texturefile = "gfx/interface/goals/SEY/prince/Anticommunistsword.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_the_american_east_india_company"
+		texturefile = "gfx/interface/goals/SEY/prince/americaneastindiacompany.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_welcome_to_the_seychelles_corporation"
+		texturefile = "gfx/interface/goals/SEY/prince/welcometoseych.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_stockholding_citizenship"
+		texturefile = "gfx/interface/goals/SEY/prince/stockholdingcitizenship.png"
+	}
+	SpriteType = {
+		name = "GFX_SEY_a_republic_of_finance"
+		texturefile = "gfx/interface/goals/SEY/prince/republicofinance.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_totale_oorwinning"
+		texturefile = "gfx/interface/goals/AWB/TotaleOorwinning.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_the_republic_restored"
+		texturefile = "gfx/interface/goals/AWB/TheRepublicRestored.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_the_saboteurs_uprooted"
+		texturefile = "gfx/interface/goals/AWB/TheSaboteursUprooted.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_the_triskellion_blazing"
+		texturefile = "gfx/interface/goals/AWB/TheTriskellionBlazing.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_patch_up_the_ship"
+		texturefile = "gfx/interface/goals/AWB/PatchUpTheShip.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_prepare_the_lifeboats"
+		texturefile = "gfx/interface/goals/AWB/PrepareTheLifeboats.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_spoons_in_white_mouths"
+		texturefile = "gfx/interface/goals/AWB/SpoonsInWhiteMouths.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_apartheid_as_it_was"
+		texturefile = "gfx/interface/goals/AWB/ApartheidAsItWas.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_lessons_from_jim_crow"
+		texturefile = "gfx/interface/goals/AWB/LessonsFromJimCrow.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_back_across_the_zambezi"
+		texturefile = "gfx/interface/goals/AWB/BackAcrossTheZambezi.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_repatriate_the_yeomen"
+		texturefile = "gfx/interface/goals/AWB/RepatriateTheYeomen.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_seeds_in_white_fields"
+		texturefile = "gfx/interface/goals/AWB/SeedsInWhiteFarms.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_hate_in_white_hearts"
+		texturefile = "gfx/interface/goals/AWB/HateInWhiteHearts.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_verwoerd_up_above"
+		texturefile = "gfx/interface/goals/AWB/VerwoerdUpAbove.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_gods_land_for_gods_people"
+		texturefile = "gfx/interface/goals/AWB/GodsLandForGodsPeople.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_the_sword_and_shield_of_whiteness"
+		texturefile = "gfx/interface/goals/AWB/TheSwordAndShieldOfWhiteness.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_calling_out_for_home"
+		texturefile = "gfx/interface/goals/AWB/CallingOutForHome.png"
+	}
+	SpriteType = {
+		name = "GFX_AWB_new_skin_same_bones"
+		texturefile = "gfx/interface/goals/AWB/NewSkinSameBones.png"
+	}
+}
+

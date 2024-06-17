@@ -1,0 +1,400 @@
+generate_soctrends_because_i_cant_be_assed_lol = {
+    if = {
+        limit = {
+            THIS = {
+                check_variable = {
+                var = SOCTRENDS_DC
+                value = 50
+                compare = equals
+                }
+                check_variable = {
+                var = SOCTRENDS_DE
+                value = 50
+                compare = equals
+                }
+                check_variable = {
+                var = SOCTRENDS_EE
+                value = 50
+                compare = equals
+                }
+                check_variable = {
+                var = SOCTRENDS_TP
+                value = 50
+                compare = equals
+                }
+                check_variable = {
+                var = SOCTRENDS_EA
+                value = 50
+                compare = equals
+                }
+            }
+        }
+        if = {
+            limit = {
+                has_government = hardline_socialism
+            }
+            set_variable = {
+            var = SOCTRENDS_DC
+            value = 20
+            }
+            set_variable = {
+            var = SOCTRENDS_DE
+            value = 15
+            }
+            set_variable = {
+            var = SOCTRENDS_EE
+            value = 90
+            }
+            set_variable = {
+            var = SOCTRENDS_TP
+            value = 51
+            }
+            set_variable = {
+            var = SOCTRENDS_EA
+            value = 20
+            }
+        }
+        else_if = {
+            limit = {
+                has_government = reformist_socialism
+            }
+            set_variable = {
+            var = SOCTRENDS_DC
+            value = 55
+            }
+            set_variable = {
+            var = SOCTRENDS_DE
+            value = 30
+            }
+            set_variable = {
+            var = SOCTRENDS_EE
+            value = 80
+            }
+            set_variable = {
+            var = SOCTRENDS_TP
+            value = 30
+            }
+            set_variable = {
+            var = SOCTRENDS_EA
+            value = 30
+            }
+        }
+        else_if = {
+            limit = {
+                has_government = anarchism
+            }
+            set_variable = {
+            var = SOCTRENDS_DC
+            value = 99
+            }
+            set_variable = {
+            var = SOCTRENDS_DE
+            value = 80
+            }
+            set_variable = {
+            var = SOCTRENDS_EE
+            value = 80
+            }
+            set_variable = {
+            var = SOCTRENDS_TP
+            value = 20
+            }
+            set_variable = {
+            var = SOCTRENDS_EA
+            value = 60
+            }
+        }
+        else_if = {
+            limit = {
+                has_government = revolutionary_right
+            }
+            set_variable = {
+            var = SOCTRENDS_DC
+            value = 25
+            }
+            set_variable = {
+            var = SOCTRENDS_DE
+            value = 20
+            }
+            set_variable = {
+            var = SOCTRENDS_EE
+            value = 35
+            }
+            set_variable = {
+            var = SOCTRENDS_TP
+            value = 75
+            }
+            set_variable = {
+            var = SOCTRENDS_EA
+            value = 50
+            }
+        }
+        else_if = {
+            limit = {
+                has_government = dissident_right
+            }
+            set_variable = {
+            var = SOCTRENDS_DC
+            value = 75
+            }
+            set_variable = {
+            var = SOCTRENDS_DE
+            value = 50
+            }
+            set_variable = {
+            var = SOCTRENDS_EE
+            value = 15
+            }
+            set_variable = {
+            var = SOCTRENDS_TP
+            value = 80
+            }
+            set_variable = {
+            var = SOCTRENDS_EA
+            value = 50
+            }
+        }
+        else_if = {
+            limit = {
+                has_government = technocracy
+            }
+            set_variable = {
+            var = SOCTRENDS_DC
+            value = 20
+            }
+            set_variable = {
+            var = SOCTRENDS_DE
+            value = 35
+            }
+            set_variable = {
+            var = SOCTRENDS_EE
+            value = 25
+            }
+            set_variable = {
+            var = SOCTRENDS_TP
+            value = 30
+            }
+            set_variable = {
+            var = SOCTRENDS_EA
+            value = 10
+            }
+        }
+        else_if = {
+            limit = {
+                has_government = autocracy
+            }
+            set_variable = {
+            var = SOCTRENDS_DC
+            value = 30
+            }
+            set_variable = {
+            var = SOCTRENDS_DE
+            value = 20
+            }
+            set_variable = {
+            var = SOCTRENDS_EE
+            value = 50
+            }
+            set_variable = {
+            var = SOCTRENDS_TP
+            value = 65
+            }
+            set_variable = {
+            var = SOCTRENDS_EA
+            value = 40
+            }
+        }
+        else_if = {
+            limit = {
+                has_government = conservatism
+            }
+            set_variable = {
+            var = SOCTRENDS_DC
+            value = 75
+            }
+            set_variable = {
+            var = SOCTRENDS_DE
+            value = 65
+            }
+            set_variable = {
+            var = SOCTRENDS_EE
+            value = 25
+            }
+            set_variable = {
+            var = SOCTRENDS_TP
+            value = 70
+            }
+            set_variable = {
+            var = SOCTRENDS_EA
+            value = 60
+            }
+        }
+        else_if = {
+            limit = {
+                has_government = liberalism
+            }
+            set_variable = {
+            var = SOCTRENDS_DC
+            value = 45
+            }
+            set_variable = {
+            var = SOCTRENDS_DE
+            value = 75
+            }
+            set_variable = {
+            var = SOCTRENDS_EE
+            value = 45
+            }
+            set_variable = {
+            var = SOCTRENDS_TP
+            value = 45
+            }
+            set_variable = {
+            var = SOCTRENDS_EA
+            value = 51
+            }
+        }
+        else_if = {
+            limit = {
+                has_government = socdem
+            }
+            set_variable = {
+            var = SOCTRENDS_DC
+            value = 35
+            }
+            set_variable = {
+            var = SOCTRENDS_DE
+            value = 80
+            }
+            set_variable = {
+            var = SOCTRENDS_EE
+            value = 55
+            }
+            set_variable = {
+            var = SOCTRENDS_TP
+            value = 32
+            }
+            set_variable = {
+            var = SOCTRENDS_EA
+            value = 60
+            }
+        }
+    }
+    else ={
+        
+    }
+}
+generate_laws_for_non_default = {
+    if = {
+        limit = {
+            THIS = {
+                has_government = dissident_right
+            }
+        }
+        add_ideas = free_speech #lolberts tend to support free speech
+    }
+    else_if = {
+        limit = {
+            THIS = {
+                has_government = liberalism
+            }
+        }
+        add_ideas = free_speech
+    }
+    else_if = {
+        limit = {
+            THIS = {
+                has_government = technocracy
+            }
+        }
+        add_ideas = regulated_speech #possibly TSP?
+    }
+    else_if = {
+        limit = {
+            THIS = {
+                has_government = hardline_socialism
+            }
+        }
+        add_ideas = total_state_purview
+    }
+    else_if = {
+        limit = {
+            THIS = {
+                has_government = reformist_socialism
+            }
+        }
+        add_ideas = restricted_speech
+    }
+    else_if = {
+        limit = {
+            THIS = {
+                has_government = revolutionary_right
+            }
+        }
+        add_ideas = total_state_purview
+    }
+    else = {
+        add_ideas = monitored_speech
+    }
+    if = {
+        limit = {
+            THIS = {
+                OR = {
+                original_tag = JAP
+                original_tag = QIE
+                original_tag = PLK
+                original_tag = ZAI
+                }
+            }
+        }
+        add_ideas = sixtyone_to_eighty
+    }
+    else_if = {
+        limit = {
+            THIS = {
+                OR = {
+                original_tag = SOV
+                original_tag = DDR
+                original_tag = BUL
+                original_tag = FRA
+                original_tag = ENG
+                original_tag = SAF #?
+                original_tag = NGA #not sure but lets keep it this way for now
+                }
+            }
+        }
+        add_ideas = fortyone_to_sixty
+    }
+    else_if = {
+        limit = {
+            THIS = {
+                original_tag = CHL
+            }
+        }
+        add_ideas = eighty_to_ninety
+    }
+    else_if = {
+        limit = {
+            THIS = {
+                original_tag = ALB
+            }
+        }
+        add_ideas = pure_algocracy
+    }
+    else = {
+        add_ideas = five_to_fifteen
+    }
+    if = {
+        limit = {
+            THIS = {
+                check_variable = { GDP < 250 }
+                NOT = {
+                    has_country_flag = is_smol_country
+                    original_tag = ALB
+                }
+            }
+        }
+        add_ideas = less_than_5
+    }
+    else = {}
+}

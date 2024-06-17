@@ -1,0 +1,16 @@
+pulse_soctrends_display = {
+		add_to_variable = { THIS.SOCTRENDS_DC_DISPLAY = 100 }
+		add_to_variable = { THIS.SOCTRENDS_DE_DISPLAY = 100 }
+		add_to_variable = { THIS.SOCTRENDS_EE_DISPLAY = 100 }
+		add_to_variable = { THIS.SOCTRENDS_TP_DISPLAY = 100 }
+		add_to_variable = { THIS.SOCTRENDS_EA_DISPLAY = 100 }
+}
+soctrends_mpop_clear = {
+	force_update_dynamic_modifier = yes
+	clear_variable = SOCTRENDS_DC_STORE
+	clear_variable = SOCTRENDS_DE_STORE
+	clear_variable = SOCTRENDS_EE_STORE
+	clear_variable = SOCTRENDS_TP_STORE
+	clear_variable = SOCTRENDS_EA_STORE
+	clear_variable = monthly_pop_calc #?
+}

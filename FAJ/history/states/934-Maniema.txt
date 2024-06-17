@@ -1,0 +1,28 @@
+
+state={
+	id=934
+	name="STATE_934"
+    buildings_max_level_factor = 1
+
+	history={
+		victory_points = {
+			10766 5 
+		}
+		owner = MNZ
+		buildings = {
+            school = 2
+			infrastructure = 2
+
+		}
+		add_core_of = MNZ
+
+	}
+
+	provinces={
+		7161 10766 
+	}
+	manpower=8197975
+	buildings_max_level_factor=2.000
+	state_category=large_town
+	local_supplies=0.000
+}

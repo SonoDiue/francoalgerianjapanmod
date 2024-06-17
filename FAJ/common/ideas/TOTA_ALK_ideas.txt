@@ -1,0 +1,9 @@
+ideas = {
+	country = {
+			HON_DO_YOU_WANT_A_BANANA = {
+			picture = HON_DO_YOU_WANT_A_BANANA
+			allowed = {
+				tag = HON
+			}
+	}
+}

@@ -1,0 +1,34 @@
+characters = {
+	AWB_terreblanche = {
+		name = EUGENE_TB
+		portraits = {
+			army = {
+				large = "gfx/leaders/AWB/Portrait_AWB_TerreBlanche.dds"
+			}
+		}
+		field_marshal = {
+			traits = { old_guard politically_connected }
+			skill = 5
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	AWB_les_rudman = {
+		name = AWB_les_rudman
+		portraits = {
+			army = {
+				large = "gfx/leaders/AWB/Les Rudman.dds"
+			}
+		}
+		corps_commander = {
+			traits = { cautious infantry_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+}

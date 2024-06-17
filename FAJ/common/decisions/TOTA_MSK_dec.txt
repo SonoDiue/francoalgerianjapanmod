@@ -1,0 +1,64 @@
+MSK_contras_anxiety = {
+	do_a_military_exercise = {
+		cost = 50
+		fire_only_once = no
+        days_remove = 60
+		complete_effect = {
+            army_experience = 15
+            add_manpower = -100
+            add_war_support = -0.05
+	    }
+        remove_effect = {
+            custom_effect_tooltip = "Subtracts 10 Anxiety Points"
+            subtract_from_variable = { CONTRASANGER = 10 }
+        }
+	}
+	use_contras_for_project = {
+		cost = 150
+        days_remove = 90
+		complete_effect = {
+            MSK = {
+            add_to_variable = { CONTRASANGER = 15 }
+                random_owned_state = {
+			        add_extra_state_shared_building_slots = 2
+			        add_building_construction = {
+			            type = infrastructure
+			            level = 1
+			            instant_build = yes
+			        } 
+			        add_building_construction = {
+			            type = industrial_complex
+			            level = 1
+			            instant_build = yes
+			        } 
+                }
+                custom_effect_tooltip = "Adds 15 Anxiety Points"
+            }
+		}
+	}
+    CONTRAS_INVADE_NIC = {
+        activation = {
+            check_variable = { CONTRASANGER > 79 }
+        }
+        fire_only_once = yes
+        allowed = {
+            original_tag = MSK
+        }
+        available = {
+            check_variable = { CONTRASANGER < 80 }
+        }
+        icon = mission_icon     # For GFX_decision_mission_icon
+        is_good = yes
+        war_with_on_timeout = NIC
+        days_mission_timeout = 90
+        timeout_effect = {
+            declare_war_on = {
+                target = NIC
+                type = annex_everything
+            }
+        }
+        complete_effect = {
+            add_stability = -0.1
+        }
+    }
+}

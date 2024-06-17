@@ -1,0 +1,48 @@
+bookmarks = {
+	bookmark = {
+		name = "TOTA_NAME"
+		#desc = "TOTA_DESC"
+		date = 2021.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "SBR"
+		default = yes
+
+		"HON"={
+			#history = "HON_FAJ_DESC"
+			ideology = autocracy
+			ideas = {
+			HON_SS
+			HON_football_humiliation
+			HON_UFC
+			}
+		}
+		"ENG"={
+			#history = "ENG_FAJ_DESC"
+			ideology = autocracy
+			ideas = {
+			}
+		}
+		"GER"={
+			#history = "GER_FAJ_DESC"
+			ideology = revolutionary_right
+			ideas = {
+			}
+		}
+
+		"EAF"={
+			#history = "EAF_FAJ_DESC"
+			ideology = reformist_socialism
+			ideas = {
+			}
+		}
+		"SBR"={
+			#history = "SBR_FAJ_DESC"
+			ideology = autocracy
+			ideas = {
+				SBR_SDF
+				SBR_embargoed
+				SBR_abe
+			}
+		}
+	}
+}

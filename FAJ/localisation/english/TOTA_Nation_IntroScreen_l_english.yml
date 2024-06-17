@@ -1,0 +1,70 @@
+﻿l_english:
+
+# GUI functionality
+
+ TOTA_NATIONAL_INTRO_BUTTON_TT: "§YDestiny Awaits us.§!"
+
+ TOTA_NATIONAL_INTRO_BUTTON_TEXT_BIA: "Woyo!"
+ TOTA_NATIONAL_INTRO_BUTTON_TEXT_SEY: "Vive la mort, vive la guerre!"
+ TOTA_NATIONAL_INTRO_BUTTON_TEXT_SAF: "Ons vir jou, Suid-Afrika!"
+ TOTA_NATIONAL_INTRO_BUTTON_TEXT_NGA: "Arise, O Compatriots!"
+
+ TOTA_NATIONAL_INTRO_BUTTON_TEXT_GEN:0 "Let's Go!"
+
+
+
+
+# 
+TOTA_Welcome_Introduction: "Welcome to Twilight of the Anthropocene!"
+TOTA_Welcome_Introduction_desc: "1935, Germany: Konrad Zuse, in a stroke of luck, accidentally invents the MOSFET transistor, creating a world-changing catalyst - One, however, which did not save the Axis. As Adolf Hitler is shot at by an assailant in 1943 during a flight to Smolensk, the Nazi state collapsed - and the ensuing anarchy resulted in a comfortable peace deal for the Japanese Empire, which survives to this day. As anarchy engulfed Europe into flames, the Western Allies used a significant number of collaborationist and prewar authorities to assist in ending the chaos, eventually resulting in the creation of three German states: Westphalia, Austro-Bavaria and Prussia. The Japanese scraped by the skin of their teeth on not getting a nuclear bomb thrown on their cities, but the impact of the nuclear bomb's invention would come later in November 1967, when North Vietnam received two nuclear bombs; one in Mu Gia Pass and another in the outskirts of western Hanoi, having been intercepted just prior. This extreme escalation in proportional fighting causes international outrage and the USSR is able to show its evidence that this was an authorised attack from the Oval Office. President Goldwater and LeMay would later both be killed in a bombing attack by an American assassin in April 1968. Due to the different end of WWII, as well as no Korean War, Britain ends up with a stronger economy and pursues more of a nation-building approach to decolonisation. The French take inspiration from this, but instead of establishing a loose international group like the Commonwealth, France pursues the French Union system which sought to incorporate many of France's colonies and overseas territories into metropolitan France. While this approach ultimately failed in places such as Indochina and Algeria, it remained successful in a lot of West Africa. In 1969, the assassination attempt against Brezhnev that happened IRL happens to succeed, and because of the assassin's admiration for Suslov, the reformers that helped Brezhnev get into power use this to their advantage to sideline the hardliner factions within the party and manage to take power themselves, with Alexei Kosygin becoming leader of the USSR. He uses this position to pass the 1965 Liberman reforms that he drew up years prior and this starts a trend of economic reforms over his premiership that transition the USSR into a quasi-market system. As the Soviets reformed, collaboration began to spring up between the US and the USSR. This collaboration saw the building of the International Space Station. By the start of 2021, the first truly international expedition to establish a Martian colony is on its way, with a manned crew of astronauts and cosmonauts from NASA, ESA, and Interkosmos."
+ 
+TOTA_Welcome_Introduction_Credit: "Team Credits"
+
+TOTA_Welcome_Introduction_Credit_desc: "§LBrought to you by the§! §5Majestic 11§! §Band Developers:§!\n§AArthurS, Aus, Bukharin (posad), chancellor, Dakota, Galen (Xeno), Hecky, ItzLeDoc, JaguarBog, K4TH, Kebab, Kekwards Tvxt, kettleworks, LNR, M1nnM4xd, Martin_Martinaise, Noogga, Ozajasz, Petrol, Rivers, Serov, Sparrow, Twottle_Bird, and all other previous developers!§!"
+
+
+### COUNTRY OPENING ###
+NationIntro_tab_name_country: "Country"
+
+NationIntro_tab_name_region: "Region"
+ 
+ 
+### TUTORIALS ###
+NationIntro_tab_name_Globe_Pod_Misc: "Misc"
+
+ 
+### Development ###
+NationIntro_tab_name_Credits: "Intro / Credits"
+ 
+
+### COUNTRY ENDING ###
+NationIntro_tab_name_ending: "Afterthought" #?
+
+BIA_Nation_Title_Content.1: "A Dream Realized"
+BIA_Nation_Title_Content.2: "The France Has Fallen, Millions must crazy" 
+BIA_Nation_Title_Content.3: "EEEEHH mayako Chan! Dannunchio San! Sugoiiiiii !!"
+BIA_Nation_Title_Content.4: "I need cook artaud" 
+BIA_Nation_Title_Content_desc_left.1: "The year is 1967, and during the World's turbulent age of Maoist and hippie cultural revolutions, the dream of a new nation in Africa was born through ethnic conflict, the oldest type of conflict in History. As the Igbo, Ijaw and other Southeastern peoples of Nigeria found the Federal government to be increasingly violent, tyrannical and destructive, they took up their arms to defend their homes and societies against Hausa dominance. As 1968 rolled around and the war waged on, French intelligence agents working covertly in Nigeria discover a plan by the commander Yakubu Gowon to starve out Igbo civilians by cutting off food supplies and taking Port Harcourt. As a result of this, both Biafran and foreign troops prioritise the southern flank making sure to keep its logistics paths secure. The war would end up being decided at the Battle of the Benue, after which Nigeria would concede Biafran independence by 1969. This would come as a big blow to the UK's and USSR's prestige as these parties had been key backers of the Federal Government." 
+BIA_Nation_Title_Content_desc_right.1: "Nonetheless, the infant nation felt deep pains. The transitional period from military junta to democratic republic was risky, with power hungry miltary commanders being purged in the 1972 Democracy Commission. As Biafra improved its government structure, built a parliament, and created a real democracy, the nation was once again attacked by Nigeria in 1974, right after Chike Obi was elected to the post of President, with Nigeria believing that he was a "weak" leader. Nonetheless, despite multiple attempts, Biafra has persevered and even thrived as its extremely powerful oil industry created growth in the burgeoning nation." 
+BIA_Nation_Title_Content_desc_left.2: "Crazy? I was crazy once. \nThey put me in a rubber room. \nA round rubber room \nA rubber room with rats.\nRubber rats? I hate rubber rats.\nThey make me crazy.\nCrazy? I was crazy once."
+BIA_Nation_Title_Content_desc_right.2: "Crazy? I was crazy once. \nThey put me in a rubber room. \nA round rubber room \nA rubber room with rats.\nRubber rats? I hate rubber rats.\nThey make me crazy.\nCrazy? I was crazy once."
+BIA_Nation_Title_Content_desc_left.3: "Levoy levoy"
+BIA_Nation_Title_Content_desc_right.3: "Economy collapse and everyone should fast. Fast is cool literally france Let's go Accel (clueless)"
+BIA_Nation_Title_Content_desc_left.4: "Oh, you got an future on you alright. See that's what he's talking about. Spread your breadton open, dude. You can do the faster shaker, huh? The surreal shaker; gimme the future shaker, dude, shake your theater! Excite yourself and shake that shit. Overwhelm your reality up, I know you can shake it, shake it! Yeah that's some Ètat Irrèal right there. Oh yeah, that'll work. You got the vrai, dude! God damn. Look good, bro? Yes. Yeah nice, huh? Alright that'll work for him. Put that pill on."
+BIA_Nation_Title_Content_desc_right.4: "ojoasidvnaoisudnviasudnvo "
+
+
+SEY_Nation_Title_Content.1: "Kaiser reich : best waifu mod ever"
+SEY_Nation_Title_Content.2: "Reich gear solid - by hideo kojima" 
+SEY_Nation_Title_Content.3: "No reich only Lenin like proletariat vibe"
+SEY_Nation_Title_Content.4: "Fuck I hate red but What about kirb poyo" 
+SEY_Nation_Title_Content_desc_left.1: "Germany : Why Entete so big  but No step back \n France : Elan Elan vital vital (stupid hast attack attack Stupid, hasty attacks to take credit before getting proper help from Russia and the UK.)\nRedacted French  Offensive : (This offensive would result in five times the casualties of the original Nibel offensive.) \n France : surrender" 
+SEY_Nation_Title_Content_desc_right.1: "Germany : lel £GFX_national_intro_Picture_Germany_1" 
+SEY_Nation_Title_Content_desc_left.2: "£GFX_national_intro_Picture_Germany_2 Germany : Why Won't you Die! \n Russia : Mordernazation Son!"
+SEY_Nation_Title_Content_desc_right.2: "Standing here I realize You are just like me Trying to make history But who's to judge The right from wrong When our guard is down I think we'll both agree That violence breeds violence But in the end it has to be this way I've carved my own path You followed your wrath But maybe we're both the same The world has turned And so many have burned But nobody is to blame Yet staring across this barren wasted land I feel new life will be born Beneath the blood stained sand"
+SEY_Nation_Title_Content_desc_left.3: "Reich: (Die for Cringe) \n Red Army in Germany : xD £GFX_national_intro_Picture_Germany_3"
+SEY_Nation_Title_Content_desc_right.3: "The most Sanest RF Fan:Commie time Tankie Tankie Socialist Fuck no what where's my pure noble cute Prussia update When!"
+SEY_Nation_Title_Content_desc_left.4: "Omg I really love poyo we need FBI Open UP Society"
+SEY_Nation_Title_Content_desc_right.4: "£GFX_national_intro_Picture_Germany_4 Least moderate progressive in germany "
+
+

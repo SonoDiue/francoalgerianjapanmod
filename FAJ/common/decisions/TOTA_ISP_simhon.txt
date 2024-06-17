@@ -1,0 +1,19 @@
+ISP_ending_unemployment_dec_cat = {
+	ISP_public_works_campaign = {
+		cost = 250
+		fire_only_once = no
+        days_remove = 365
+		complete_effect = {
+            ISP = {
+                every_owned_state = {
+                    add_extra_state_shared_building_slots = 3
+				    add_building_construction = {
+				        type = industrial_complex
+				        level = 1
+				        instant_build = yes
+				    }
+                }
+            }
+		}
+	}
+}

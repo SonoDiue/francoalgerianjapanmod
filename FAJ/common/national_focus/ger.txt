@@ -1,0 +1,47 @@
+focus_tree = {
+	id = GER
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	#I want this nigga dead!
+	focus = {
+		id = GER_killthisguy
+		icon = GFX_SBR_sucks_to_suck
+		x = 5
+		y = 0
+		cost = 50
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+										country_event = {
+										id = GER.1
+									}
+		}
+	}
+
+	#Behead the Devil
+	focus = {
+		id = GER_behead_the_devil
+		icon = GFX_GER_kill_rayyan
+		x = 5
+		y = 2
+		cost = 1
+		prerequisite = { focus = GER_killthisguy  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+							country_event = {
+							id = GER.2
+							}
+	}
+
+}

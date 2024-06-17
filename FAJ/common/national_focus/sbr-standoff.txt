@@ -1,0 +1,22 @@
+focus_tree = {
+	id = sbr-standoff
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SBR
+		}
+	}
+	#fwtbt
+	focus = {
+		id = SBR_fwtbt
+		icon = GFX_goal_unknown
+		x = 0
+		y = 0
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+	}
+
+}

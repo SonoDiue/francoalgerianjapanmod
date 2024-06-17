@@ -1,0 +1,60 @@
+ISP_mobilize = {
+	ISP_lim_res_mob = {
+		cost = 50
+		fire_only_once = yes
+        days_remove = 7
+		remove_effect = {
+            add_stability = -0.07
+            add_war_support = -0.01
+            load_oob = "ISP_lim_res_2021"
+            set_country_flag = ISP_lim_res_flag
+		}
+	}
+	ISP_fur_res_mob = {
+		cost = 100
+        available = { 
+            has_country_flag = ISP_lim_res_flag
+        }
+		fire_only_once = yes
+        days_remove = 14
+		remove_effect = {
+            add_stability = -0.14
+            add_war_support = -0.02
+            load_oob = "ISP_fur_res_2021"
+		}
+	}
+	ISP_tot_res_mob = {
+		cost = 1
+		fire_only_once = yes
+        available = {
+            ISP = {
+                has_war = yes
+                has_idea = war_economy
+            }
+        }
+        days_remove = 1
+		remove_effect = {
+            add_stability = -0.05
+            add_war_support = 0.15
+            delete_unit_template_and_units = {
+                division_template = "EDF Infantry Reserve 1"
+            }
+            delete_unit_template_and_units = {
+                division_template = "EDF Armor Reserve 1"
+            }
+            delete_unit_template_and_units = {
+                division_template = "EDF Nahal Reserve 1"
+            }
+            delete_unit_template_and_units = {
+                division_template = "EDF Infantry Reserve 2"
+            }
+            delete_unit_template_and_units = {
+                division_template = "EDF Nahal Reserve 2"
+            }
+            delete_unit_template_and_units = {
+                division_template = "EDF Armor Reserve 2"
+            }            
+            load_oob = "ISP_tot_res_2021"
+		}
+	}
+}

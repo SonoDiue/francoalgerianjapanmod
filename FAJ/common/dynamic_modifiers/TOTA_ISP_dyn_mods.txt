@@ -1,0 +1,36 @@
+ISP_simhon_dynmod = {
+	icon = GFX_ISP_simhon_dynmod
+	enable = {
+        ISP = {
+            has_completed_focus = ISP_always_forward
+        }
+	}
+    stability_factor = simhon_stab
+    technocracy_drift = simhon_drift
+    political_power_gain = simhon_pp
+    consumer_goods_factor = simhon_consumer
+    research_speed_factor = simhon_research
+    war_support_factor = simhonwars
+    stability_weekly = simhon_weekstab
+    production_speed_buildings_factor = simhon_construction
+    gdp_growth_modifier = simhon_gdp
+    monthly_soctrends_drift_TP_P = simhon_reformist_drift
+    monthly_soctrends_drift_EA_A = simhon_artificial_drift
+}
+ISP_salvation = {
+	icon = GFX_ISP_salvation
+	enable = {
+        ISP = {
+            has_completed_focus = ISP_to_salvage_an_outdated_system
+        }
+	}
+    stability_factor = ramon_stab
+    socdem_drift = ramon_drift
+    gdp_growth_modifier = ramon_gdp
+    political_power_gain = ramon_pp
+    consumer_goods_factor = ramon_consumer
+    research_speed_factor = ramon_research
+    war_support_factor = ramonwars
+    stability_weekly = ramon_weekstab
+    production_speed_buildings_factor = ramon_construction
+}

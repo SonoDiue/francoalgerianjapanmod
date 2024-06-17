@@ -1,0 +1,448 @@
+add_namespace = SOV
+
+add_namespace = SOVSKELETON
+
+add_namespace = SOVDEBUG
+
+add_namespace = ALK
+
+country_event = {
+    id = SOV.4 # Pence gets smoked
+    title = SOV.4.t
+    desc = SOV.4.desc
+    picture = GFX_report_event_pencegard
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = SOV.4.a
+	}
+}
+country_event = {
+    id = SOVSKELETON.1 # Step 1: Remove ABJ and change to Pelosi #MUST FIRE JAN 20
+    title = SOVSKELETON.1.t
+    desc = SOVSKELETON.1.desc
+    picture = GFX_report_event_alexander_farewell
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = SOVSKELETON.1.a
+	  	usacw_all_us_states_in_array = yes
+		retire_country_leader = yes
+		set_politics = {
+		ruling_party = autocracy
+		}
+	}
+}
+country_event = {
+    id = SOVSKELETON.2 # stage 1, MUST FIRE MAR 4
+    title = SOVSKELETON.2.t
+    desc = SOVSKELETON.2.desc
+    picture = GFX_report_event_alexander_farewell
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = SOVSKELETON.2.a
+	  USP = { #Putin russian republic
+		transfer_state = 319
+		transfer_state = 320
+		transfer_state = 321
+		transfer_state = 326
+		transfer_state = 318
+		transfer_state = 687
+		transfer_state = 337
+		transfer_state = 339
+		transfer_state = 851
+		transfer_state = 292
+		transfer_state = 853
+		transfer_state = 852
+		transfer_state = 289
+		transfer_state = 850		
+	  }
+	  CAL = { #Ukraine
+		transfer_state = 257
+		transfer_state = 272
+		transfer_state = 1154
+		transfer_state = 833
+		transfer_state = 831
+		transfer_state = 274
+		transfer_state = 823
+		transfer_state = 824
+		transfer_state = 826
+		transfer_state = 276
+		transfer_state = 825
+		transfer_state = 275
+		set_cosmetic_tag = CAL_USCCW
+		load_oob = "CAL_CW"
+	  }
+	  NWF = { # navalny
+		transfer_state = 322
+		transfer_state = 325
+		transfer_state = 336
+		transfer_state = 877
+		transfer_state = 876
+		transfer_state = 364
+
+
+		#set_cosmetic_tag = NWF_DEMOCRAT
+	  }
+	  BSD = { #kazakhstan
+		transfer_state = 196
+		transfer_state = 884
+		transfer_state = 887
+		transfer_state = 885
+		transfer_state = 878
+		load_oob = "generic_lite_2021"
+		#declare_war_on = { target = GPR type = civil_war }
+		#declare_war_on = { target = OBC type = civil_war }
+		#set_cosmetic_tag = BSD_STATE_OF_GEORGIA
+	  }
+	  SFL = { # Ukraine state or smth Petro Poroshenko
+		transfer_state = 822
+		transfer_state = 273
+		transfer_state = 795
+		transfer_state = 987
+		transfer_state = 539
+		transfer_state = 986
+		load_oob = "SFL_CW"
+	  }
+	  ALK = { #crimea Polonskaya
+		transfer_state = 310
+	  }
+	  KOH = { #Belarussia
+		transfer_state = 832
+		transfer_state = 836
+		transfer_state = 811
+		transfer_state = 288
+		transfer_state = 286
+		transfer_state = 287
+		transfer_state = 835		
+		#i would add the pacific posessions but theyre not part of the state of hawaii so who cares
+	  }
+	}
+}
+country_event = {
+    id = SOVSKELETON.4 #The moment of truth
+    title = SOVSKELETON.4.t
+    desc = SOVSKELETON.4.desc
+    picture = GFX_report_event_alexander_farewell
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = SOVSKELETON.4.a #and here we go!!
+		#USA = {
+		#load_oob = "USA_CW"
+		#}
+		USP = {
+			load_oob = "USP_CW"
+		transfer_state = 338
+		}
+		NWF = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = revolutionary_right
+			}
+			set_popularities = {
+        		anarchism = 0
+        		conservatism = 5
+        		revolutionary_right = 85
+        		dissident_right = 10
+        		liberalism = 0
+        		hardline_socialism = 0
+        		autocracy = 0
+        		reformist_socialism = 0
+        		socdem = 0
+        		technocracy = 0
+			}
+			transfer_state = 309
+			transfer_state = 311
+			transfer_state = 839
+			transfer_state = 312
+			transfer_state = 365
+			transfer_state = 366
+			transfer_state = 367
+			transfer_state = 843
+			transfer_state = 842
+			transfer_state = 841
+			transfer_state = 840
+			transfer_state = 844
+			load_oob = "NWF_CW"
+		}
+		DES = { #georgia
+			transfer_state = 845
+			transfer_state = 368
+			transfer_state = 846
+			load_oob = "DES_CW"
+		}
+		ATI = { #azerbajan
+			drop_cosmetic_tag = yes
+			transfer_state = 369
+			transfer_state = 298
+			transfer_state = 390
+			load_oob = "ATI_CW"
+		}
+		LKT = { #armenia
+			drop_cosmetic_tag = yes
+			country_event = {
+				id = LKT.99 #land reform
+				days = 2
+			}
+			set_politics = {
+				ruling_party = socdem
+			}
+			transfer_state = 297
+			load_oob = "LKT_CW"
+		}
+		DEA = { #uzbekistan
+		transfer_state = 871
+		transfer_state = 872
+		transfer_state = 869
+		transfer_state = 873
+		transfer_state = 146
+		transfer_state = 874
+		load_oob = "USM_DAKOTA"
+		}
+		#BSD_wars = yes
+		countries_with_specific_econ_systems = yes
+	}
+}
+country_event = {
+    id = SOVSKELETON.9 # Step 9: Shit hits The Fan
+    title = SOVSKELETON.9.t
+    desc = SOVSKELETON.9.desc
+    picture = GFX_report_event_alexander_farewell
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = SOVSKELETON.9.a #and here we go!!
+		every_state = { # cores
+			limit = {
+				is_core_of = USA
+			}
+			add_core_of = CAL
+			add_core_of = FCO
+			add_core_of = BSD
+			add_core_of = RAS
+			add_core_of = NYP
+			add_core_of = NWF
+			add_core_of = ATI
+			add_core_of = USP
+			add_core_of = LKT
+			add_core_of = SNM
+			add_core_of = SAZ
+			add_core_of = DES
+		}
+		SAZ = { #turkmenistan
+			transfer_state = 870
+			transfer_state = 195
+			transfer_state = 868
+			load_oob = "SAZ_CW"
+		}
+		SNM = { #Tajikistan
+			transfer_state = 198
+			load_oob = "SNM_CW"
+		}
+		FCO = { #Kyrgyzstan
+			transfer_state = 197
+			load_oob = "FCO_CW"
+		}
+		BSD = {
+			set_cosmetic_tag = BSD_PELOSIREICH
+		transfer_state = 875
+		transfer_state = 879
+		transfer_state = 880
+		}
+		NYP = { #moldova
+			transfer_state = 820
+			transfer_state = 179
+			transfer_state = 821
+			load_oob = "NYP_CW"
+		}
+		RAS = {
+			transfer_state= 886
+			transfer_state = 350
+			transfer_state = 344
+			transfer_state = 343
+			set_cosmetic_tag = RAS_ARC
+			load_oob = "RAS_CW"
+		}
+		usacw_array_gen = yes
+
+		for_each_scope_loop = { #Shamelessly stolen from TNO, thanks to the one who made moskowien dissolution scripted effects
+			array = global.USA_CW_TAGS
+			for_each_loop = {
+				array = global.USA_CW_TAGS
+				if = {
+					limit = {
+						NOT = {
+							tag = var:v
+							has_war_with = var:v
+						}
+					}
+					declare_war_on = { target = var:v type = civil_war }
+				}
+			}
+		}
+		for_each_loop = {
+			array = global.USA_CW_TAGS
+			var:v = {
+				inherit_technology = USA
+			}
+		}
+		USA = {
+		set_country_flag = USA_civil_war_began
+		}
+	#USA = {
+	#	create_faction = USA_REMNANTS
+	#	add_to_faction = GPR
+	#	add_to_faction = BSD
+	#add_to_faction = OBC
+	#	set_cosmetic_tag = USCCP
+	#}
+	#USP = {
+	#	create_faction = USP_FACTION
+	#	add_to_faction = DIX
+	#	add_to_faction = DEA
+	#	add_to_faction = DSC
+	#	set_cosmetic_tag = ARCCP
+	#}
+	#DSC = {
+	#	set_politics = {
+	#		ruling_party = autocracy
+	#	}
+	#}
+		DIX = {
+			set_politics = {
+				ruling_party = autocracy
+			}
+		}
+#	usacw_puppets_war_start = yes
+#	usacw_array_gen2 = yes
+#	every_country = {
+		limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = WNE.1
+				days = 3
+			}
+		}
+#	FCO = {
+#		create_faction = FREE_STATES_OF_AMERICA
+#		add_to_faction = SNM
+#		add_to_faction = SAZ
+#		add_to_faction = SFL
+#		add_to_faction = DES
+		}
+#	COLORADO_FUCK_YOU = yes #hopefully this works
+#	BSD_wars = yes
+#	appropriate_econ_sys_per_warlord = yes
+#	NWF = {
+#		add_ideas = national_salvation_model
+#	}
+#	countries_with_specific_econ_systems = yes
+#}
+}
+country_event = {
+    id = USADEBUG.1 # Alaska teaser
+    title = USADEBUG.1.t
+    desc = USADEBUG.1.desc
+    picture = GFX_report_event_alexander_farewell
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = USADEBUG.1.a
+		ALK = {
+		transfer_state = 797
+		transfer_state = 798
+		transfer_state = 799
+		transfer_state = 800
+		set_cosmetic_tag = ALK_ANR
+		load_oob = "ALK_CW"
+		add_ideas = ALK_the_russians_are_here
+		}
+		SVK = {
+		transfer_state = 580
+		transfer_state = 724
+		transfer_state = 796
+		transfer_state = 801
+		set_cosmetic_tag = SVK_APR
+		load_oob = "SVK_CW"
+		add_ideas = SVK_in_a_foreign_land
+			declare_war_on = {
+				target = ALK
+				type = annex_everything
+			}
+		}
+		ai_chance = { factor = 60 }
+	}
+}
+country_event = {
+	id = ALK.9
+	title = ALK.9.t
+	desc = ALK.9.desc
+    picture = GFX_report_event_alexander_farewell
+    is_triggered_only = yes
+    fire_only_once = yes 
+	option = {
+		name = ALK.9.a
+		ai_chance = { factor = 30 }
+		set_politics = {
+			ruling_party = revolutionary_right
+		}
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+			id = WNE.16
+			DAYS = 0
+			}
+		}
+	}	
+	option = {
+		name = ALK.9.b
+		ai_chance = { factor = 30 }
+	}	
+}
+country_event = {
+	id = ALK.12
+	title = ALK.12.t
+	desc = ALK.12.desc
+    picture = GFX_report_event_alexander_farewell
+    is_triggered_only = yes
+    fire_only_once = yes 
+	option = {
+		name = ALK.12.a
+		ai_chance = { factor = 30 }
+		create_country_leader = {
+			name = "Rt. Rev. Santa Claus"
+			desc = "POLITICS_SANTA_DESC"
+			picture = "gfx/leaders/SVK/Portrait_SVK_Santa.dds"
+			expire = "2040.1.1"
+			ideology = nl_s
+			traits = {
+			}
+		}
+		# news event later
+	}	
+	option = {
+		name = ALK.12.b
+		ai_chance = { factor = 30 }
+		create_country_leader = {
+			name = "Mary Peltola"
+			desc = "POLITICS_SANTA_DESC"
+			picture = "gfx/leaders/SVK/Mary Peltola.dds"
+			expire = "2040.1.1"
+			ideology = sovmarsys
+			traits = {
+			}
+		}
+		# news event later
+	}	
+}

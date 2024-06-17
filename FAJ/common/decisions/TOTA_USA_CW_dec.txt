@@ -1,0 +1,472 @@
+
+USA_CW_unify_cat = {
+	USP_unify = {
+		visible = {
+			original_tag = USP
+		}
+		available = {
+			#tooltip = "All Continental American States"
+			USP = {
+				has_war = no
+			}
+			OR = {
+				USP = {
+					NOT = {
+						has_war_with = USA
+						has_war_with = CAL
+						has_war_with = ATI
+					}
+					owns_state = 534
+					date > 2022.1.1
+					has_war = no
+				}
+				all_of_scopes = {
+					array = global.USASTATES
+					var:v = {
+					is_owned_by = USP
+					}
+				}
+				USP = {
+					any_allied_country = {
+						owns_state = 534
+						has_war = no
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			annex_country = {
+				target = DIX
+			}
+			annex_country = {
+				target = DSC
+			}
+			USP = {
+				drop_cosmetic_tag = yes
+				country_event = {
+					id = USP.666 #select leader
+				}
+			}
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = WNE.87
+					days = 1
+				}
+			}
+		}		
+	}
+USA_annex_puppets = {
+	visible = {
+		USA = {
+			has_country_flag = USA_civil_war_began
+			has_war = no
+			owns_state = 549
+			date > 2022.1.1
+		}
+	}
+	ai_will_do = {
+		base = 999
+	}
+	fire_only_once = yes
+	complete_effect = {
+		USA = {
+			annex_country = {
+				target = OBC
+			}
+		}
+		USA = {
+			annex_country = {
+				target = GPR
+			}
+		}
+		USA = {
+			annex_country = {
+				target = BSD #?
+			}
+		}
+	}
+}
+	FCO_unify = {
+		visible = {
+			OR = {
+				tag = SNM
+				tag = SAZ
+				tag = FCO
+				tag = SFL
+			}
+		}
+		available = {
+			OR = {
+				FCO = {
+					all_of_scopes = {
+						array = global.USASTATES
+						is_owned_by = FCO
+					}
+				}
+				any_allied_country = {
+					owns_state = 534
+					has_war = no
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			FCO = {
+				annex_country = {
+					target = SNM
+				}
+				annex_country = {
+					target = SAZ
+				}
+				annex_country = {
+					target = SFL
+				}
+				country_event = {
+					id = FCO.1 #select leader
+				}
+			}
+		}		
+	}
+	RAS_unify = {
+		visible = {
+			original_tag = RAS
+		}
+		available = {
+			RAS = {
+				all_of_scopes = {
+					array = global.USASTATES
+					is_owned_by = RAS
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			country_event = {
+				id = RAS.1 #select leader
+			}
+		}		
+	}
+	AVK_unify = {
+		visible = {
+			original_tag = GPR
+		}
+		available = {
+			GPR = {
+				all_of_scopes = {
+					array = global.USASTATES
+					is_owned_by = GPR
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_cosmetic_tag = AVK_UNI
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = WNE.134
+					days = 1
+				}
+			}
+		}			
+	}
+	ATI_unify = {
+		visible = {
+			original_tag = ATI
+		}
+		available = {
+			ATI = {
+				all_of_scopes = {
+					array = global.USASTATES
+					is_owned_by = ATI
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			country_event = {
+				id = ATI.1 #select leader
+			}
+		}		
+	}
+	CAL_unify = {
+		visible = {
+			original_tag = CAL
+		}
+		available = {
+			CAL = {
+				all_of_scopes = {
+					array = global.USASTATES
+					is_owned_by = CAL
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			country_event = {
+				id = CAL.1 #select leader
+			}
+		}		
+	}
+	USA_unify = {
+		visible = {
+			original_tag = USA
+			has_country_flag = USA_civil_war_began
+		}
+		available = {
+		#tooltip = "All Continental American States"
+			OR = {
+				USA = {
+					owns_state = 752
+					has_country_flag = USA_civil_war_began
+					has_war = no
+				}
+				USA = {
+					any_allied_country = {
+					owns_state = 752
+					has_war = no
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			drop_cosmetic_tag = yes
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = WNE.111
+					days = 1
+				}
+			}
+		}		
+	}
+	LKT_unify = {
+		visible = {
+			original_tag = LKT
+		}
+		available = {
+			LKT = {
+				all_of_scopes = {
+					array = global.USASTATES
+					is_owned_by = LKT
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			country_event = {
+				id = LKT.1 #select leader
+			}
+		}		
+	}
+	NWF_unify = {
+		visible = {
+			original_tag = NWF
+		}
+		available = {
+			NWF = {
+				all_of_scopes = {
+					array = global.USASTATES
+					is_owned_by = NWF
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			country_event = {
+				id = NWF.1 #select leader
+			}
+		}		
+	}
+	NYP_unify = {
+		visible = {
+			original_tag = NYP
+		}
+		available = {
+			NYP = {
+				all_of_scopes = {
+					array = global.USASTATES
+					is_owned_by = NYP
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			drop_cosmetic_tag = yes
+			if = {
+				limit = {
+					NYP = {
+						has_government = autocracy
+					}
+				}
+				every_country = {
+					limit = {
+						is_ai = no
+					}
+					news_event = {
+						id = WNE.111
+						days = 1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					NYP = {
+						has_government = socdem
+					}
+				}
+				every_country = {
+					limit = {
+						is_ai = no
+					}
+					news_event = {
+						id = WNE.99
+						days = 1
+					}
+				}				
+			}
+		}		
+	}
+}
+NYP_activate_obamna = {
+	livin_la_vida_loca = {
+		visible = {
+			original_tag = NYP
+		}
+		available = {
+			NYP = {
+				surrender_progress > 0.2
+			}
+		}
+		ai_will_do = {
+			base = 150
+		}
+		fire_only_once = yes
+		complete_effect = {
+			#load_oob = "generic_2021"
+			load_oob = "obamna"
+			set_politics = {
+				ruling_party = socdem
+			}
+		}
+	}
+}
+BSD_enact_TWD = {
+	the_cracker_trembles = {
+		visible = {
+			original_tag = BSD
+		}
+		available = {
+			original_tag = BSD
+			USA = {
+				NOT = {
+					has_war_with = USP
+				}
+			}
+			date > 2022.4.4
+		}
+		ai_will_do = {
+			base = 50
+		}
+		fire_only_once = yes
+		complete_effect = {
+			drop_cosmetic_tag = yes
+			leave_faction = yes
+			declare_war_on = {
+				target = USA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = OBC
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = GPR
+				type = annex_everything
+			}
+		}
+	}
+}
+GPR_turn_maoist = {
+	the_crakkker_trembles = {
+		visible = {
+			original_tag = GPR
+		}
+		available = {
+			original_tag = GPR
+			GPR = {
+				has_war = yes
+			}
+			NOT = {
+				country_exists = USA
+			}
+		}
+		ai_will_do = {
+			base = 50
+		}
+		fire_only_once = yes
+		complete_effect = {
+			set_politics = {
+				ruling_party = hardline_socialism
+			}
+			leave_faction = yes
+			declare_war_on = {
+				target = USA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = OBC
+				type = annex_everything
+			}
+		}
+	}
+}

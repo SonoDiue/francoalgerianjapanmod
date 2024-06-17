@@ -1,0 +1,235 @@
+NGA_war_exhaustion_dec_cat = {
+    NGA_end_the_war = {
+        allowed = {
+            original_tag = NGA
+        }
+        activation = {
+            BIA = {
+                has_completed_focus = BIA_wearing_them_out
+            }
+        }
+        available = {
+           always = no
+        }
+        visible = {
+             original_tag = NGA
+            BIA = {
+                has_completed_focus = BIA_wearing_them_out
+            }
+        }
+        cancel_trigger = {
+            NGA = {
+                has_war = no
+            }            
+        }
+        days_mission_timeout = 30
+        timeout_effect = {
+            if = {
+                limit = {
+                    NGA = {
+                        controls_state = 967
+                    }
+                }
+            clr_global_flag = skip_default_capitulation
+            add_to_variable = { global.peace_popup_dirty = 1 }
+            set_global_flag = war_won
+            set_global_flag = show_peace_popup_alert
+                NGA = {
+                    save_global_event_target_as = winning_country
+                }
+                BIA = {
+                    save_global_event_target_as = losing_country
+                }
+                NGA = {
+                    transfer_state = 967
+                    annex_country = {
+                        target = BED
+                    }
+                    white_peace = BIA
+                    add_to_variable = { NGA.GDP = 125}
+                    puppet = BIA
+                }
+                BIA = {
+                    set_cosmetic_tag = BIA_NGA
+                    load_focus_tree = BIA_defeat
+                    set_politics = {
+                        ruling_party = autocracy
+                    }
+                }
+            }
+            else_if = {
+                limit = {
+                    BIA = {
+                        controls_state = 967
+                    }
+                }
+                            clr_global_flag = skip_default_capitulation
+            add_to_variable = { global.peace_popup_dirty = 1 }
+            set_global_flag = war_won
+            set_global_flag = show_peace_popup_alert
+                BIA = {
+                    save_global_event_target_as = winning_country
+                }
+                NGA = {
+                    save_global_event_target_as = losing_country
+                }
+                NGA = {
+					remove_wargoal = {
+						target = BIA
+						type = all
+					}
+					remove_wargoal = {
+						target = BED
+						type = all
+					}
+					white_peace = BIA
+					remove_wargoal = {
+						target = BIA
+						type = all
+					}
+					remove_wargoal = {
+						target = BED
+						type = all
+					}
+                }
+                NGA = {
+					white_peace = BED
+                    complete_national_focus = NGA_im_just_glad_its_over
+                }
+                BIA = {
+                    transfer_state = 24
+                    white_peace = NGA
+                }
+                BIA = {
+                    complete_national_focus = BIA_our_military_proud
+                }                
+            }
+            else = {
+
+            }
+        }
+    }
+}
+
+NGA_development_plan_dec_cat = {
+
+	NGA_development_plan_bloated_defense_1 = {
+        allowed = {
+			has_country_flag = NGA_dev_plan_bloat_def
+        }
+        activation = {
+			
+
+        }
+        available = {
+           always = no
+        }
+        visible = {
+             original_tag = NGA
+
+        }
+        cancel_trigger = {
+        
+        }
+
+        timeout_effect = {
+            
+        }
+    }
+	
+	NGA_development_plan_bloated_defense_2 = {
+        allowed = {
+			has_country_flag = NGA_dev_plan_bloat_def
+        }
+        activation = {
+			
+
+        }
+        available = {
+           always = no
+        }
+        visible = {
+             original_tag = NGA
+
+        }
+        cancel_trigger = {
+        
+        }
+
+        timeout_effect = {
+            
+        }
+    }
+	
+	NGA_development_plan_bloated_defense_3 = {
+        allowed = {
+			has_country_flag = NGA_dev_plan_bloat_def
+        }
+        activation = {
+			
+
+        }
+        available = {
+           always = no
+        }
+        visible = {
+             original_tag = NGA
+
+        }
+        cancel_trigger = {
+        
+        }
+
+        timeout_effect = {
+            
+        }
+    }
+	
+	NGA_development_plan_bloated_defense_4 = {
+        allowed = {
+			has_country_flag = NGA_dev_plan_bloat_def
+        }
+        activation = {
+			
+
+        }
+        available = {
+           always = no
+        }
+        visible = {
+             original_tag = NGA
+
+        }
+        cancel_trigger = {
+        
+        }
+
+        timeout_effect = {
+            
+        }
+    }
+	
+	NGA_development_plan_bloated_defense_5 = {
+        allowed = {
+			has_country_flag = NGA_dev_plan_bloat_def
+        }
+        activation = {
+			
+
+        }
+        available = {
+           always = no
+        }
+        visible = {
+             original_tag = NGA
+
+        }
+        cancel_trigger = {
+        
+        }
+
+        timeout_effect = {
+            
+        }
+    }
+}

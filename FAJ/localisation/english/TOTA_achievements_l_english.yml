@@ -1,0 +1,25 @@
+﻿l_english:
+ 
+ #Achievements
+  totaachievements_2021: "Twilight of the Anthropocene: Achievements"
+  millions_must_die_NAME: "MILLIONS Must Die"
+  millions_must_die_DESC: "As any country, inflict or receive more than 1 million casualties."
+  fulanization_we_dont_want_their_invasion_NAME: "Woyo!"
+  fulanization_we_dont_want_their_invasion_DESC: "As @BIA Biafra, fend off the Nigerians."
+  mandela_effect_NAME: "Mandela Effect"
+  mandela_effect_DESC: "As the @SAF South African Republic, replace statues of Apartheid leaders with Nelson Mandela."
+  the_train_driver_NAME: "The Train Driver"
+  the_train_driver_DESC: "As the @SAF South African Republic, inflict and receive 100,000 casualties."
+  just_getting_started_NAME: "It's Just Getting Started"
+  just_getting_started_DESC: "As @BIU Kanu's Rebellion, defeat Nigeria."
+  youre_pretty_good_NAME: "You're Pretty Good"
+  youre_pretty_good_DESC: "As @SEY Seychelles, succeed in every intervention."
+  nothing_is_beyond_our_reach_NAME: "Nothing Beyond Our Reach"
+  nothing_is_beyond_our_reach_DESC: "As @SEY Seychelles, have a cell in 8 foreign governments."
+  usman_fodios_revenge_NAME: "Usman Fodio's Revenge"
+  usman_fodios_revenge_DESC: "As @NGA Ultranationalist Nigeria, destroy Biafra."
+
+  TOTA_allow_units: "Unrestricted Unit Creation"
+  RULE_ALLOW_UNIT_TRAINING: "Unrestricted Unit Creation"
+  RULE_ALLOW_UNIT_TRAINING_BLOCKED_DESC: "Units may not be created in an unrestricted fashion: Mobilization is required, and there are maluses to mobilization. During war, these restrictions are reduced."
+  RULE_ALLOW_UNIT_TRAINING_ALLOW_DESC?: "Units will function identically to normal HOI4."

@@ -1,0 +1,37 @@
+state={
+id=447
+	
+
+	name="STATE_447"
+
+	manpower = 4829473
+	
+	state_category = metropolis
+	
+	resources={
+		oil=300
+	}
+
+	history={
+		owner = OMA
+		buildings = {
+            school = 2
+			infrastructure = 3
+			arms_factory = 5
+			industrial_complex = 6 
+			10760 = {
+				naval_base = 6
+			}
+		}
+		victory_points = {
+			10760 25
+		}
+		add_core_of = OMA
+	}
+
+	provinces={
+		1947 2018 2059 2103 4993 5049 8002 8020 10760 
+	}
+
+	local_supplies=0.0 
+}

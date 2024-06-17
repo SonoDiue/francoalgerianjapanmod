@@ -1,0 +1,31 @@
+
+state={
+	id=1153
+	name="STATE_1153"
+    buildings_max_level_factor = 1
+	resources={
+		aluminium=20.000
+	}
+	provinces={
+		766 3588 4331 9697 10159 11698 
+	}
+	manpower=1108023
+	buildings_max_level_factor=2.000
+	local_supplies=0.000
+#pastoral rural town large_town city large_city metropolis megalopolis
+	state_category=city
+	history={
+		owner = CAL
+		buildings = {
+			school = 2
+			arms_factory = 1
+			industrial_complex = 2
+			infrastructure = 3
+		}
+		victory_points = {
+			10159 2
+		}
+		add_core_of = CAL
+		add_core_of = USA
+	}
+}

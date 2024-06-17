@@ -1,0 +1,41 @@
+
+state={
+	id=384
+	name="STATE_384"
+    buildings_max_level_factor = 1
+	resources={
+		steel=50.000
+	}
+
+	history={
+		owner = PAK
+		victory_points = {
+			8106 10 
+		}
+		victory_points = {
+			3456 30 
+		}
+		victory_points = {
+			12717 50 
+		}
+		buildings = {
+			school = 2
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 10
+			3456 = {
+				naval_base = 10
+			}
+		}
+		add_core_of = PAK
+
+	}
+
+	provinces={
+		1107 1147 1179 1910 1971 1978 1980 2041 2084 3456 4003 4110 4382 4558 4979 4990 4998 5043 5075 5105 7049 7084 7273 7316 7847 7903 7917 7975 8005 8007 8013 8022 8044 8066 8098 8106 9084 10066 10108 10139 10173 10735 10813 10821 10843 10887 10898 10905 12005 12717 12754 12761 12763 12774 12792 12884 
+	}
+	manpower=226992332
+	buildings_max_level_factor=2.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

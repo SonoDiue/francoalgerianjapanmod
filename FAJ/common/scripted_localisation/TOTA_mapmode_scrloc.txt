@@ -1,0 +1,81 @@
+defined_text = {
+	name = GDP_SCRLOC_MAPMODE
+	text = {
+		trigger = {
+			check_variable = { THIS.GDP < 1 }
+		}
+		localization_key = GDP_million_loc_mapmode
+	}
+	text = {
+		trigger = {
+			check_variable = { THIS.GDP > 9999 }
+		}
+		localization_key = GDP_trillion_loc_mapmode
+	}
+	text = {
+		localization_key = GDP_billion_loc_mapmode
+	}
+}
+
+defined_text = {
+	name = GetTOTAInternetReachMapModeTooltip
+
+	text = {
+		trigger = {
+		has_variable = intreach
+		}
+		localization_key = intreach_tooltip_mapmode
+	}
+}
+defined_text = {
+	name = scrloc_mapmode_un
+	text = {
+		trigger = {
+			is_subject = yes
+			overlord = {
+				has_country_flag = UN_member
+			}
+		}
+		localization_key = is_a_puppet_of_un_member_state
+	}
+	text = {
+		trigger = {
+		has_country_flag = UN_member
+		}
+		localization_key = is_un_member
+	}
+	text = {
+		trigger = {
+				has_country_flag = is_un_observer
+		}
+		localization_key = is_un_observer_loc
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = UN_member
+				has_country_flag = is_un_observer
+			}
+			is_in_array = {
+			    array = global.non_UN_member
+			    value = THIS
+			}
+		}
+		localization_key = is_not_un_member
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_the_united_nations
+		}
+		localization_key = is_the_un_lmao
+	}
+	text = {
+		trigger = {
+				has_country_flag = is_the_united_nations_hq
+		}
+		localization_key = is_the_un_hq_lmao
+	}
+	text ={
+		localization_key = oops
+	}
+}

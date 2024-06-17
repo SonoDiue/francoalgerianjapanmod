@@ -1,0 +1,82 @@
+characters = {
+	Chau_Lap_The = {
+		name = "Châu Lập Thể"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVI/Chau Lap The.dds"
+			}
+		}
+		field_marshal = {
+			traits = { offensive_doctrine }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	Luong_Xuan_Viet = {
+		name = "Lương Xuân Việt"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVI/Luong Xuan Viet.dds"
+			}
+		}
+		corps_commander = {
+			traits = { defensive_doctrine }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ngo_dinh_quynh = {
+		name = "Ngô Đình Quỳnh"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SVI/Ngo Dinh Quynh.dds"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = socpat
+		}
+	}
+	Nguyen_Huu_Chanh = {
+		name = "Nguyễn Hữu Chánh"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SVI/Nguyen Huu Chanh.dds"
+			}
+		}
+	}
+	giuseppe_thanh_nguyen = {
+		name = "Giuseppe-Thanh Nguyễn"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SVI/Giuseppe Thanh Nguyen.dds"
+			}
+		}
+	}
+	guillaume_nguyen = {
+		name = "Guillaume Nguyễn"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SVI/Guillaume Nguyen.dds"
+			}
+		}
+	}
+	dinh_dong_phung_viet = {
+		name = "Đinh Đồng Phụng Việt"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SVI/Dinh Dong Phung Viet.dds"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = corporatocracy
+		}
+	}
+}

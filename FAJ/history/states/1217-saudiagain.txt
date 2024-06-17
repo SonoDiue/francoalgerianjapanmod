@@ -1,0 +1,32 @@
+
+state={
+id=1217
+	
+
+	name="STATE_1217"
+
+	manpower = 1000000
+	
+	state_category = rural
+	resources={
+		oil=1200
+	}
+
+	history={
+		owner = SAU
+		buildings = {
+            school = 2
+			infrastructure = 3
+			12702 = {
+				naval_base = 6
+			}
+		}
+		add_core_of = SAU
+	}
+
+	provinces = {
+		10791 1955 12702 4932
+	}
+
+	local_supplies=0.0 
+}

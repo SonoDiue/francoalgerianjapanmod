@@ -1,0 +1,26 @@
+state={
+id=105
+	name="STATE_105"
+    buildings_max_level_factor = 1
+	state_category = large_city
+	
+	history={
+		victory_points = {
+			1086 10
+		}
+		owner = ISP
+		buildings = {
+            school = 2
+			infrastructure = 5
+			arms_factory = 2
+		}
+		add_core_of = ISP
+
+	}
+	provinces={
+		1086
+	}
+	manpower=1253000
+	buildings_max_level_factor=2.000
+	local_supplies=0.000
+}

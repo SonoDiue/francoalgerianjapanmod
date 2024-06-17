@@ -1,0 +1,14 @@
+characters = {
+	UNS_jose_madeira = {
+		name = "Francisco José Madeira"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UNS/Francisco Caetano Jose Madeira.dds"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = milgov
+		}
+	}
+}

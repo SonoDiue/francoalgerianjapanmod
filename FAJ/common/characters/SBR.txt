@@ -1,0 +1,57 @@
+characters = {
+		Josnd = {
+			name = "Josnd"
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/SBR/Portrait_SBR_lieutenant.dds"
+					small =  "gfx/interface/ideas/SBR/josnd.dds"
+				}
+			}
+			country_leader = {
+				desc = "POLITICS_JOSND_DESC"
+				ideology = milgov
+			}
+			advisor = {
+				allowed = {
+					original_tag = SBR
+				}
+				cost = 150
+				slot = head_of_government
+				available = {
+					OR = {
+					has_completed_focus = SBR_give_the_lieutenant_a_chance
+					}
+				}
+				idea_token = SBR_josnd
+				traits = {
+					head_of_government
+					autocracy_minister
+				}
+			}
+		}
+		Haj = {
+		name = "Haj"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBR/haj.dds"
+                small =  "gfx/interface/ideas/SBR/haj.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HAJ_DESC"
+			ideology = milgov
+		}
+		advisor = {
+			allowed = {
+				original_tag = SBR
+			}
+			cost = 150
+			slot = security_minister
+			idea_token = SBR_haj
+			traits = {
+			    security_minister
+				autocracy_minister
+			}
+		}
+	}
+}

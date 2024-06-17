@@ -1,0 +1,80 @@
+ideas = {
+	country = {
+		SBR_SDF = {
+			picture = SBR_SDF
+			allowed = {
+				tag = SBR
+			}
+        	available = {
+        	}
+        	cancel = {
+        	}
+			allowed_civil_war = {
+				always = no
+			}			
+			modifier = {
+					offence = 0.03
+					defence = 0.03
+					planning_speed = 0.15
+					army_morale_factor = 0.10
+					war_support_factor = 0.10
+					conscription = 0.02
+				}
+			}
+		SBR_general_rayyan = {
+			picture = SBR_general
+			allowed = {
+				tag = SBR
+			}
+        	available = {
+        	}
+        	cancel = {
+        	}
+			allowed_civil_war = {
+				always = no
+			}			
+			modifier = {
+				political_power_cost = +0.20
+				autocracy_drift = -0.02
+				stability_weekly = -0.001
+				}
+			}
+					SBR_embargoed = {
+			picture = SBR_embargoed
+			allowed = {
+				tag = SBR
+			}
+        	available = {
+        	}
+        	cancel = {
+        	}
+			allowed_civil_war = {
+				always = no
+			}			
+			modifier = {
+				production_speed_buildings_factor  = -0.30
+				research_speed_factor = -0.17
+				stability_weekly = -0.03
+				consumer_goods_factor = 0.6
+				industrial_capacity_factory = -0.6
+				production_factory_max_efficiency_factor = -0.5
+				}
+			}
+		SBR_abe = {
+			picture = SBR_abe
+			allowed = {
+				tag = SBR
+			}
+        	available = {
+        	}
+        	cancel = {
+        	}
+			allowed_civil_war = {
+				always = no
+			}			
+			modifier = {
+				monthly_population   = +0.25
+				}
+			}	
+		}
+	}	

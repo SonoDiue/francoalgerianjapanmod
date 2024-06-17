@@ -1,0 +1,11 @@
+If making submods:
+
+Keep in mind that the Social Trends mechanic has a minor naming scheme issue regarding the axes:
+
+SOCTRENDS_DC is for Decentralised-Centralised (Affects Stability, Surrender Limit, War Support and Political Power Gain)
+SOCTRENDS_DE is for Democratic-Autocratic (Affects Political Power Gain, Stability )
+SOCTRENDS_EE is for Egalitarian-Elitist (Affects Stability, GDP Growth, Construction Speed, Monthly Population, Surrender Limit)
+SOCTRENDS_TP is for Traditional-Reformist (Affects Stability, Monthly Population, GDP Growth )
+SOCTRENDS_EA is for Ecological-Artificial (Affects Unit Speed, Construction Speed, GDP Growth, Stability, Minimum Export, Monthly Population)
+
+The higher the number, the more of the first axis. That is, a nation with a SOCTRENDS_DC score of 100 is COMPLETELY decentralised.

@@ -1,0 +1,11 @@
+
+strategic_region={
+	id=200
+	name="STRATEGICREGION_200"
+    #buildings_max_level_factor = 1
+	provinces={
+		1752 1870 3719 11667 12588 12597 12685 12693 
+	}
+	weather={
+	}
+}

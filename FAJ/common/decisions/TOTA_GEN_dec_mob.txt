@@ -1,0 +1,71 @@
+TAG_decisions_for_mobilization_cat = {
+	TAG_mobilize_economy_temporarily = {
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1000
+                has_war = yes
+            }
+        }
+		cost = 100
+		#fire_only_once = yes
+        days_remove = 30
+		remove_effect = {
+            add_stability = -0.07
+            add_war_support = -0.1
+            add_timed_idea = {
+                idea = mobilizing_economy
+                days = 120
+            }
+		}
+	}
+	TAG_mobilize_pop_temporarily = {
+		cost = 100
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1000
+                has_war = yes
+            }
+        }
+		#fire_only_once = yes
+        days_remove = 30
+		remove_effect = {
+            add_stability = -0.07
+            add_war_support = -0.1
+            add_timed_idea = {
+                idea = mobilizing_pop
+                days = 120
+            }
+		}
+	}
+	TAG_mobilize_for_war = {
+		cost = 100
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1000
+                has_war = yes
+            }
+        }
+		#fire_only_once = yes
+        days_remove = 120
+        available = {
+            OR = {
+            AND = {
+            has_idea = mobilizing_pop
+            has_idea = mobilizing_economy
+            }
+            has_war = yes
+            }
+        }
+		complete_effect = {
+            add_stability = 0.05
+            add_war_support = 0.15
+            country_lock_all_division_template = no
+		}
+        remove_effect = {
+            country_lock_all_division_template = yes
+        }
+	}
+}

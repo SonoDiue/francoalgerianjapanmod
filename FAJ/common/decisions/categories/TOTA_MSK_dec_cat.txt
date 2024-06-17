@@ -1,0 +1,22 @@
+MSK_contras_anxiety  = {
+     icon = generic_foreign_policy
+	 	visible_when_empty = yes
+	 allowed = {
+		original_tag = MSK
+        has_country_flag = contrasanxiety
+	}
+	visible = {
+        has_country_flag = contrasanxiety
+	}
+}
+MSK_CCPA_dec_cat  = {
+     icon = generic_foreign_policy
+	 	visible_when_empty = yes
+	 allowed = {
+		has_idea = CCPA
+	}
+	visible = {
+		has_idea = CCPA
+	}
+	 scripted_gui = MSK_CCPA_scrgui
+}

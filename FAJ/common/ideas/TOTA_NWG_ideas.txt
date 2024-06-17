@@ -1,0 +1,29 @@
+ideas = {
+	country = {
+			NWG_last_stand = {
+			picture = NWG_last_stand
+			allowed = {
+				tag = NWG
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			conscription = 0.05
+			gdp_growth_modifier = -0.025
+			defensive_war_stability_factor = 0.25
+			surrender_limit = 0.10
+			}
+		}
+	}	
+}

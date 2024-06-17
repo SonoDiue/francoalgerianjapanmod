@@ -1,0 +1,13 @@
+NGA_bias_mod = {
+	icon = GFX_NGA_bias
+	enable = {
+        tag = NGA
+	}
+    stability_factor = ngabias_stab
+    reformist_socialism_drift = ngabias_drift
+    political_power_gain = ngabias_pp
+    consumer_goods_factor = ngabias_consumer
+    research_speed_factor = ngabias_research
+    war_support_factor = ngabiaswars
+    stability_weekly = ngaweekstab
+}

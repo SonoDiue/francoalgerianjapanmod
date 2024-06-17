@@ -1,0 +1,13 @@
+spriteTypes = {
+	SpriteType = { 
+		name = "GFX_SBR_sucks_to_suck"
+		texturefile = "gfx/interface/goals/SBR/SBR_sucks_to_suck.dds"
+	}
+}
+
+spriteTypes = {
+	SpriteType = { 
+		name = "GFX_GER_kill_rayyan"
+		texturefile = "gfx/interface/goals/GER/tworetards.png"
+	}
+}

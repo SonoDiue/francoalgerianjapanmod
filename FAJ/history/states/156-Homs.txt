@@ -1,0 +1,22 @@
+state={
+id=156
+	name="STATE_156"
+    buildings_max_level_factor = 1
+	state_category = city
+	
+	history={
+        victory_points = { 1056 10 }
+        owner = SYR 
+        buildings = {
+            school = 2
+            infrastructure = 3
+        }
+        add_core_of = SYR 
+    }
+	provinces={
+		1056 1072 2013 3942 7513 10087 10383 12316 12442 
+	}
+	manpower=1803000
+	buildings_max_level_factor=2.000
+	local_supplies=0.000
+}

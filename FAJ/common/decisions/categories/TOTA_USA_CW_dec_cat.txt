@@ -1,0 +1,23 @@
+USA_CW_DecisionCategory = {
+	visible_when_empty = yes
+	allowed = { always = yes }
+	visible = {
+		is_in_array = { array = global.USA_CW_TAGS value = THIS }
+	}
+}
+NYP_activate_obamna = {
+	#allowed = { always = yes }
+	visible = {
+		original_tag = NYP
+	}
+}
+USA_CW_unify_cat = {
+	#allowed = { always = yes }
+	visible = {	is_in_array = { array = global.USA_CW_TAGS value = THIS } }
+}
+BSD_enact_TWD = {
+	visible = { original_tag = BSD }
+}
+GPR_turn_maoist = {
+	visible = { original_tag = GPR }
+}

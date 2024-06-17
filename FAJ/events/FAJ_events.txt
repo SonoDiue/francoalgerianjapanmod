@@ -1,0 +1,188 @@
+add_namespace = GER
+add_namespace = SBR
+
+#I want this guy dead
+country_event = {
+	id = GER.1
+	title = "A meeting"
+	desc = GER.1.d
+	#picture = GFX_kill_rayyan
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Go ahead"
+		add_political_power = -10
+	}
+}
+
+#kill the General
+country_event = {
+	id = GER.2
+	title = "Behead the Devil"
+	desc = GER.2.d
+	#picture = GFX_kill_rayyan
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Go ahead"
+		add_political_power = -50
+		local_manpower = -0.001
+		news_event = { id = SBR.1 }
+	}
+}
+#The General is Dead
+news_event = {
+    id = SBR.10000
+    title = "The General Dies!"
+    desc = SBR.10000
+    picture = GFX_report_event_dead_general
+    is_triggered_only = yes
+    fire_only_once = yes
+    immediate = {
+    set_country_flag = event_open
+    }
+
+    option = {
+      clr_country_flag = event_open
+      name = "Rest in Peace"
+			SBR = {
+					kill_country_leader = yes
+					swap_ideas = {
+					remove_idea = SBR_general_rayyan
+					}	
+				}
+			SBR = {
+						create_country_leader = {
+						name = "Lieutenant Josnd"
+						desc = "sbr_chair_desc"
+						picture = "gfx/leaders/SBR/portrait_SBR_lieutenant.dds"
+						expire = "2040.1.1"
+						ideology = milgov
+						traits = {
+						}
+					}
+				}
+		}
+	}
+news_event = {
+    id = SBR.1
+    title = "The General Dies!"
+    desc = SBR.1.d
+    picture = GFX_report_event_dead_general
+    is_triggered_only = yes
+    fire_only_once = yes
+    immediate = {
+    set_country_flag = event_open
+    }
+
+    option = {
+      clr_country_flag = event_open
+      name = "Rest in Peace"
+			SBR = {
+					kill_country_leader = yes
+					swap_ideas = {
+					remove_idea = SBR_general_rayyan
+					}	
+				}
+			SBR = {
+						create_country_leader = {
+						name = "Fallen Authority"
+						desc = "sbr_chair_desc"
+						picture = "gfx/leaders/SBR/chair.dds"
+						expire = "2040.1.1"
+						ideology = milgov
+						traits = {
+						}
+					}
+				}
+				set_party_name = { 
+				ideology = autocracy 
+				long_name = GER_chair_LONG
+				name = GER_chair_SHORT
+}
+		}
+	}
+	#i want to kill myself after making this
+	
+	country_event = {
+	id = SBR.2 #Siberia focus
+	title = "Sucks to suck"
+	desc = SBR.2.d
+	picture =
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "I will give my life for you, Siberia."
+	}
+}
+
+	country_event = {
+	id = SBR.3 #Siberia focus 2
+	title = "An adress to the nation"
+	desc = SBR.3.d
+	picture =
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "let our path be one of greatness!"
+		add_political_power = 50
+	}
+}
+
+	country_event = {
+	id = SBR.4 #Siberia focus 3
+	title = "Installing a Prime Minister"
+	desc = SBR.4.d
+	picture =
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "Lets let that Liberal in here"
+		add_political_power = 10
+	}
+		option = {
+		name = "Perhaps the Traditionalists could assist us"
+		add_political_power = 10
+	}
+		option = {
+		name = "Give the Lieutenant a chance"
+		add_political_power = 10
+		complete_national_focus = SBR_give_the_lieutenant_a_chance
+	}
+}
+	country_event = {
+	id = SBR.5 #Siberia focus 4
+	title = "Prime Minister Lieutenant Josnd"
+	desc = SBR.5.d
+	picture =
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "Siberias uphill battle back on the world stage!"
+		add_political_power = 50
+	}
+}
+
+	country_event = {
+	id = SBR.6
+	title = "For Whom the Bell Tolls"
+	desc = SBR.6.d
+	#picture =
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "Bring it on!"
+		add_political_power = 50
+		load_focus_tree = sbr-standoff
+		complete_national_focus = SBR_fwtbt
+			360 = { set_demilitarized_zone = yes }
+			359 = { set_demilitarized_zone = yes }
+	}
+}

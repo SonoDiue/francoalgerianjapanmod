@@ -1,0 +1,53 @@
+leader_traits = {
+	
+	USA_iron_lady_america = {
+		random = no
+		political_power_gain = 0.05
+		command_power_gain = 0.05
+		autocracy_drift = 0.02
+		war_support_factor = -0.07
+		offence = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	il_duce_alaska = {
+		random = no
+		revolutionary_right_drift = 0.01
+		command_power_gain = 0.10
+		political_power_gain = 0.10
+		offence = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	TRP_brotherly_leader = {
+		random = no
+		stability_factor = 0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	lion_of_sidon = {
+		random = no
+		war_support_factor = 0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	unpopular_compromise = {
+		random = no
+		stability_factor = -0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	FRA_JVPITER_I_KNEEL = {
+		random = no
+		stability_factor = 0.10
+		political_power_gain = 0.07
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
