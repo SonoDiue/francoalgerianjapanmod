@@ -32,7 +32,7 @@ country_event = {
 		news_event = { id = SBR.1 }
 	}
 }
-#The General is Dead
+#The General is Dead, Liuetenant takes over
 news_event = {
     id = SBR.10000
     title = "The General Dies!"
@@ -66,6 +66,7 @@ news_event = {
 				}
 		}
 	}
+#The General Dies, Junta soft-coup.
 news_event = {
     id = SBR.1
     title = "The General Dies!"
