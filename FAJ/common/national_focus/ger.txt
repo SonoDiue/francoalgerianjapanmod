@@ -8,21 +8,80 @@ focus_tree = {
 			tag = GER
 		}
 	}
-	#I want this nigga dead!
+	
+		#auf wiedersehen bundestag!
 	focus = {
-		id = GER_killthisguy
-		icon = GFX_SBR_sucks_to_suck
-		x = 5
+		id = GER_byebye
+		icon = GFX_goal_GER_byebye
+		x = 4
 		y = 0
-		cost = 50
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		ai_will_do = { factor = 1 }
+				completion_reward = {
+										country_event = { id = GER.3 }
+										add_popularity = { ideology = dissident_right
+														popularity = 0.2 }
+										add_political_power = 15
+	}
+}
+
+	#Democracy is dead
+	focus = {
+		id = GER_democracydead
+		icon = GFX_goal_GER_democracydead
+		x = 4
+		y = 1
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_byebye  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										country_event = { id = GER.4 }
+										add_popularity = { ideology = dissident_right
+														popularity = 0.2 }
+										add_political_power = 15
+										add_stability = -0.15								
+	}
+}
+
+	#And I killed it
+	focus = {
+		id = GER_ikill
+		icon = GFX_goal_GER_ikill
+		x = 4
+		y = 2
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_democracydead  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										country_event = { id = GER.5 }
+										add_political_power = 10
+										add_stability = -0.02								
+	}
+}
+	
+	#I want this nigga dead!
+	focus = {
+		id = GER_killthisguy
+		icon = GFX_SBR_sucks_to_suck
+		available = { date > 2022.1.1 }
+		x = 9
+		y = 7
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 10 }
 		completion_reward = {
-										country_event = {
-										id = GER.1
-									}
+										country_event = { id = GER.1 }
 		}
 	}
 
@@ -30,14 +89,14 @@ focus_tree = {
 	focus = {
 		id = GER_behead_the_devil
 		icon = GFX_GER_kill_rayyan
-		x = 5
-		y = 2
+		x = 9
+		y = 8
 		cost = 1
 		prerequisite = { focus = GER_killthisguy  }
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		ai_will_do = { factor = 1 }
+		ai_will_do = { factor = 10 }
 				completion_reward = {
 							country_event = {
 							id = GER.2

@@ -187,3 +187,46 @@ news_event = {
 			359 = { set_demilitarized_zone = yes }
 	}
 }
+
+#auf wiedersehen bundestag!
+country_event = {
+	id = GER.3
+	title = "Operation Iron Dawn"
+	desc = GER.3.d
+	#picture = GFX_kill_rayyan
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Auf Wiedersehen, Bundestag!"
+	}
+}
+
+#Democracy is dead
+country_event = {
+	id = GER.4
+	title = "Part I"
+	desc = GER.4.d
+	#picture = GFX_kill_rayyan
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Sehr gut!"
+	}
+}
+
+#And I killed it
+country_event = {
+	id = GER.5
+	title = "Part II"
+	desc = GER.5.d
+	#picture = GFX_kill_rayyan
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Sehr Wunderbar!"
+	}
+}
+

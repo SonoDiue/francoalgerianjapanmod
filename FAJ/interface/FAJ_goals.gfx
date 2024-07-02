@@ -11,3 +11,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GER/tworetards.png"
 	}
 }
+
+spriteTypes = {
+	SpriteType = { 
+		name = "GFX_goal_GER_byebye"
+		texturefile = "gfx/interface/goals/GER/byebye.png"
+	}
+}
+
+spriteTypes = {
+	SpriteType = { 
+		name = "GFX_goal_GER_democracydead"
+		texturefile = "gfx/interface/goals/GER/problem.png"
+	}
+}
+
+spriteTypes = {
+	SpriteType = { 
+		name = "GFX_goal_GER_ikill"
+		texturefile = "gfx/interface/goals/GER/ikill.png"
+	}
+}
