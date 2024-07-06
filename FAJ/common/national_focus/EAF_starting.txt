@@ -1,0 +1,34 @@
+focus_tree = {
+	id = EAF
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = EAF
+		}
+	}
+	#Recovery from the long march
+	focus = {
+		id = EAF_longwalk
+		#icon = GFX_EAF
+		x = 4
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 5 }
+		completion_reward = {
+					country_event = {
+				id = EAF.1
+			}
+			
+			#add_political_power = -50
+			#add_stability = -0.50
+
+			
+			
+		}
+	}
+}

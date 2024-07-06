@@ -1,5 +1,6 @@
 add_namespace = GER
 add_namespace = SBR
+add_namespace = EAF
 
 #I want this guy dead
 country_event = {
@@ -230,3 +231,17 @@ country_event = {
 	}
 }
 
+#TFFR the walk
+country_event = {
+	id = EAF.1
+	title = "Recovery from the long march"
+	desc = EAF.1.d
+	#picture = GFX_kill_rayyan
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Long live the Republic!"
+		add_political_power = 10
+	}
+}

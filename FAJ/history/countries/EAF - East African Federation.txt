@@ -1,6 +1,6 @@
 ﻿capital = 305
 
-oob = "EAF_2021"
+oob = "generic_2021"
 
 set_variable = { GDP = 700 } set_variable = { DEBT = 200 } set_variable = { REAL_GROWTH = 5 }
 TOTA_startup_funny_business_ignore_this = yes

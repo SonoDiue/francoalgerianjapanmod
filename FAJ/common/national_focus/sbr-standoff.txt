@@ -12,11 +12,243 @@ focus_tree = {
 	focus = {
 		id = SBR_fwtbt
 		icon = GFX_goal_unknown
-		x = 0
+		x = 4
 		y = 0
 		search_filters = {
 			FOCUS_FILTER_USA_CONGRESS
 		}
 	}
+
+	#Operation Fearful Harmony
+	focus = {
+		id = SBR_fh
+		icon = GFX_goal_unknown
+		x = 5
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = SBR_fwtbt  }
+		#completion_reward = {
+						#event SBR.3
+						#	country_event = {
+						#	id = SBR.3
+						#}
+						
+						#add_political_power = 15
+						#add_stability = 0.15
+
+		#}
+	}
+
+	#Operation Moment Of Truth
+	focus = {
+		id = SBR_mot
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = SBR_fwtbt  }
+		#completion_reward = {
+						#event SBR.3
+						#	country_event = {
+						#	id = SBR.3
+						#}
+						
+						#add_political_power = 15
+						#add_stability = 0.15
+
+		#}
+	}
+
+	#Direct Appeal to Rebel Troops
+	focus = {
+		id = SBR_talktothem
+		icon = GFX_goal_unknown
+		x = 5
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = SBR_fh  }
+		#completion_reward = {
+						#event SBR.3
+						#	country_event = {
+						#	id = SBR.3
+						#}
+						
+						#add_political_power = 15
+						#add_stability = 0.15
+
+		#}
+	}
+
+	#Counter Crisis Command
+	focus = {
+		id = SBR_c3
+		icon = GFX_goal_unknown
+		x = 3
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = SBR_mot  }
+		#completion_reward = {
+						#event SBR.3
+						#	country_event = {
+						#	id = SBR.3
+						#}
+						
+						#add_political_power = 15
+						#add_stability = 0.15
+
+		#}
+	}
+
+	#Appeasement by Drafting Reforms
+	focus = {
+		id = SBR_rebelreform
+		icon = GFX_goal_unknown
+		x = 5
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = SBR_talktothem  }
+		#completion_reward = {
+						#event SBR.3
+						#	country_event = {
+						#	id = SBR.3
+						#}
+						
+						#add_political_power = 15
+						#add_stability = 0.15
+
+		#}
+	}
+
+	#Secure Key Infrastructure
+	focus = {
+		id = SBR_securecontrol
+		icon = GFX_goal_unknown
+		x = 3
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = SBR_c3  }
+		#completion_reward = {
+						#event SBR.3
+						#	country_event = {
+						#	id = SBR.3
+						#}
+						
+						#add_political_power = 15
+						#add_stability = 0.15
+
+		#}
+	}
+
+	#lifting blockades
+	focus = {
+		id = SBR_liftblock
+		icon = GFX_goal_unknown
+		x = 5
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = SBR_rebelreform  }
+		#completion_reward = {
+						#event SBR.3
+						#	country_event = {
+						#	id = SBR.3
+						#}
+						
+						#add_political_power = 15
+						#add_stability = 0.15
+
+		#}
+	}
+
+	#Launch a Coordinated Offensive
+	focus = {
+		id = SBR_warwithrebels
+		icon = GFX_goal_unknown
+		x = 3
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = SBR_securecontrol  }
+		#completion_reward = {
+						#event SBR.3
+						#	country_event = {
+						#	id = SBR.3
+						#}
+						
+						#add_political_power = 15
+						#add_stability = 0.15
+
+		#}
+	}
+
+	#relieve power
+	focus = {
+		id = SBR_nomorepower
+		icon = GFX_goal_unknown
+		x = 5
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = SBR_liftblock  }
+		#completion_reward = {
+						#event SBR.3
+						#	country_event = {
+						#	id = SBR.3
+						#}
+						
+						#add_political_power = 15
+						#add_stability = 0.15
+
+		#}
+	}
+
+	#Reestablish Government Authority
+	focus = {
+		id = SBR_wereback
+		icon = GFX_goal_unknown
+		x = 3
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = SBR_warwithrebels  }
+		#completion_reward = {
+						#event SBR.3
+						#	country_event = {
+						#	id = SBR.3
+						#}
+						
+						#add_political_power = 15
+						#add_stability = 0.15
+
+		#}
+	}
+
+
 
 }
