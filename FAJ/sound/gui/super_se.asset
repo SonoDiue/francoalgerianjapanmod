@@ -9,6 +9,11 @@ soundeffect = {
 	sounds = { sound = ussrchaos_super }
 }
 soundeffect = {
+	name = bavaria_super
+	#volume = 0.5
+	sounds = { sound = bavaria_super }
+}
+soundeffect = {
 	name = biafra_win_super
 	#volume = 0.5
 	sounds = { sound = biafra_win_super }

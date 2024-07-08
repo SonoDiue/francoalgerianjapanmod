@@ -2,6 +2,10 @@ SBR = {
 color = rgb { 203  67  118 }
 color_ui = rgb { 98  150  60 }
 }
+BAY = {
+	color = rgb { 57 186 136 }
+	color_ui = rgb { 57 186 136 }
+	}
 BRA = {
 color = rgb { 98  150  60 }
 color_ui = rgb { 98  150  60 }
@@ -167,8 +171,8 @@ color = rgb { 125 87 142 }
 color_ui = rgb { 125 87 142 }
 }
 AUS = {
-color = rgb { 230 223 223 }
-color_ui = rgb { 230 223 223 }
+color = rgb { 255 255 255 }
+color_ui = rgb { 255 255 255 }
 }
 HUN = {
 color = rgb { 225 86 77 }
@@ -493,10 +497,6 @@ color_ui = rgb { 210 116 218 }
 SLV = {
 color = rgb { 84 107 188 }
 color_ui = rgb { 84 107 188 }
-}
-AUS = {
-color = rgb { 57 186 136 }
-color_ui = rgb { 57 186 136 }
 }
 SOV = {
 color = rgb { 198 53 70 }

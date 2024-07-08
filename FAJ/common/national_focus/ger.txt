@@ -15,7 +15,7 @@ focus_tree = {
 		icon = GFX_goal_GER_byebye
 		x = 4
 		y = 0
-		cost = 1
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -34,7 +34,7 @@ focus_tree = {
 		icon = GFX_goal_GER_democracydead
 		x = 4
 		y = 1
-		cost = 4
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -55,7 +55,7 @@ focus_tree = {
 		icon = GFX_goal_GER_ikill
 		x = 4
 		y = 2
-		cost = 4
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -67,7 +67,138 @@ focus_tree = {
 										add_stability = -0.02								
 	}
 }
-	
+	#Strenghten the SigmaReichs Ministry of War
+	focus = {
+		id = GER_mow
+		icon = GFX_goal_GER_
+		x = 4
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_ikill  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										country_event = { id = GER.6 }
+										add_political_power = 40
+										add_offsite_building = { type = arms_factory level = 2 }					
+	}
+}
+
+	#Moar guns!
+	focus = {
+		id = GER_guns
+		icon = GFX_goal_GER_
+		x = 5
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_mow  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										#country_event = { id = GER. }
+										#add_political_power = 40
+										industrial_capacity_factory = 0.3
+										add_offsite_building = { type = arms_factory level = 2 }					
+	}
+}
+
+	#Build faster!
+	focus = {
+		id = GER_fastbuild
+		icon = GFX_goal_GER_
+		x = 3
+		y = 4
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_mow  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										#country_event = { id = GER. }
+										#add_political_power = 40
+										#add_offsite_building = { type = arms_factory level = 2 }
+										production_speed_military_factory_factor = 0.5
+	}
+}
+
+	#Tanks!
+	focus = {
+		id = GER_tonk
+		icon = GFX_goal_GER_
+		x = 5
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_guns  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+						research_bonus = {
+							armor = 0.4
+						}
+	}
+}
+
+	#southwestern railways
+	focus = {
+		id = GER_rail
+		icon = GFX_goal_GER_
+		x = 3
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_fastbuild  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+						build_railway = {
+							level = 1
+							build_only_on_allied = yes
+							controller_priority = {
+								base = 1
+								modifier = {
+									tag = GER
+									add = 2
+								}
+							}
+							fallback = yes
+							path = { 563 3858 3530 9717 11499 }
+							start_province = 563
+							target_province = 11499
+						}
+	}
+}
+
+	#war with bavaria
+	focus = {
+		id = GER_bavaria
+		icon = GFX_goal_GER_
+		x = 4
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_rail  }
+		prerequisite = { focus = GER_tonk  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+					country_event = { id = WNE.203 }
+					declare_war_on = {
+						target = BAY
+						type = annex_everything
+					}
+	}
+}
+
+
 	#I want this nigga dead!
 	focus = {
 		id = GER_killthisguy
@@ -102,5 +233,7 @@ focus_tree = {
 							id = GER.2
 							}
 	}
+
+}
 
 }

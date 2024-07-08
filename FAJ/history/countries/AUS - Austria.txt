@@ -1,6 +1,6 @@
-capital = 211
+capital = 199
 
-oob = ""
+oob = "generic_2021"
 TOTA_startup_funny_business_ignore_this = yes
 starting_econ_modifier_vars = yes
 set_variable = { GDP_trillion = var:GDP }
@@ -136,35 +136,35 @@ set_popularities = {
         
         
         
-        revolutionary_right = 0
+        revolutionary_right = 5
         
-        dissident_right = 10
-        liberalism = 5
+        dissident_right = 30
+        liberalism = 0
         hardline_socialism = 0
         
         autocracy = 10
         
         
-        reformist_socialism = 0
-        socdem = 35
-        technocracy = 0
+        reformist_socialism = 10
+        socdem = 0
+        technocracy = 5
 
 }
 
 set_politics = {
 	
-	ruling_party = anarchism
+	ruling_party = dissident_right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = ""
+	name = "Herbert Kickl"
 	desc = ""
 	picture = "gfx/leaders/AUS/"
 	expire = "2040.1.1"
-	ideology = mutan
+	ideology = newright
 	traits = {
 	}
 }

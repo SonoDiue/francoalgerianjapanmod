@@ -1,4 +1,5 @@
 TEX = "countries/Texas.txt"
+BAY = "countries/Bavaria.txt"
 ALA = "countries/Alabama.txt"
 BIA = "countries/Biafra.txt"
 HON = "countries/Honduras.txt"

@@ -6,13 +6,13 @@ id=819
 	
 	history={
 		victory_points = { 11544 20 }
-		owner = AUS
+		owner = BAY
 		buildings = {
             school = 2
 			infrastructure = 5
 
 		}
-		add_core_of = AUS
+		add_core_of = BAY
 	}
 	provinces={
 		561 3474 6421 6594 9416 9557 9572 11404 11417 11529 11544 13116 

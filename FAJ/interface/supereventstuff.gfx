@@ -4,6 +4,10 @@ SpriteTypes = {
 		texturefile = "gfx/interface/superevents/American Chaos.dds"
 	}
 	spriteType = {
+		name = "GFX_Super_bavaria"
+		texturefile = "gfx/interface/superevents/American Chaos.dds"
+	}
+	spriteType = {
 		name = "GFX_closebutton_super"
 		texturefile = "gfx/interface/superevents/closebutton_super.dds"
 	}

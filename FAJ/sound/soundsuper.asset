@@ -29,6 +29,11 @@ sound = {
 	file = "super_events/ussrchaos_super.wav"
 }
 sound = {
+	name = bavaria_super
+	volume = 1
+	file = "super_events/bavaria.wav"
+}
+sound = {
 	name = nikkurando
 	volume = 0.5
 	file = "super_events/nrx_japan_super.wav"

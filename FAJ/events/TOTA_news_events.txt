@@ -3848,3 +3848,34 @@ news_event = {
       name = WNE.202.a
    }
 }
+
+news_event = {
+    id = WNE.203 # sigma gooner war
+    title = WNE.203.t
+    desc = WNE.203.desc
+    #picture = GFX_Super_bavaria
+    is_triggered_only = yes
+    fire_only_once = yes
+immediate = {
+set_country_flag = event_open
+} 
+
+    option = {
+        trigger = { THIS = { has_global_flag = superevents_ok} }
+        set_variable = {
+          var = global.current_superevent
+          value = 1
+        }
+        set_global_flag = Super_Event_Visible
+		hidden_effect = {
+			sound_effect = "bavaria_super"
+		}
+      clr_country_flag = event_open
+      name = WNE.203.a
+	}
+    option = {
+        trigger = { THIS = { has_global_flag = shut_up_superevents } }
+      clr_country_flag = event_open
+      name = WNE.203.a
+	}
+}

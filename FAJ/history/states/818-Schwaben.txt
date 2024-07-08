@@ -5,13 +5,13 @@ id=818
 	state_category = metropolis
 	
 	history={
-		owner = AUS
+		owner = BAY
 		buildings = {
             school = 2
 			infrastructure = 5
 
 		}
-		add_core_of = AUS
+		add_core_of = BAY
 	}
 	provinces={
 		708 6540 9666 11638 

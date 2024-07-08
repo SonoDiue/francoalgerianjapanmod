@@ -108,9 +108,9 @@ news_event = {
 	}
 	#i want to kill myself after making this
 	
-	country_event = {
+country_event = {
 	id = SBR.2 #Siberia focus
-	title = "Sucks to suck"
+	title = "An adress to the nation"
 	desc = SBR.2.d
 	picture =
 	
@@ -244,4 +244,19 @@ country_event = {
 		name = "Long live the Republic!"
 		add_political_power = 10
 	}
+	
+#SigmaReichs Ministry of War
+country_event = {
+	id = GER.6
+	title = "GER.6.t"
+	desc = GER.6.d
+	#picture = GFX_kill_rayyan
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "placeholder"
+		#add_political_power = 10
+	}
+
 }
