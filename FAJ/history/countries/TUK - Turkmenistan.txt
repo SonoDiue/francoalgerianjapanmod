@@ -1,6 +1,8 @@
-capital = 199
+capital = 195
 
-oob = "generic_2021"
+oob = ""
+
+set_variable = { GDP = 90 } set_variable = { DEBT = 1 } set_variable = { REAL_GROWTH = 3 }
 TOTA_startup_funny_business_ignore_this = yes
 starting_econ_modifier_vars = yes
 set_variable = { GDP_trillion = var:GDP }
@@ -12,7 +14,6 @@ set_variable = { DEBT_trillion = var:DEBT }
 set_variable = { DEBT_million = var:DEBT }
 multiply_variable = { DEBT_trillion = 0.001 }
 multiply_variable = { DEBT_million = 1000 }
-set_variable = { GDP = 500 } set_variable = { DEBT = 700 } set_variable = { REAL_GROWTH = 2 }
 
 
 
@@ -126,45 +127,36 @@ set_variable = {
 var = SOCTRENDS_EA
 value = 50
 }
-tota_variable_clamping = yes
 set_convoys = 100
 
 set_popularities = {
         anarchism = 0
-        conservatism = 40
-        
-        
-        
-        
-        revolutionary_right = 5
-        
-        dissident_right = 30
-        liberalism = 0
-        hardline_socialism = 0
-        
-        autocracy = 10
-        
-        
-        reformist_socialism = 10
+        conservatism = 0
+        revolutionary_right = 20
+        dissident_right = 0
+        liberalism = 5
+        hardline_socialism = 20
+        autocracy = 0
+        reformist_socialism = 55
         socdem = 0
-        technocracy = 5
+        technocracy = 0
 
 }
 
 set_politics = {
 	
-	ruling_party = dissident_right
+	ruling_party = reformist_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Herbert Kickl"
+	name = "Mikhail Tomsky"
 	desc = ""
-	picture = "gfx/leaders/AUS/herbert.dds"
+	picture = "gfx/leaders/TUK/mikhail.dds"
 	expire = "2040.1.1"
-	ideology = newright
+	ideology = sovmarsys
 	traits = {
 	}
 }

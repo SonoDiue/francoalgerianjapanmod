@@ -6,7 +6,7 @@ id=195
 
 
 	history={
-		owner = SOV
+		owner = TUK
 		victory_points = {
 			7491 20 
 		}
@@ -15,7 +15,7 @@ id=195
 			infrastructure = 3
 
 		}
-		add_core_of = SOV
+		add_core_of = TUK
 
 	}
 

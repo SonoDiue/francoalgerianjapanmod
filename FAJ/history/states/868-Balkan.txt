@@ -6,7 +6,7 @@ id=868
 
 
 	history={
-		owner = SOV
+		owner = TUK
 		victory_points = {
 			7563 5 
 		}
@@ -20,7 +20,7 @@ id=868
 				naval_base = 3
 			}
 		}
-		add_core_of = SOV
+		add_core_of = TUK
 
 	}
 

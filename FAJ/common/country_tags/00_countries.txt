@@ -1,3 +1,4 @@
+TUK = "countries/Turkmenistan"
 TEX = "countries/Texas.txt"
 BAY = "countries/Bavaria.txt"
 ALA = "countries/Alabama.txt"

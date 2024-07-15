@@ -1,3 +1,7 @@
+TUK = {
+	color = rgb { 0  115  73 }
+	color_ui = rgb { 0  115  73 }
+}
 SBR = {
 color = rgb { 203  67  118 }
 color_ui = rgb { 98  150  60 }

@@ -260,3 +260,19 @@ country_event = {
 	}
 
 }
+
+#Death of Adam Adrishah
+country_event = {
+	id = GER.10000
+	title = "The Funeral of The SigmaFuhrer"
+	desc = GER.10000.d
+	#picture = GFX_kill_rayyan
+	
+	#is_triggered_only = yes
+
+	option = {
+		name = "placeholder"
+		#add_political_power = 10
+	}
+
+}
