@@ -244,6 +244,7 @@ country_event = {
 		name = "Long live the Republic!"
 		add_political_power = 10
 	}
+}	
 	
 #SigmaReichs Ministry of War
 country_event = {
@@ -261,18 +262,22 @@ country_event = {
 
 }
 
-#Death of Adam Adrishah
+#And I killed it
 country_event = {
-	id = GER.10000
-	title = "The Funeral of The SigmaFuhrer"
-	desc = GER.10000.d
+	id = GER.2000
+	title = "1901 Texas Red forms a new Government!"
+	desc = GER.2000.d
 	#picture = GFX_kill_rayyan
 	
-	#is_triggered_only = yes
+	is_triggered_only = yes
 
 	option = {
-		name = "placeholder"
-		#add_political_power = 10
+		name = "Welcome back Weimar Republic"
+		add_political_power = 50
+		set_politics = {
+			ruling_party = technocracy
+			elections_allowed = no
+		}
+		}
 	}
-
 }

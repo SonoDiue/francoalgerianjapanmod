@@ -3879,3 +3879,75 @@ set_country_flag = event_open
       name = WNE.203.a
 	}
 }
+
+news_event = {
+    id = WNE.2000 # Adamfuckingdies
+    title = "The Death of The Sigmafuhrer"
+    desc = WNE.2000.desc
+    picture = GFX_report_event_adamdies
+    is_triggered_only = yes
+    fire_only_once = yes
+immediate = {
+set_country_flag = event_open
+} 
+
+    option = {
+        trigger = { THIS = { has_global_flag = superevents_ok} }
+        set_variable = {
+          var = global.current_superevent
+          value = 44
+        }
+        set_global_flag = Super_Event_Visible
+		hidden_effect = {
+			sound_effect = "adamdies_super"
+		}
+      clr_country_flag = event_open
+      set_cosmetic_tag = GE1
+      load_focus_tree = hotdog  
+      name = "Mememto Mori."
+      			GER = {
+					kill_country_leader = yes	
+				}
+			GER = {
+						create_country_leader = {
+						name = "Fallen Authority"
+						desc = "ger_chair_desc"
+						picture = "gfx/leaders/GER/chair.dds"
+						expire = "2040.1.1"
+						ideology = r_acc
+						traits = {
+						}
+					}
+                    set_party_name = { 
+                        ideology = dissident_right 
+                        long_name = GER_chair_LONG
+                        name = GER_chair_SHORT
+				}
+	}
+    option = {
+        trigger = { THIS = { has_global_flag = shut_up_superevents } }
+      clr_country_flag = event_open
+        set_cosmetic_tag = GE1
+		load_focus_tree = hotdog
+      name = "Mememto Mori."
+      			GER = {
+					kill_country_leader = yes	
+				}
+                GER = {
+                    create_country_leader = {
+                    name = "Fallen Authority"
+                    desc = "ger_chair_desc"
+                    picture = "gfx/leaders/GER/chair.dds"
+                    expire = "2040.1.1"
+                    ideology = r_acc
+                    traits = {
+                    }
+                }
+                set_party_name = { 
+                    ideology = dissident_right 
+                    long_name = GER_chair_LONG
+                    name = GER_chair_SHORT
+            }
+}
+	}
+}

@@ -4,6 +4,11 @@ soundeffect = {
 	sounds = { sound = ussrchaos_super }
 }
 soundeffect = {
+	name = adamdies_super
+	#volume = 0.5
+	sounds = { sound = adamdies_super }
+}
+soundeffect = {
 	name = ussrchaos_super
 	#volume = 0.5
 	sounds = { sound = ussrchaos_super }

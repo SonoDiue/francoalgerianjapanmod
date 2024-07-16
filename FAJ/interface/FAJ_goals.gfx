@@ -32,3 +32,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GER/ikill.png"
 	}
 }
+
+spriteTypes = {
+	SpriteType = { 
+		name = "GFX_goal_GER_hotdog"
+		texturefile = "gfx/interface/goals/GER/hotdog.png"
+	}
+}

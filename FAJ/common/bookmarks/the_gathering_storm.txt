@@ -27,6 +27,9 @@ bookmarks = {
 			ideology = conservatism
 			ideas = {
 			}
+			focuses = {
+				GER_byebye
+			}
 		}
 
 		"EAF"={
@@ -34,6 +37,9 @@ bookmarks = {
 			ideology = reformist_socialism
 			ideas = {
 			}
+			focuses = {
+				EAF_longwalk
+			}	
 		}
 		"SBR"={
 			#history = "BIA_TOTA_DESC"
@@ -42,6 +48,9 @@ bookmarks = {
 				SBR_SDF
 				SBR_embargoed
 				SBR_abe
+			}
+			focuses = {
+				SBR_sucks_to_suck
 			}
 		}
 	}

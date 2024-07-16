@@ -28,6 +28,13 @@ guiTypes = {
 		}		
 		
 		iconType = {
+			name ="Super_Event_Image_adamdies"
+			spriteType = "GFX_Super_adamdies"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
 			name ="Super_Event_Image_Biafra_Wins"
 			spriteType = "GFX_Super_Biafra_Wins"
 			position = { x = 0 y = 0 }

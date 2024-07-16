@@ -24,6 +24,12 @@ category = {
  }
 }
 sound = {
+	name = adamdies_super
+	volume = 0.5
+	file = "super_events/adamdies_super.wav"
+}
+
+sound = {
 	name = ussrchaos_super
 	volume = 1
 	file = "super_events/ussrchaos_super.wav"

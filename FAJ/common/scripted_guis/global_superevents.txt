@@ -141,6 +141,9 @@
 			Super_Event_Image_ezrase_visible = {
 				check_variable = { global.current_superevent = 43 }
 			}
+			Super_Event_Image_adamdies_visible = {
+				check_variable = { global.current_superevent = 44 }
+			}
 		}
 
 		properties = {

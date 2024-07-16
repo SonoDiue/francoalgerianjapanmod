@@ -1,0 +1,42 @@
+focus_tree = {
+	id = hotdog
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	
+		#auf wiedersehen bundestag!
+	focus = {
+		id = GER_hotdog
+		icon = GFX_goal_GER_hotdog
+		x = 4
+		y = 0
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										country_event = { id = GER.2000 }
+										GER = {
+												create_country_leader = {
+												name = "1901 Texas Red"
+												desc = "ger_chair_desc"
+												picture = "gfx/leaders/GER/portrait_GER_1901.dds"
+												expire = "2040.1.1"
+												ideology = algolib
+												traits = {
+												}
+											}
+											set_party_name = { 
+												ideology = technocracy
+												long_name = GER_hotdog_LONG
+												name = GER_hotdog_SHORT
+										}
+							}
+	}
+}
