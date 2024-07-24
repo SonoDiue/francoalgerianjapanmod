@@ -43,7 +43,6 @@ replace_path="common/military_industrial_organization/organizations"
 replace_path="common/military_industrial_organization/policies"
 replace_path="common/autonomous_states"
 replace_path="common/operations"
-replace_path="gfx/loadingscreens"
 tags={
 	"Alternative History"
 	"Gameplay"

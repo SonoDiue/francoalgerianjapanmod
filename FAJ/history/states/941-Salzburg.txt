@@ -12,7 +12,7 @@ state={
 #pastoral rural town large_town city large_city metropolis megalopolis
 	state_category=large_city
 	history={
-		owner = AUS
+		owner = BAY
 		buildings = {
 			school = 2
 			infrastructure = 5
@@ -20,6 +20,6 @@ state={
 		victory_points = {
 			688 10
 		}
-		add_core_of = AUS
+		add_core_of = BAY
 	}
 }

@@ -13,7 +13,7 @@ focus_tree = {
 	focus = {
 		id = GER_byebye
 		icon = GFX_goal_GER_byebye
-		x = 4
+		x = 7
 		y = 0
 		cost = 2
 		search_filters = {
@@ -32,7 +32,7 @@ focus_tree = {
 	focus = {
 		id = GER_democracydead
 		icon = GFX_goal_GER_democracydead
-		x = 4
+		x = 7
 		y = 1
 		cost = 3
 		search_filters = {
@@ -53,7 +53,7 @@ focus_tree = {
 	focus = {
 		id = GER_ikill
 		icon = GFX_goal_GER_ikill
-		x = 4
+		x = 7
 		y = 2
 		cost = 3
 		search_filters = {
@@ -71,7 +71,7 @@ focus_tree = {
 	focus = {
 		id = GER_mow
 		icon = GFX_goal_GER_
-		x = 4
+		x = 7
 		y = 3
 		cost = 3
 		search_filters = {
@@ -86,117 +86,288 @@ focus_tree = {
 	}
 }
 
-	#Moar guns!
-	focus = {
-		id = GER_guns
-		icon = GFX_goal_GER_
-		x = 5
-		y = 4
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = GER_mow  }
-		ai_will_do = { factor = 1 }
-				completion_reward = {
-										#country_event = { id = GER. }
-										#add_political_power = 40
-										industrial_capacity_factory = 0.3
-										add_offsite_building = { type = arms_factory level = 2 }					
-	}
-}
-
-	#Build faster!
-	focus = {
-		id = GER_fastbuild
-		icon = GFX_goal_GER_
-		x = 3
-		y = 4
-		cost = 4
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = GER_mow  }
-		ai_will_do = { factor = 1 }
-				completion_reward = {
-										#country_event = { id = GER. }
-										#add_political_power = 40
-										#add_offsite_building = { type = arms_factory level = 2 }
-										production_speed_military_factory_factor = 0.5
-	}
-}
-
-	#Tanks!
-	focus = {
-		id = GER_tonk
-		icon = GFX_goal_GER_
-		x = 5
-		y = 5
-		cost = 4
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = GER_guns  }
-		ai_will_do = { factor = 1 }
-				completion_reward = {
-						research_bonus = {
-							armor = 0.4
-						}
-	}
-}
-
-	#southwestern railways
-	focus = {
-		id = GER_rail
-		icon = GFX_goal_GER_
-		x = 3
-		y = 5
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = GER_fastbuild  }
-		ai_will_do = { factor = 1 }
-				completion_reward = {
-						build_railway = {
-							level = 1
-							build_only_on_allied = yes
-							controller_priority = {
-								base = 1
-								modifier = {
-									tag = GER
-									add = 2
-								}
-							}
-							fallback = yes
-							path = { 563 3858 3530 9717 11499 }
-							start_province = 563
-							target_province = 11499
-						}
-	}
-}
-
-	#war with bavaria
+	#The Bavarian Gambit
 	focus = {
 		id = GER_bavaria
 		icon = GFX_goal_GER_
-		x = 4
-		y = 6
-		cost = 5
+		x = 7
+		y = 4
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = GER_rail  }
-		prerequisite = { focus = GER_tonk  }
+		prerequisite = { focus = GER_mow  }
 		ai_will_do = { factor = 1 }
 				completion_reward = {
-					country_event = { id = WNE.203 }
-					declare_war_on = {
-						target = BAY
-						type = annex_everything
-					}
+										#country_event = { id = GER.6 }
+
 	}
 }
+
+	#The Hail Mary
+	focus = {
+		id = GER_planmary
+		icon = GFX_goal_GER_
+		x = 7
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_bavaria  }
+		mutually_exclusive = {
+			focus = GER_conquer
+			focus = GER_macarena
+			focus = GER_planmary
+		}
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										#country_event = { id = GER.6 }
+															
+	}
+}
+
+	#PLan Macarena
+	focus = {
+		id = GER_macarena
+		icon = GFX_goal_GER_
+		x = 11
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_bavaria  }
+		mutually_exclusive = {
+			focus = GER_conquer
+			focus = GER_macarena
+			focus = GER_planmary
+		}
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										#country_event = { id = GER.6 }
+															
+	}
+}
+
+	#Hang out the washing on the Augsburg Nuremburg Bayreuth line
+	focus = {
+		id = GER_conquer
+		icon = GFX_goal_GER_
+		x = 3
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_bavaria  }
+		mutually_exclusive = {
+			focus = GER_conquer
+			focus = GER_macarena
+			focus = GER_planmary
+		}
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										#country_event = { id = GER.6 }
+															
+	}
+}
+
+	#arty!
+	focus = {
+		id = GER_arty
+		icon = GFX_goal_GER_
+		x = 6
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_planmary  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										#country_event = { id = GER.6 }
+															
+	}
+}
+
+	#CAS!
+	focus = {
+		id = GER_cas
+		icon = GFX_goal_GER_
+		x = 8
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_planmary  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										#country_event = { id = GER.6 }
+															
+	}
+}
+
+	#Where is my friend the Bombers?
+	focus = {
+		id = GER_bombers
+		icon = GFX_goal_GER_
+		x = 10
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_macarena  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										#country_event = { id = GER.6 }
+															
+	}
+}
+
+	#SS Commandos
+	focus = {
+		id = GER_commando
+		icon = GFX_goal_GER_
+		x = 12
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_macarena  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										#country_event = { id = GER.6 }
+															
+	}
+}
+
+	#shock troops!
+	focus = {
+		id = GER_shock
+		icon = GFX_goal_GER_
+		x = 2
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_conquer  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										#country_event = { id = GER.6 }
+															
+	}
+}
+
+	#Our Friends In Austria
+	focus = {
+		id = GER_austrian_friends
+		icon = GFX_goal_GER_
+		x = 3
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_conquer  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										#country_event = { id = GER.6 }
+															
+	}
+}
+
+	#Scorched Earth.
+	focus = {
+		id = GER_burn
+		icon = GFX_goal_GER_
+		x = 4
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_conquer  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										#country_event = { id = GER.6 }
+															
+	}
+}
+
+	#Bavaria Calling.
+	focus = {
+		id = GER_bavariacalling
+		icon = GFX_goal_GER_
+		x = 7
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_arty  }
+		prerequisite = { focus = GER_cas  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										#country_event = { id = GER.6 }
+															
+	}
+}
+
+	#Lets roll.
+	focus = {
+		id = GER_letsroll
+		icon = GFX_goal_GER_
+		x = 11
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_bombers  }
+		prerequisite = { focus = GER_commando  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										#country_event = { id = GER.6 }
+															
+	}
+}
+
+	#A call to our friends in Austria
+	focus = {
+		id = GER_a_call_to_austria
+		icon = GFX_goal_GER_
+		x = 3
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_shock  }
+		prerequisite = { focus = GER_burn  }
+		prerequisite = { focus = GER_austrian_friends  }
+		ai_will_do = { factor = 1 }
+				completion_reward = {
+										#country_event = { id = GER.6 }
+															
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	#I want this nigga dead!
@@ -204,7 +375,7 @@ focus_tree = {
 		id = GER_killthisguy
 		icon = GFX_SBR_sucks_to_suck
 		available = { date > 2022.1.1 }
-		x = 9
+		x = 14
 		y = 7
 		cost = 1
 		search_filters = {
@@ -220,7 +391,7 @@ focus_tree = {
 	focus = {
 		id = GER_behead_the_devil
 		icon = GFX_GER_kill_rayyan
-		x = 9
+		x = 14
 		y = 8
 		cost = 1
 		prerequisite = { focus = GER_killthisguy  }
@@ -236,4 +407,13 @@ focus_tree = {
 
 }
 
+
+
+
+
+
+
+
+
+#END
 }
