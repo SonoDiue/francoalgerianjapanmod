@@ -137,33 +137,33 @@ set_convoys = 100
 
 set_popularities = {
         anarchism = 0
-        conservatism = 20
-        revolutionary_right = 0
-        dissident_right = 10
-        liberalism = 25
+        conservatism = 5
+        revolutionary_right = 60
+        dissident_right = 5
+        liberalism = 0
         hardline_socialism = 0
         autocracy = 10
         reformist_socialism = 0
-        socdem = 26
-        technocracy = 9
+        socdem = 5
+        technocracy = 5
 
 }
 set_country_flag = has_double_leader
 set_country_flag = zaher
 set_politics = {
 	
-	ruling_party = socdem
+	ruling_party = revolutionary_right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Bilawal Bhutto Zardari"
-	desc = "POLITICS_J_LEENEY_DESC"
-	picture = "gfx/leaders/PAK/Bilawal Bhutto Zardari.dds"
+	name = "Qadri"
+	desc = ""
+	picture = "gfx/leaders/PAK/qadri.dds"
 	expire = "2040.1.1"
-	ideology = progre
+	ideology = natthirdpos
 	traits = {
 	}
 }

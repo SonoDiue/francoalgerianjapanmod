@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = PHL
+		owner = PHI
 		buildings = {
 			school = 2
 			infrastructure = 3
@@ -23,7 +23,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = PHL
+		add_core_of = PHI
 		victory_points = {
 			10243 20 #Cagayan de Oro 
 		}
