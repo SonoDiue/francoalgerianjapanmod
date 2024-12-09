@@ -1,0 +1,152 @@
+objectTypes = {
+    pdxmesh = {
+        name = "GUMP"
+        file = "gfx/models/units/GUMP1.mesh"
+        animation = { id = "attack" type = "GUMP_Walking" }	
+        animation = { id = "idle" type = "GUMP_Standing" }	
+        animation = { id = "Blank" type = "GUMP_Blank" }				
+        scale = 1.0
+    }
+}	
+objectTypes = {
+    pdxmesh = {
+        name = "DOZER"
+        file = "gfx/models/units/DOZER1.mesh"
+        animation = { id = "attack" type = "DOZER_ATTACK" }	
+        animation = { id = "idle" type = "DOZER_idle" }	
+        animation = { id = "move" type = "DOZER_walk" }				
+        scale = 1.0
+    }
+    pdxmesh = {
+        name = "BOXER"
+        file = "gfx/models/units/BOXER.mesh"
+        animation = { id = "attack" type = "BOXERATK" }	
+        animation = { id = "idle" type = "BOXERSTND" }	
+        animation = { id = "move" type = "BOXERWLK" }				
+        scale = 1.0
+    }
+	pdxmesh = {
+		name = "generic_western_european_rifle_infantry_mesh"
+		file = "gfx/models/units/mang.mesh"
+
+		animation = { id = "idle"			type = "SOLDIDLE" }
+		animation = { id = "attack"			type = "SOLDATTACK1" }
+		animation = { id = "support_attack"	type = "SOLDATTACK1" }
+		animation = { id = "charge_rifle"	type = "SOLDATTACK2" }
+		animation = { id = "charge_rifle_shoot"	type = "SOLDATTACK2" }
+		animation = { id = "move"			type = "SOLDMOVE" }
+		animation = { id = "march_move"		type = "SOLDMOVE" }
+		animation = { id = "retreat"		type = "SOLDRETREAT" }
+		animation = { id = "death"			type = "SOLDRETREAT" }
+		animation = { id = "long_idle01"	type = "SOLDIDLE2" }
+		animation = { id = "long_idle02"	type = "SOLDIDLE3" }
+		animation = { id = "long_idle03"	type = "SOLDIDLE2" }
+		animation = { id = "long_idle04"	type = "SOLDIDLE3" }
+		animation = { id = "long_idle05"	type = "SOLDIDLE2" }
+		animation = { id = "training"		type = "SOLDTRAIN" }
+		animation = { id = "jumping_jacks"	type = "SOLDTRAIN" }
+		animation = { id = "pushup"			type = "SOLDTRAIN" }
+		animation = { id = "guard_rifle"	type = "SOLDIDLE2" }
+		animation = { id = "aim_exercise"	type = "SOLDIDLE2" }
+	}
+	pdxmesh = {
+		name = "NGA_manng"
+		file = "gfx/models/units/NGA_mang.mesh"
+
+		animation = { id = "idle"			type = "SOLDIDLE" }
+		animation = { id = "attack"			type = "SOLDATTACK1" }
+		animation = { id = "support_attack"	type = "SOLDATTACK1" }
+		animation = { id = "charge_rifle"	type = "SOLDATTACK2" }
+		animation = { id = "charge_rifle_shoot"	type = "SOLDATTACK2" }
+		animation = { id = "move"			type = "SOLDMOVE" }
+		animation = { id = "march_move"		type = "SOLDMOVE" }
+		animation = { id = "retreat"		type = "SOLDRETREAT" }
+		animation = { id = "death"			type = "SOLDRETREAT" }
+		animation = { id = "long_idle01"	type = "SOLDIDLE2" }
+		animation = { id = "long_idle02"	type = "SOLDIDLE3" }
+		animation = { id = "long_idle03"	type = "SOLDIDLE2" }
+		animation = { id = "long_idle04"	type = "SOLDIDLE3" }
+		animation = { id = "long_idle05"	type = "SOLDIDLE2" }
+		animation = { id = "training"		type = "SOLDTRAIN" }
+		animation = { id = "jumping_jacks"	type = "SOLDTRAIN" }
+		animation = { id = "pushup"			type = "SOLDTRAIN" }
+		animation = { id = "guard_rifle"	type = "SOLDIDLE2" }
+		animation = { id = "aim_exercise"	type = "SOLDIDLE2" }
+	}
+	pdxmesh = {
+		name = "MSK_manng"
+		file = "gfx/models/units/MSK_mang.mesh"
+
+		animation = { id = "idle"			type = "SOLDIDLE" }
+		animation = { id = "attack"			type = "SOLDATTACK1" }
+		animation = { id = "support_attack"	type = "SOLDATTACK1" }
+		animation = { id = "charge_rifle"	type = "SOLDATTACK2" }
+		animation = { id = "charge_rifle_shoot"	type = "SOLDATTACK2" }
+		animation = { id = "move"			type = "SOLDMOVE" }
+		animation = { id = "march_move"		type = "SOLDMOVE" }
+		animation = { id = "retreat"		type = "SOLDRETREAT" }
+		animation = { id = "death"			type = "SOLDRETREAT" }
+		animation = { id = "long_idle01"	type = "SOLDIDLE2" }
+		animation = { id = "long_idle02"	type = "SOLDIDLE3" }
+		animation = { id = "long_idle03"	type = "SOLDIDLE2" }
+		animation = { id = "long_idle04"	type = "SOLDIDLE3" }
+		animation = { id = "long_idle05"	type = "SOLDIDLE2" }
+		animation = { id = "training"		type = "SOLDTRAIN" }
+		animation = { id = "jumping_jacks"	type = "SOLDTRAIN" }
+		animation = { id = "pushup"			type = "SOLDTRAIN" }
+		animation = { id = "guard_rifle"	type = "SOLDIDLE2" }
+		animation = { id = "aim_exercise"	type = "SOLDIDLE2" }
+	}
+	pdxmesh = {
+		name = "ISP_manng"
+		file = "gfx/models/units/ISP_mang.mesh"
+
+		animation = { id = "idle"			type = "SOLDIDLE" }
+		animation = { id = "attack"			type = "SOLDATTACK1" }
+		animation = { id = "support_attack"	type = "SOLDATTACK1" }
+		animation = { id = "charge_rifle"	type = "SOLDATTACK2" }
+		animation = { id = "charge_rifle_shoot"	type = "SOLDATTACK2" }
+		animation = { id = "move"			type = "SOLDMOVE" }
+		animation = { id = "march_move"		type = "SOLDMOVE" }
+		animation = { id = "retreat"		type = "SOLDRETREAT" }
+		animation = { id = "death"			type = "SOLDRETREAT" }
+		animation = { id = "long_idle01"	type = "SOLDIDLE2" }
+		animation = { id = "long_idle02"	type = "SOLDIDLE3" }
+		animation = { id = "long_idle03"	type = "SOLDIDLE2" }
+		animation = { id = "long_idle04"	type = "SOLDIDLE3" }
+		animation = { id = "long_idle05"	type = "SOLDIDLE2" }
+		animation = { id = "training"		type = "SOLDTRAIN" }
+		animation = { id = "jumping_jacks"	type = "SOLDTRAIN" }
+		animation = { id = "pushup"			type = "SOLDTRAIN" }
+		animation = { id = "guard_rifle"	type = "SOLDIDLE2" }
+		animation = { id = "aim_exercise"	type = "SOLDIDLE2" }
+	}
+	pdxmesh = {
+		name = "BIA_manng"
+		file = "gfx/models/units/BIA_mang.mesh"
+
+		animation = { id = "idle"			type = "SOLDIDLE" }
+		animation = { id = "attack"			type = "SOLDATTACK1" }
+		animation = { id = "support_attack"	type = "SOLDATTACK1" }
+		animation = { id = "charge_rifle"	type = "SOLDATTACK2" }
+		animation = { id = "charge_rifle_shoot"	type = "SOLDATTACK2" }
+		animation = { id = "move"			type = "SOLDMOVE" }
+		animation = { id = "march_move"		type = "SOLDMOVE" }
+		animation = { id = "retreat"		type = "SOLDRETREAT" }
+		animation = { id = "death"			type = "SOLDRETREAT" }
+		animation = { id = "long_idle01"	type = "SOLDIDLE2" }
+		animation = { id = "long_idle02"	type = "SOLDIDLE3" }
+		animation = { id = "long_idle03"	type = "SOLDIDLE2" }
+		animation = { id = "long_idle04"	type = "SOLDIDLE3" }
+		animation = { id = "long_idle05"	type = "SOLDIDLE2" }
+		animation = { id = "training"		type = "SOLDTRAIN" }
+		animation = { id = "jumping_jacks"	type = "SOLDTRAIN" }
+		animation = { id = "pushup"			type = "SOLDTRAIN" }
+		animation = { id = "guard_rifle"	type = "SOLDIDLE2" }
+		animation = { id = "aim_exercise"	type = "SOLDIDLE2" }
+	}
+	pdxmesh = {
+		name = "gunnnn"
+		file = "gfx/models/units/gun.mesh"
+	}
+}	

@@ -1,6 +1,6 @@
 ﻿capital = 213
 
-oob = "generic_2021"
+oob = "GER"
 
 set_variable = { GDP = 1200 } set_variable = { DEBT = 0 } set_variable = { REAL_GROWTH = 0 }
 TOTA_startup_funny_business_ignore_this = yes
@@ -142,6 +142,11 @@ set_popularities = {
         socdem = 0
         technocracy = 25
 
+}
+
+add_ideas = {
+	GER_FSGW
+	FAJ_member
 }
 
 set_politics = {

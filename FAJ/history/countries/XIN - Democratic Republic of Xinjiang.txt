@@ -125,12 +125,12 @@ set_convoys = 10
 set_popularities = {
         anarchism = 0
         conservatism = 0
-        revolutionary_right = 15
+        revolutionary_right = 45
         dissident_right = 0
-        liberalism = 20
-        hardline_socialism = 10
-        autocracy = 0
-        reformist_socialism = 55
+        liberalism = 0
+        hardline_socialism = 5
+        autocracy = 40
+        reformist_socialism = 10
         socdem = 0
         technocracy = 0
 
@@ -138,16 +138,16 @@ set_popularities = {
 
 set_politics = {
 	
-	ruling_party = reformist_socialism
+	ruling_party = autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Ilham Tohti"
+	name = "PLA Authority"
 	desc = ""
-	picture = "gfx/leaders/XIN/Ilham Tohti.dds"
+	picture = "gfx/leaders/XIN/PLA.dds"
 	expire = "2040.1.1"
-	ideology = sovmarsys
+	ideology = milgov
 }

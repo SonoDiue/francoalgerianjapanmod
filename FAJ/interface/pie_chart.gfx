@@ -11,6 +11,6 @@ SpriteTypes = {
 	spriteType = {
 		name = "GFX_factions_spritesheet"
 		texturefile = "gfx/interface/ideas/factions/factions_spritesheet.dds"
-		noOfFrames = 12 #frames 1-5 are NATO, frames 6-8 are PAFCPG, frames 9-12 are WTO
+		noOfFrames = 18 #frames 1-5 are NATO, frames 6-8 are PAFCPG, frames 9-12 are WTO
 	}
 }

@@ -160,6 +160,7 @@ add_ideas = {
 	closed_economy
 	service_by_requirement
 	low_economic_mobilisation
+	FAJ_member
 }
 
 recruit_character = Josnd

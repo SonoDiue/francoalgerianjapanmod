@@ -14,6 +14,17 @@ guiTypes = {
 			pdx_tooltip = "ECON_TOOLTIP_TOPBAR"
 			shortcut = "g"
 		}
+		buttonType = {
+			name = "gift_economy_button"
+			quadTextureSprite ="GFX_topbar_economy_gift"
+		#	position = { x= -104 y = 0 }
+			position = { x= 396 y = 0 }
+			Orientation = "UPPER_LEFT"
+			clicksound = click_close
+			oversound = ui_menu_over
+			pdx_tooltip = "ECON_TOOLTIP_TOPBAR_GIFT"
+			shortcut = "g"
+		}
 	
 		buttonType = {
 			name = "soctrends_button"
@@ -42,7 +53,17 @@ guiTypes = {
 			pdx_tooltip = "ECON_TOOLTIP_TOPBAR"
 			shortcut = "g"
 		}
-	
+		buttonType = {
+			name = "gift_economy_button"
+			quadTextureSprite ="GFX_topbar_economy_gift"
+		#	position = { x= -104 y = 0 }
+			position = { x= 396 y = 0 }
+			Orientation = "UPPER_LEFT"
+			clicksound = click_close
+			oversound = ui_menu_over
+			pdx_tooltip = "ECON_TOOLTIP_TOPBAR_GIFT"
+			shortcut = "g"
+		}
 		buttonType = {
 			name = "soctrends_button"
 			quadTextureSprite ="GFX_topbar_soctrends"

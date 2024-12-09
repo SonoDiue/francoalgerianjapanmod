@@ -24,6 +24,7 @@ ENG_oil_gas_broker
 ENG_post_industrial_blues
 ENG_postwar_comp_heritage
 ENG_disunited_union
+FAJ_member
 }
 puppet = HKG
 #starting tech

@@ -106,29 +106,29 @@ interwar_artillery = 1
 
 
 }
-create_faction = COPRO_SPHERE
-JAP = { add_to_faction = QIE }
-JAP = { add_to_faction = SVI }
-JAP = { add_to_faction = IND }
-JAP = { add_to_faction = PHL }
-JAP = { add_to_faction = KMP }
-JAP = { add_to_faction = SRW }
-JAP = { add_to_faction = SIA }
-JAP = { add_to_faction = PLK }
-set_variable = { JAP.FACTIONSTATUS = 7 }
-set_variable = { SVI.FACTIONSTATUS = 6 }
-set_variable = { IND.FACTIONSTATUS = 6 }
-set_variable = { PHL.FACTIONSTATUS = 6 }
-set_variable = { KMP.FACTIONSTATUS = 8 }
-set_variable = { SRW.FACTIONSTATUS = 6 }
-set_variable = { SIA.FACTIONSTATUS = 6 }
-set_variable = { PLK.FACTIONSTATUS = 6 }
-set_variable = { CAL.FACTIONSTATUS = 8 }
-set_variable = { AST.FACTIONSTATUS = 8 }
-set_variable = { NZL.FACTIONSTATUS = 8 }
-set_variable = { PGN.FACTIONSTATUS = 8 }
-set_variable = { BUR.FACTIONSTATUS= 6 }
-set_variable = { BNG.FACTIONSTATUS = 8 }
+#create_faction = COPRO_SPHERE
+#JAP = { add_to_faction = QIE }
+#JAP = { add_to_faction = SVI }
+#JAP = { add_to_faction = IND }
+#JAP = { add_to_faction = PHL }
+#JAP = { add_to_faction = KMP }
+#JAP = { add_to_faction = SRW }
+#JAP = { add_to_faction = SIA }
+#JAP = { add_to_faction = PLK }
+#set_variable = { JAP.FACTIONSTATUS = 7 }
+#set_variable = { SVI.FACTIONSTATUS = 6 }
+#set_variable = { IND.FACTIONSTATUS = 6 }
+#set_variable = { PHL.FACTIONSTATUS = 6 }
+#set_variable = { KMP.FACTIONSTATUS = 8 }
+#set_variable = { SRW.FACTIONSTATUS = 6 }
+#set_variable = { SIA.FACTIONSTATUS = 6 }
+#set_variable = { PLK.FACTIONSTATUS = 6 }
+#set_variable = { CAL.FACTIONSTATUS = 8 }
+#set_variable = { AST.FACTIONSTATUS = 8 }
+#set_variable = { NZL.FACTIONSTATUS = 8 }
+#set_variable = { PGN.FACTIONSTATUS = 8 }
+#set_variable = { BUR.FACTIONSTATUS= 6 }
+#set_variable = { BNG.FACTIONSTATUS = 8 }
 
 
 add_ideas = {

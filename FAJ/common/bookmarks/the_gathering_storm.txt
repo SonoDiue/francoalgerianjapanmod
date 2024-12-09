@@ -2,55 +2,46 @@ bookmarks = {
 	bookmark = {
 		name = "TOTA_NAME"
 		#desc = "TOTA_DESC"
-		date = 2021.1.1.12
+		date = 2025.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "SBR"
 		default = yes
 
 		"HON"={
-			#history = "SEY_TOTA_DESC"
+			#history = "HON_FAJ_DESC"
 			ideology = autocracy
 			ideas = {
-			HON_population_loss
+			HON_SS
 			HON_football_humiliation
 			HON_UFC
 			}
 		}
 		"ENG"={
-			#history = "SEY_TOTA_DESC"
+			#history = "ENG_FAJ_DESC"
 			ideology = autocracy
 			ideas = {
 			}
 		}
 		"GER"={
-			#history = "SAF_TOTA_DESC"
-			ideology = conservatism
+			#history = "GER_FAJ_DESC"
+			ideology = revolutionary_right
 			ideas = {
-			}
-			focuses = {
-				GER_byebye
 			}
 		}
 
 		"EAF"={
-			#history = "SEY_TOTA_DESC"
+			#history = "EAF_FAJ_DESC"
 			ideology = reformist_socialism
 			ideas = {
 			}
-			focuses = {
-				EAF_longwalk
-			}	
 		}
 		"SBR"={
-			#history = "BIA_TOTA_DESC"
+			#history = "SBR_FAJ_DESC"
 			ideology = autocracy
 			ideas = {
 				SBR_SDF
 				SBR_embargoed
 				SBR_abe
-			}
-			focuses = {
-				SBR_sucks_to_suck
 			}
 		}
 	}

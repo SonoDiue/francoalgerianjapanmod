@@ -1187,16 +1187,16 @@ color = rgb { 234 140 0 }
 color_ui = rgb { 234 140 0 }
 }
 TIB = {
-color = rgb { 199 199 199 }
-color_ui = rgb { 199 199 199 }
+color = rgb { 214 59 97 }
+color_ui = rgb { 214 59 97 }
 }
 SRW = {
 color = rgb { 236 194 112 }
 color_ui = rgb { 236 194 112 }
 }
 XIN = {
-color = rgb { 46 176 226 }
-color_ui = rgb { 46 176 226 }
+color = rgb { 214 59 97 }
+color_ui = rgb { 214 59 97 }
 }
 PGN = {
 color = rgb { 211 21 20 }

@@ -81,12 +81,6 @@ guiTypes = {
 			position = { x = 0 y = -2 }
 		}
 
-		iconType = {
-			name ="army_item_frame"
-			quadTextureSprite = "GFX_theatre_army_shield_selected"	
-			alwaystransparent = yes
-			position = { x = -1 y = -2 }
-		}
 
 		iconType = {
 			name ="orders_group_item_training"
@@ -205,7 +199,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "theater_group_item"
-		position = { x=430 y=15 }
+		position = { x=520 y=15 }
 		size = { width=300 height=80 }
 		
 		iconType = {
@@ -214,13 +208,7 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			frame = 2
 		}
-		
-		iconType = {
-			name ="selected_theatre_frame"
-			quadTextureSprite = "GFX_selected_theatre_frame"	
-			position = { x = 0 y = 2 }
-			alwaystransparent = yes
-		}
+
 		
  		buttonType = {
 			name = "assign_button"
@@ -236,18 +224,18 @@ guiTypes = {
 				
 		instantTextBoxType = {
 			name = "armies_count_box"
-			position = { x = 256 y = 46 }
+			position = { x = 0 y = 46 }
 			font = "sf_18mbs"
-			maxWidth = 40
-			maxHeight = 32
+			maxWidth = 1
+			maxHeight = 1
 			fixedsize = yes
 			format = right
 		}
 
 		editBoxType = {
 			name = "name_box"
-			position = { x = 38 y = 13 }
-			font = "sf_18mbs"
+			position = { x = 80 y = 13 }
+			font = "sf_14"
 			size = { x=145 y=32 }
 			text = "NEW_THEATER_GROUP"
 		}
@@ -280,7 +268,7 @@ guiTypes = {
 		buttonType = {
 			name ="attack_combat_btn"
 			spriteType = "GFX_theatre_battle_indicator"
-			position = { x = 232 y = 13 }
+			position = { x = 160 y = 44 }
 			frame = 1
 			scale= 0.9
 		}
@@ -300,14 +288,14 @@ guiTypes = {
 		buttonType = {
 			name ="combat_logs_btn"
 			spriteType = "GFX_theatre_combat_log_icon"
-			position = { x = 209 y = 5 }
+			position = { x = 209 y = 40 }
 			scale = 0.9
 		}
 		
 		buttonType = {
 			name ="defence_combat_btn"
 			spriteType = "GFX_theatre_battle_indicator"
-			position = { x = 269 y = 13 }
+			position = { x = 120 y = 44 }
 			frame = 2
 			scale = 0.9
 		}
@@ -643,7 +631,7 @@ guiTypes = {
 			position = { x = -50 y = -57 }
 			Orientation = "LOWER_RIGHT"	
 			buttonText = "5"
-			buttonfont = "sf_20b"
+			buttonFont = "sf_20b"
 			format = centre			
 		}
 
@@ -690,7 +678,7 @@ guiTypes = {
 			name = "priority_3"
 			Orientation = "UPPER_RIGHT"		
 			position = { x=-85 y=41 }
-			buttonfont = "sf_16mbs"
+			buttonFont = "sf_16mbs"
 			quadTextureSprite = "GFX_deploy_priority"
 			frame = 1
 			pdx_tooltip = "HIGH_PRIORITY"
@@ -700,7 +688,7 @@ guiTypes = {
 			name = "priority_2"
 			Orientation = "UPPER_RIGHT"		
 			position = { x=-105 y=41 }
-			buttonfont = "sf_16mbs"
+			buttonFont = "sf_16mbs"
 			quadTextureSprite = "GFX_deploy_priority"
 			frame = 1
 			pdx_tooltip = "MEDIUM_PRIORITY"
@@ -710,7 +698,7 @@ guiTypes = {
 			name = "priority_1"
 			Orientation = "UPPER_RIGHT"		
 			position = { x=-125 y=41 }
-			buttonfont = "sf_16mbs"
+			buttonFont = "sf_16mbs"
 			quadTextureSprite = "GFX_deploy_priority"
 			frame = 1
 			pdx_tooltip = "LOW_PRIORITY"
@@ -914,7 +902,7 @@ guiTypes = {
 		buttonType = {
 			name = "priority_1"
 			position = { x=225 y=13 }
-			buttonfont = "sf_16mbs"
+			buttonFont = "sf_16mbs"
 			quadTextureSprite = "GFX_deploy_priority"
 			frame = 1
 			clicksound = click_default
@@ -922,7 +910,7 @@ guiTypes = {
 		buttonType = {
 			name = "priority_2"
 			position = { x=247 y=13 }
-			buttonfont = "sf_16mbs"
+			buttonFont = "sf_16mbs"
 			quadTextureSprite = "GFX_deploy_priority"
 			frame = 1
 			clicksound = click_default
@@ -930,7 +918,7 @@ guiTypes = {
 		buttonType = {
 			name = "priority_3"
 			position = { x=269 y=13 }
-			buttonfont = "sf_16mbs"
+			buttonFont = "sf_16mbs"
 			quadTextureSprite = "GFX_deploy_priority"
 			frame = 1
 			clicksound = click_default
@@ -992,7 +980,7 @@ guiTypes = {
 		buttonType = {
 			name = "priority_1"
 			position = { x=225 y=13 }
-			buttonfont = "sf_16mbs"
+			buttonFont = "sf_16mbs"
 			quadTextureSprite = "GFX_deploy_priority"
 			frame = 1
 			clicksound = click_default
@@ -1000,7 +988,7 @@ guiTypes = {
 		buttonType = {
 			name = "priority_2"
 			position = { x=247 y=13 }
-			buttonfont = "sf_16mbs"
+			buttonFont = "sf_16mbs"
 			quadTextureSprite = "GFX_deploy_priority"
 			frame = 1
 			clicksound = click_default
@@ -1008,7 +996,7 @@ guiTypes = {
 		buttonType = {
 			name = "priority_3"
 			position = { x=269 y=13 }
-			buttonfont = "sf_16mbs"
+			buttonFont = "sf_16mbs"
 			quadTextureSprite = "GFX_deploy_priority"
 			frame = 1
 			clicksound = click_default
@@ -1039,13 +1027,6 @@ guiTypes = {
 			maxHeight = 32
 			fixedsize = yes
 			format = right
-		}
-
-		iconType = {
-			name ="selected_theatre_frame"
-			quadTextureSprite = "GFX_selected_theatre_frame"
-			position = { x = 0 y = 2 }
-			alwaystransparent = yes
 		}
 
 		gridBoxType = {
@@ -1098,12 +1079,6 @@ guiTypes = {
 			position = { x = 0 y = -2 }
 		}
 
-		iconType = {
-			name ="selected_group_frame"
-			quadTextureSprite = "GFX_theatre_army_shield_selected"
-			alwaystransparent = yes
-			position = { x = -1 y = -2 }
-		}
 
 		instantTextBoxType = {
 			name = "air_wing_count_box"

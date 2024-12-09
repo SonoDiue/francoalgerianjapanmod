@@ -12,13 +12,13 @@ id=92
 		victory_points = {
 			4978 5 
 		}
-		owner = FRA
+		owner = TRP
 		buildings = {
             school = 2
 			infrastructure = 3
 
 		}
-		add_core_of = FRA
+		add_core_of = TRP
 
 	}
 

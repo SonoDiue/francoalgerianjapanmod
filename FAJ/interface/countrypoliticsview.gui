@@ -93,7 +93,52 @@ guiTypes = {
 				scale = 1
 			}
 		}
-
+		containerWindowType = {
+			name = "national_spirit"
+			position = { x = 81 y = 153 }
+			size = { width = 360 height = 50 }
+			clipping = no
+						
+			instantTextboxType = {
+				name = "title"
+				position = { x = 110 y = -6 }
+				font = "sf_18mbs"
+				text = "POLITICS_NATIONAL_SPIRIT"
+				maxWidth = 200
+				maxHeight = 20
+				alwaystransparent = yes
+			}
+			
+			
+			containerWindowType = {
+				name = "national_spirit_container"
+				position = { x = 99 y = 16 }
+				size = { width = 364 height = 125 }
+				verticalScrollbar = "right_vertical_slider"
+				
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+				
+				gridboxtype = {
+					name = "spirit_grid"
+					position = { x = 10 y = 0 }
+					size = { width = 354 height = 82 }
+					slotsize = { width = 85 height = 82 }
+					max_slots = { x = 4 y = 3 }
+					format = "UPPER_LEFT"
+				}
+				gridboxtype = {
+					name = "spirit_grid_over_defined"
+					position = { x = 10 y = 1 }
+					size = { width = 330 height = 68 }
+					slotsize = { width = 33 height = 34 }
+					max_slots_horizontal = 10
+					format = "UPPER_LEFT"
+				}
+			}
+		}
 		containerWindowType = {
 			name = "exile_info_container"
 			position = { x = -145 y = 241 }
@@ -107,7 +152,7 @@ guiTypes = {
 			}
 		}
 		
-		containerWindowType = {
+		containerWindowType = {	
 			name = "ruling_party_info"
 			position = { x = 88 y = 305 }
 			size = { width = 255 height = 60 }
@@ -168,6 +213,13 @@ guiTypes = {
 					quadTextureSprite = "GFX_show_power_balance_button"
 				}
 
+				iconType = {
+					name = "show_power_balance_glow"
+					position = { x = 0 y = 0 }
+					quadTextureSprite = "GFX_bop_glow_effect"
+					alwaystransparent = yes
+				}
+
 				instantTextboxType = {
 					name = "power_balance_percentage"
 					format = center
@@ -204,14 +256,11 @@ guiTypes = {
 						
 		containerWindowType = {
 			name = "autonomy_progress_view"
-			position = { x = 170 y = 242 }
-			size = { width = 255 height = 60 }
+			position = { x = 180 y = 260 }
+			size = { width = 120 height = 30 }
 			clipping = no
+			scale = 0.66
 
-			background = {
-				name = "Background"		
-				quadTextureSprite ="GFX_subject_overlay"
-			}
 			
 			instantTextboxType = {
 				name = "current_autonomy_name"
@@ -397,52 +446,6 @@ guiTypes = {
 				alwaystransparent = yes
 			}			
 		}
-		containerWindowType = {
-			name = "national_spirit"
-			position = { x = 81 y = 153 }
-			size = { width = 360 height = 50 }
-			clipping = no
-						
-			instantTextboxType = {
-				name = "title"
-				position = { x = 110 y = -6 }
-				font = "sf_18mbs"
-				text = "POLITICS_NATIONAL_SPIRIT"
-				maxWidth = 200
-				maxHeight = 20
-				alwaystransparent = yes
-			}
-			
-			
-			containerWindowType = {
-				name = "national_spirit_container"
-				position = { x = 99 y = 16 }
-				size = { width = 364 height = 125 }
-				verticalScrollbar = "right_vertical_slider"
-				
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_window_transparent"
-				}
-				
-				gridboxtype = {
-					name = "spirit_grid"
-					position = { x = 10 y = 0 }
-					size = { width = 354 height = 82 }
-					slotsize = { width = 82 height = 82 }
-					max_slots = { x = 4 y = 3 }
-					format = "UPPER_LEFT"
-				}
-				gridboxtype = {
-					name = "spirit_grid_over_defined"
-					position = { x = 10 y = 1 }
-					size = { width = 330 height = 68 }
-					slotsize = { width = 33 height = 34 }
-					max_slots_horizontal = 10
-					format = "UPPER_LEFT"
-				}
-			}
-		}
 		iconType = {
 			name = "leader"
 			position = { x = 18 y = 55 }
@@ -505,7 +508,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "close_button"
-			position = { x = -42 y = 9 }
+			position = { x = -47 y = 9 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"

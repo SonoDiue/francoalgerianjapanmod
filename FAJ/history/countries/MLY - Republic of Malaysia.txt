@@ -126,6 +126,11 @@ set_popularities = {
 
 }
 
+add_ideas = {
+	FAJ_member
+
+}
+
 set_politics = {
 	
 	ruling_party = dissident_right

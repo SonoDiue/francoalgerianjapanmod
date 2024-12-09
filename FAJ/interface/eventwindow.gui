@@ -35,8 +35,8 @@ guiTypes = {
 		
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 14 y = 85 }
-				font = "sf_typewriter22_inverted"
+				position = { x = 14 y = 95 }
+				font = "tooltip_tah"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"	
 				maxWidth = 551
@@ -46,7 +46,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "btn_minimize"
-				position = {x=10 y=45}
+				position = {x=475 y=2}
 				spriteType = "GFX_event_button_minimize"
 				clicksound = click_default
 				pdx_tooltip = "MINIMIZE_EVENT"
@@ -68,11 +68,11 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = 31 y = 10 }
-				font = "sf_typewriter13_inverted"
+				position = { x = 16 y = 10 }
+				font = "tooltip_tah"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
-				maxWidth = 512
+				maxWidth = 560
 				maxHeight = 230
 				format = left
 			}	

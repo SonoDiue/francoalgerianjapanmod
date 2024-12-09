@@ -1,0 +1,57 @@
+ideas = {
+	country = {
+		
+	FAJ_leader = {
+	picture = GFX_idea_FAJ_leader
+
+	available = {
+
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = no
+	}
+	
+	modifier = {
+	political_power_gain = 0.1
+	consumer_goods_factor = -0.05
+	army_core_defence_factor = 0.05
+	stability_weekly = -0.005
+	trade_opinion_factor = 0.20
+	}
+}
+
+FAJ_subject = {
+	picture = GFX_idea_FAJ_subject
+
+	available = {
+
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = no
+	}
+	
+	modifier = {
+	political_power_gain = -0.1
+	consumer_goods_factor = -0.05
+	army_core_defence_factor = 0.03
+	construction_speed = 0.05
+	resource_gain_efficiency = -0.05
+	trade_opinion_factor = 0.20
+	research_speed_factor = 0.05
+	}
+}
+
+
+
+}
+}

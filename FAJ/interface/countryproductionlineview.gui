@@ -1168,9 +1168,9 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "equipments_grid"
-				position = { x = 9 y = 0 }
+				position = { x = 9 y = 10 }
 				size = { width = 120%% height = 100%% }
-				slotsize = { width = 335 height = 80 }
+				slotsize = { width = 335 height = 95 }
 				format = "UPPER_LEFT"
 				max_slots_horizontal = 1
 			}
@@ -1391,7 +1391,7 @@ guiTypes = {
 				name = "equipments_grid"
 				position = { x = 2 y = 0 }
 				size = { width = 120%% height = 100%% }
-				slotsize = { width = 335 height = 80 }
+				slotsize = { width = 335 height = 95 }
 				format = "UPPER_LEFT"
 				max_slots_horizontal = 1
 				padding = { bottom = 10 }
@@ -1599,7 +1599,7 @@ guiTypes = {
 		buttonType = {
 			name ="attach_manufacturer"
 			spriteType = "GFX_attach_manufacturer"
-			position = { x= 195 y = 1 }
+			position = { x= 195 y = 25 }
 		}
 
 		buttonType = {
@@ -1695,13 +1695,13 @@ guiTypes = {
 		iconType = {
 			name ="progressbar"
 			spriteType = "GFX_prod_progress_bar2"
-			position = { x= 110 y = 0 }
+			position = { x= 110 y = 3 }
 			hide = yes
 		}
 
 		instantTextboxType = {
 			name = "speed"
-			position = { x = 110 y = 0 }
+			position = { x = 110 y = 3 }
 			textureFile = ""
 			font = "sf_16"
 			text = "--"
@@ -4381,12 +4381,12 @@ guiTypes = {
 	containerWindowType = {
 		name = "military_equipment_info_entry"
 		position = { x=0 y=0 }
-		size = { width=342 height= 80 }
+		size = { width=342 height= 95 }
 		clipping = no
 
 		buttonType = {
 			name = "equipment_button"
-			position = { x=5 y=4 }
+			position = { x=5 y=-4 }
 			quadTextureSprite = "GFX_equipment_item_large_02"
 			clicksound = click_default
 			frame = 1

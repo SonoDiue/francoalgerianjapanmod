@@ -11,6 +11,7 @@ SpriteTypes = {
 		#name = "GFX_kill_rayyan"
 		#texturefile = "gfx/interface/event_pictures/kill_rayyan.dds"
 	#}
+SpriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_teddy_ded"
 		texturefile = "gfx/interface/event_pictures/teddy_ded.tga"
@@ -26,6 +27,26 @@ SpriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_old_dude"
 		texturefile = "gfx/interface/event_pictures/old_dude.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_demobrazil"
+		texturefile = "gfx/interface/event_pictures/demobrazil.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_brazilcom"
+		texturefile = "gfx/interface/event_pictures/brazilcom.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_brazilkogos"
+		texturefile = "gfx/interface/event_pictures/brazilkogos.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_brazilceleb"
+		texturefile = "gfx/interface/event_pictures/brazilceleb.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_braziLMAO"
+		texturefile = "gfx/interface/event_pictures/braziLMAO.png"
 	}
 	spriteType = {
 		name = "GFX_report_event_old_dude_again"
@@ -94,6 +115,10 @@ SpriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_BIA_total_victory"
 		texturefile = "gfx/interface/event_pictures/BIA_total_victory.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_kano"
+		texturefile = "gfx/interface/event_pictures/ngakanofire.png"
 	}
 	spriteType = {
 		name = "GFX_report_event_BIA_defeat"
@@ -495,6 +520,10 @@ SpriteTypes = {
 		name = "GFX_report_event_liz"
 		texturefile = "gfx/interface/event_pictures/liz.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_argw"
+		texturefile = "gfx/interface/event_pictures/argw.png"
+	}
 		spriteType = {
 		name = "GFX_report_event_jerome_lux"
 		texturefile = "gfx/interface/event_pictures/jerome.dds"
@@ -663,85 +692,77 @@ SpriteTypes = {
 		name = "GFX_report_event_batka"
 		texturefile = "gfx/interface/event_pictures/batka.dds"
 	}
-		spriteType = {
-		name = "GFX_report_ussrchaos"
-		texturefile = "gfx/interface/event_pictures/ussr_chaos.dds"
+	frameAnimatedSpriteType = {
+		name = "GFX_report_event_nikkurando"
+		texturefile = "gfx/interface/event_pictures/nikkurando.png"
+        noOfFrames = 42
+        animation_rate_fps = 20
+        looping = yes
+        play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_report_event_american_chaos"
+		texturefile = "gfx/interface/event_pictures/american_chaos.png"
+        noOfFrames = 47
+        animation_rate_fps = 15
+        looping = yes
+        play_on_show = yes
 	}
 		spriteType = {
 		name = "GFX_report_event_natcom_nigeria"
 		texturefile = "gfx/interface/event_pictures/natcom_nigeria.dds"
 	}
 		spriteType = {
-		name = "GFX_report_event_mars_pilgrim_1_buried"
-		texturefile = "gfx/interface/event_pictures/space/Crew Burial.png"
+		name = "GFX_report_event_leonov1_takeoff"
+		texturefile = "gfx/interface/event_pictures/space/Leonov1.png"
 	}
 		spriteType = {
-		name = "GFX_report_event_takeoff"
-		texturefile = "gfx/interface/event_pictures/space/Take-off Earth.png"
+		name = "GFX_report_event_leonov2_takeoff"
+		texturefile = "gfx/interface/event_pictures/space/Leonov2.png"
 	}
 		spriteType = {
-		name = "GFX_report_event_takeoff_moon"
-		texturefile = "gfx/interface/event_pictures/space/Take-off Moon.png"
+		name = "GFX_report_event_europa_Landing"
+		texturefile = "gfx/interface/event_pictures/space/EuropaGeneric.png"
 	}
 		spriteType = {
-		name = "GFX_report_event_mars_landing"
-		texturefile = "gfx/interface/event_pictures/space/Landing Safe.png"
+		name = "GFX_report_event_leonov_meetup"
+		texturefile = "gfx/interface/event_pictures/space/LeonovMeetup.png"
 	}
 		spriteType = {
-		name = "GFX_report_event_mars_drilling"
-		texturefile = "gfx/interface/event_pictures/space/Mars Drilling.png"
+		name = "GFX_report_event_europa_drilling"
+		texturefile = "gfx/interface/event_pictures/space/EuropaGeneric.png"
 	}
 		spriteType = {
-		name = "GFX_report_event_mars_water"
-		texturefile = "gfx/interface/event_pictures/space/Water on Mars.png"
+		name = "GFX_report_event_europa_life"
+		texturefile = "gfx/interface/event_pictures/space/EuropaSub.png"
+	}	
+		spriteType = {
+		name = "GFX_report_event_europa_no_life"
+		texturefile = "gfx/interface/event_pictures/space/EuropaGeneric.png"
+	}	
+		spriteType = {
+		name = "GFX_report_event_europan_life_confirmed"
+		texturefile = "gfx/interface/event_pictures/space/EuropaCreature.png"
 	}
 		spriteType = {
-		name = "GFX_report_event_mars_resupply"
-		texturefile = "gfx/interface/event_pictures/space/Resupply Missions.png"
+		name = "GFX_report_event_jupiter_settlements"
+		texturefile = "gfx/interface/event_pictures/space/Callisto.png"
 	}
 		spriteType = {
-		name = "GFX_report_event_life_on_mars"
-		texturefile = "gfx/interface/event_pictures/space/Mars Samples.png"
+		name = "GFX_report_event_africa_mass_driver"
+		texturefile = "gfx/interface/event_pictures/space/MassDriver.png"
 	}
 		spriteType = {
-		name = "GFX_report_event_life_on_mars_resupply"
-		texturefile = "gfx/interface/event_pictures/space/Resupply Missions.png"
+		name = "GFX_report_event_venus_settlements"
+		texturefile = "gfx/interface/event_pictures/space/Venus.png"
 	}
 		spriteType = {
-		name = "GFX_report_event_life_on_mars_confirmed"
-		texturefile = "gfx/interface/event_pictures/space/Discovery.png"
+		name = "GFX_report_event_asteroid_tragedy"
+		texturefile = "gfx/interface/event_pictures/space/AsteroidMine.png"
 	}
 		spriteType = {
-		name = "GFX_report_event_mars_stranded"
-		texturefile = "gfx/interface/event_pictures/space/Landing Stranded.png"
-	}
-		spriteType = {
-		name = "GFX_report_event_mars_resupply"
-		texturefile = "gfx/interface/event_pictures/space/Resupply Missions.png"
-	}
-		spriteType = {
-		name = "GFX_report_event_mars_crash"
-		texturefile = "gfx/interface/event_pictures/space/Landing Crash.png"
-	}
-		spriteType = {
-		name = "GFX_report_event_mars_crash_pilgrim_2"
-		texturefile = "gfx/interface/event_pictures/space/Mission Expedited.png"
-	}
-		spriteType = {
-		name = "GFX_report_event_mars_pilgrim_1_buried"
-		texturefile = "gfx/interface/event_pictures/space/Crew Burial.png"
-	}
-		spriteType = {
-		name = "GFX_report_event_mars_base"
-		texturefile = "gfx/interface/event_pictures/space/Mars Drilling.png"
-	}
-		spriteType = {
-		name = "GFX_report_event_mars_pilgrim_2"
-		texturefile = "gfx/interface/event_pictures/space/Resupply Missions.png"
-	}
-		spriteType = {
-		name = "GFX_report_event_pilgrim_3"
-		texturefile = "gfx/interface/event_pictures/space/Resupply Missions.png"
+		name = "GFX_report_event_crystal_palace_opens"
+		texturefile = "gfx/interface/event_pictures/space/Crystal_palace.png"
 	}
 		spriteType = {
 		name = "GFX_report_event_kemalist_turkey"
@@ -854,5 +875,21 @@ SpriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_ezra"
 		texturefile = "gfx/interface/event_pictures/ezra.dds"
+	}	
+	spriteType = {
+		name = "GFX_report_event_kmpkam"
+		texturefile = "gfx/interface/event_pictures/kmpkam.dds"
+	}	
+	spriteType = {
+		name = "GFX_report_event_ati_peacethroughmusic"
+		texturefile = "gfx/interface/event_pictures/peacethroughmusic.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_mskthree"
+		texturefile = "gfx/interface/event_pictures/mskthree.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_jkut"
+		texturefile = "gfx/interface/event_pictures/jkut.png"
 	}	
 }

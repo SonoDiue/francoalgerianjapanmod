@@ -1,0 +1,10 @@
+focus_tree = {
+	id = NGA_democratic
+	country = {
+		factor = 0
+		modifier = {
+			add = 300 #?
+			tag = AWB
+			#has_war = yes
+		}
+	}

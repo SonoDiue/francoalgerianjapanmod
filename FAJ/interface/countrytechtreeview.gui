@@ -1,3 +1,4 @@
+@ -1,6112 +1,5853 @@
 guiTypes = {
 	containerWindowType = {
 		name = "subunit_icon_entry"
@@ -79,7 +80,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists"
-					position = { x = 40 y = 950 }
+					position = { x = 40 y = 330 }
 					textureFile = ""
 					font = "sf_33"
 					borderSize = { x = 0 y = 0}
@@ -92,7 +93,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_subtitle_motorized"
-					position = { x = 30 y = 510 }
+					position = { x = 30 y = 1510 }
 					textureFile = ""
 					font = "sf_33"
 					borderSize = { x = 0 y = 0}
@@ -3196,7 +3197,183 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
+		containerWindowType = {
+			name = "robotics_folder"
+			position = { x=0 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 40
 
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+
+			containerWindowType = {
+				name = "techtree_stripes"
+				position = { x= 0 y= 0 }
+				size = {
+					width = 1700 height = 1275
+					min = { width = 100%% height = 100%% }
+				}
+				clipping = no
+
+				iconType = {
+					name ="robotics_techtree_bg"
+					spriteType = "GFX_infantry_techtree_bg"
+					position = { x=0 y=0 }
+					alwaystransparent = yes
+				}
+
+				instantTextBoxType = {
+					name = "robotics_year2"
+					position = { x = 130 y = 50 }
+					textureFile = ""
+					font = "sf_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1980"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "robotics_year3"
+					position = { x = 270 y = 50 }
+					textureFile = ""
+					font = "sf_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1990"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "robotics_year5"
+					position = { x = 410 y = 50 }
+					font = "sf_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2000"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "robotics_year6"
+					position = { x = 550 y = 50 }
+					font = "sf_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2010"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "robotics_year7"
+					position = { x = 690 y = 50 }
+					font = "sf_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2020"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "robotics_year8"
+					position = { x = 830 y = 50 }
+					font = "sf_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2023"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "robotics_year9"
+					position = { x = 970 y = 50 }
+					font = "sf_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2025"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "robotics_year10"
+					position = { x = 1110 y = 50 }
+					font = "sf_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2027"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "robotics_year11"
+					position = { x = 1250 y = 50 }
+					font = "sf_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2030"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "robotics_year12"
+					position = { x = 1390 y = 50 }
+					font = "sf_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2035"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "robotics_year13"
+					position = { x = 1530 y = 50 }
+					font = "sf_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2040"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+			}
+				gridboxtype = {
+					name = "mastercomputing_theory_tree"
+					position = { x = 140 y = 210 }
+					size = { width = 680 height = 800 }
+					slotsize = { width = 70 height = 70 }
+					format = "LEFT"
+				}
+				gridboxtype = {
+				name = "strike_uav_tree"
+				position = { x = 140 y = 500 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+		}
 		containerWindowType = {
 			name = "electronics_folder"
 			position = { x=0 y=47 }
@@ -3670,6 +3847,14 @@ guiTypes = {
 				clicksound = ui_research_tab_industry
 			}
 
+			buttonType = {
+				position = { x = 825 y = 0 }
+				name = "robotics_folder_tab"
+				quadTextureSprite = "GFX_robotics_folder_tab"
+				frame = 1
+				clicksound = ui_research_tab_industry
+			}
+
 			iconType = {
 				name = "highlight_industry_folder"
 				spriteType = "GFX_tutorial_research_folder_icon_glow"
@@ -3782,7 +3967,7 @@ guiTypes = {
 				name = "tech_info_special_description"
 				position = { x = 0 y = 0 }
 				textureFile = ""
-				font = "sf_typewriter16_inverted"
+				font = "tooltip_tah"
 				borderSize = {x = 0 y = 0}
 				text = "BABALKBLLALBLAL"
 				maxWidth = 495
@@ -3943,7 +4128,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "tech_info_special_description"
 				position = { x = 10 y = 14 }
-				font = "sf_typewriter16_inverted"
+				font = "tooltip_tah"
 				maxWidth = 464
 			}
 
@@ -4082,6 +4267,47 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 
+	}
+	containerWindowType = {
+		name = "techtree_robotics_folder_small_item"
+		position = { x=0 y=0 }
+		size = { width = 78 height = 78 }
+		clipping = no
+
+		background = {
+			name = "bg"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=5 y=5 }
+			spriteType = "GFX_technology_medium"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "bonus_icon"
+			position = { x=-1 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = -1 y = -21 }
+			textureFile = ""
+			font = "sf_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 80
+			maxHeight = 20
+			format = center
+		}
+				iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=5 y=55 }
+			spriteType = "GFX_design_team_icon"
+		}
 	}
 
 	containerWindowType = {
@@ -5053,7 +5279,51 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
+	containerWindowType = {
+		name = "techtree_robotics_folder_item"
+		position = { x=-56 y=-7 }
+		size = { width = 197 height = 98 }
+		clipping = no
 
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=98 y=50 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
+
+
+		iconType = {
+			name = "bonus_icon"
+			position = { x=111 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 111 y = -22 }
+			textureFile = ""
+			font = "sf_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 80
+			maxHeight = 20
+			format = center
+		}
+
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=5 y=55 }
+			spriteType = "GFX_design_team_icon"
+		}
+	}
 	containerWindowType = {
 		name = "techtree_electronics_folder_item"
 		position = { x=0 y=5 }
@@ -5446,7 +5716,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "subunit_name"
 			position = { x = 160 y = 25 }
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			text = "Where is the name?"
 			maxWidth = 300
 			maxHeight = 20
@@ -5581,7 +5851,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = -5 y = 12 }
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			text = "name"
 			maxWidth = 160
 			maxHeight = 20
@@ -5592,7 +5862,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "amount"
 			position = { x = 110 y = 12 }
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			text = ""
 			maxWidth = 100
 			maxHeight = 20
@@ -5602,7 +5872,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "diff"
 			position = { x = 195 y = 0 }
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			text = ""
 			maxWidth = 100
 			maxHeight = 20
@@ -5624,7 +5894,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 100 y = 10 }
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			text = "name"
 			maxWidth = 350
 			maxHeight = 20
@@ -5652,7 +5922,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 120 y = 10 }
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			text = "name"
 			maxWidth = 300
 			maxHeight = 20
@@ -5681,7 +5951,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = -30 y = 2 }
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			text = "name"
 			maxWidth = 290
 			maxHeight = 20
@@ -5691,7 +5961,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "amount"
 			position = { x = 220 y = 2 }
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			text = ""
 			maxWidth = 100
 			maxHeight = 20
@@ -5701,7 +5971,7 @@ guiTypes = {
 		#instantTextboxType = {
 		#	name = "diff"
 		#	position = { x = 195 y = 0 }
-		#	font = "sf_typewriter16_inverted"
+		#	font = "tooltip_tah"
 		#	text = ""
 		#	maxWidth = 100
 		#	maxHeight = 20
@@ -5723,7 +5993,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = -5 y = 12 }
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			text = "name"
 			maxWidth = 165
 			maxHeight = 20
@@ -5734,7 +6004,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "amount"
 			position = { x = 110 y = 12 }
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			text = ""
 			maxWidth = 100
 			maxHeight = 20
@@ -5744,7 +6014,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "diff"
 			position = { x = 195 y = 0 }
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			text = ""
 			maxWidth = 100
 			maxHeight = 20
@@ -5807,7 +6077,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = -30 y = 2 }
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			text = "name"
 			maxWidth = 290
 			maxHeight = 20
@@ -5817,7 +6087,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "amount"
 			position = { x = 220 y = 2 }
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			text = ""
 			maxWidth = 100
 			maxHeight = 20

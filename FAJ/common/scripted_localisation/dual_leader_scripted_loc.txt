@@ -132,6 +132,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			tag = PAK
+			has_country_flag = osama 
+			has_country_flag = dual_leader_open
+		}
+		localization_key = PAK_OSAMA
+	}
+	text = {
+		trigger = {
 			tag = MNZ
 			has_country_flag = lacroix_un 
 			has_country_flag = dual_leader_open
@@ -406,6 +414,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			tag = PAK
+			has_country_flag = osama 
+			has_country_flag = dual_leader_open
+		}
+		localization_key = PAK_OSAMA_TITLE
+	}
+	text = {
+		trigger = {
 			tag = MNZ
 			has_country_flag = lacroix_un 
 			has_country_flag = dual_leader_open
@@ -667,6 +683,14 @@ defined_text = {
 			has_country_flag = dual_leader_open
 		}
 		localization_key = "GFX_PAK_ZAHER_TITLE"
+	}
+	text = {
+		trigger = {
+			tag = PAK
+			has_country_flag = osama 
+			has_country_flag = dual_leader_open
+		}
+		localization_key = "GFX_PAK_OSAMA_TITLE"
 	}
 	text = {
 		trigger = {

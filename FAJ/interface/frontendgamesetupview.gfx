@@ -1,8 +1,5 @@
 spriteTypes = {
-	spriteType = {
-		name = "GFX_world_map"
-		textureFile = "gfx/interface/bookmark/world.dds"
-	}
+
 
 
 	spriteType = {
@@ -252,6 +249,11 @@ spriteTypes = {
 		name = "GFX_disconnected_button"
 		textureFile = "gfx/interface/save_game_disconnected.dds"
 	}
+	spriteType = {
+		name = "GFX_world_map"
+		textureFile = "gfx/interface/bookmark/world.dds"
+	}
+	
 	SpriteType = {
 		name = "GFX_menu_top_bg_bg"
 		textureFile = "gfx//interface//menu_top_bg.dds"

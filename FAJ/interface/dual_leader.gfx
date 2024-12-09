@@ -62,6 +62,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/PAK/Mirwais Zaher.dds"
 	}
 	spriteType = {
+		name = "GFX_PAK_OSAMA_TITLE"
+		texturefile = "gfx/leaders/PAK/osama.dds"
+	}
+	spriteType = {
 		name = "GFX_MNZ_LACROIX"
 		texturefile = "gfx/leaders/ZAI/Jean-Pierre Lacroix.dds"
 	}
@@ -107,7 +111,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_CHARLES_III"
-		texturefile = "gfx/leaders/ENG/hismajestydeking.dds"
+		texturefile = "gfx/leaders/ENG/Charles.dds"
 	}
 	spriteType = {
 		name = "GFX_SEY_WAVEL"
@@ -140,5 +144,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_MSK_John_McAfee"
 		texturefile = "gfx/leaders/MSK/McAfee.png"
+	}
+	spriteType = {
+		name = "GFX_LIE_DANIEL"
+		texturefile = "gfx/leaders/LIE/Daniel Risch.png"
 	}
 }

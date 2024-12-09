@@ -152,20 +152,6 @@ value = 50
 }
 tota_variable_clamping = yes
 set_convoys = 100
-SOV = {
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		set_autonomy = {
-			target = VIE
-			autonomy_state = SOV_ass_govt
-		}
-	}
-	else = {
-		#puppet = VIE
-	}
-}
 set_popularities = {
         anarchism = 0
         conservatism = 0
@@ -196,19 +182,13 @@ set_politics = {
 	elections_allowed = no
 }
 create_faction = WARSAW_TREATY_ORGANIZATION
-SOV = { add_to_faction = VIE }
-SOV = { add_to_faction = DDR }
 SOV = { add_to_faction = CZE }
 SOV = { add_to_faction = POL }
 SOV = { add_to_faction = HUN }
 SOV = { add_to_faction = BUL }
 SOV = { add_to_faction = GRE }
-SOV = { add_to_faction = ISP }
 SOV = { add_to_faction = IRN }
-SOV = { add_to_faction = MON }
 set_variable = { SOV.FACTIONSTATUS = 10 }
-set_variable = { VIE.FACTIONSTATUS = 11 }
-set_variable = { DDR.FACTIONSTATUS = 12 }
 set_variable = { CZE.FACTIONSTATUS = 12 }
 set_variable = { POL.FACTIONSTATUS = 12 }
 set_variable = { BUL.FACTIONSTATUS = 12 }
@@ -218,9 +198,7 @@ set_variable = { YUG.FACTIONSTATUS = 9 }
 set_variable = { ROM.FACTIONSTATUS = 9 }
 set_variable = { ALB.FACTIONSTATUS = 11 }
 set_variable = { FIN.FACTIONSTATUS = 9 }
-set_variable = { ISP.FACTIONSTATUS = 12 }
 set_variable = { IRN.FACTIONSTATUS = 12 }
-set_variable = { MON.FACTIONSTATUS = 9 }
 set_variable = { DRA.FACTIONSTATUS = 9 } #will need to discuss further COMECON members
 set_variable = { NWG.FACTIONSTATUS = 9 }
 

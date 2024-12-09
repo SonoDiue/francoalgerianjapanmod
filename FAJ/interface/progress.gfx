@@ -46,6 +46,14 @@ spriteTypes = {
         name = "GFX_economic_clippy"
         texturefile = "gfx/interface/economic_clippy.dds"
     }
+    spriteType = {
+        name = "GFX_economic_values_anarchy"
+        texturefile = "gfx/interface/economic_actions_anarchy.dds"
+    }
+    spriteType = {
+        name = "GFX_header_bg_anarchy"
+        texturefile = "gfx/interface/header_bg_anarchy.dds"
+    }
 	progressbartype = {
 		name = "GFX_SEY_progress_bar"
 		textureFile1 = "gfx/interface/orange_drift_smaller.dds"

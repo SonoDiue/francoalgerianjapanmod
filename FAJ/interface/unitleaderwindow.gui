@@ -292,7 +292,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = { x = 128 y = 12 }
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			text = "Mr."
 			maxWidth = 150
 			maxHeight = 18
@@ -301,7 +301,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 128 y = 30 }
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			text = "name"
 			fixedsize = yes
 			maxWidth = 180

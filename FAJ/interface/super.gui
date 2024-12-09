@@ -13,13 +13,7 @@ guiTypes = {
 			name = "Background"
 			spriteType =  "GFX_blank_background"
 		}
-
-		iconType = {
-			name ="Super_Event_Image_American_Chaos"
-			spriteType = "GFX_Super_American_Chaos"
-			position = { x = 0 y = 0 }
-			alwaystransparent = yes
-		}
+		
 		iconType = {
 			name ="Super_Event_Image_bavaria"
 			spriteType = "GFX_Super_American_Chaos"
@@ -35,8 +29,22 @@ guiTypes = {
 		}
 
 		iconType = {
+			name ="Super_Event_Image_American_Chaos"
+			spriteType = "GFX_Super_American_Chaos"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		
+		iconType = {
 			name ="Super_Event_Image_Biafra_Wins"
 			spriteType = "GFX_Super_Biafra_Wins"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name ="Super_Event_Image_Samson"
+			spriteType = "GFX_Super_Event_Image_Samson"
 			position = { x = 0 y = 0 }
 			alwaystransparent = yes
 		}
@@ -268,15 +276,10 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			alwaystransparent = yes
 		}
-		iconType = {
-			name ="Super_Event_Image_ezrase"
-			spriteType = "GFX_Super_ezrase"
-			position = { x = 0 y = 0 }
-			alwaystransparent = yes
-		}
+
 		buttonType = {
             name = "Super_Event_Close"
-            position = { x = 828 y = 24 }
+            position = { x = 781 y = 13 }
             quadTextureSprite ="GFX_closebutton_super"
             clicksound = click_scroll
         }

@@ -7,7 +7,7 @@ id=1179
 	resources = {
 	}
 	history={
-		owner = PRC
+		owner = TIB
 		buildings = {
             school = 1
 			infrastructure = 2

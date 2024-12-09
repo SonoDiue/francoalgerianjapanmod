@@ -138,16 +138,16 @@ set_popularities = {
 
 set_politics = {
 	
-	ruling_party = reformist_socialism
+	ruling_party = autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Tsering Dhondup"
+	name = "PLA Authority"
 	desc = ""
-	picture = "gfx/leaders/TIB/Tsering Dhondup.dds"
+	picture = "gfx/leaders/XIN/PLA.dds"
 	expire = "2040.1.1"
-	ideology = lwnat
+	ideology = milgov
 }

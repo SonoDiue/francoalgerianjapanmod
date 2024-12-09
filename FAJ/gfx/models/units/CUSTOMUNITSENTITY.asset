@@ -1,0 +1,346 @@
+
+animation = {
+    name = "GUMP_Walking"
+    file = "GUMPWALK.anim"
+}
+animation = {
+    name = "GUMP_Standing"
+    file = "GUMPSTAND.anim"
+}
+animation = {
+    name = "GUMP_Blank"
+    file = "GUMPREF.anim"
+}
+
+animation = {
+    name = "DOZER_ATTACK"
+    file = "DOZERATTACK.anim"
+}
+animation = {
+    name = "DOZER_walk"
+    file = "DOZERWALK.anim"
+}
+animation = {
+    name = "DOZER_idle"
+    file = "DOZERREF.anim"
+}
+animation = {
+    name = "SOLDIDLE"
+    file = "SOLDIDLE.anim"
+}
+animation = {
+    name = "SOLDIDLE2"
+    file = "SOLDIDLE2.anim"
+}
+animation = {
+    name = "SOLDIDLE3"
+    file = "SOLDIDLE3.anim"
+}
+animation = {
+    name = "SOLDATTACK1"
+    file = "SOLDATTACK1.anim"
+}
+animation = {
+    name = "SOLDATTACK2"
+    file = "SOLDATTACK2.anim"
+}
+animation = {
+    name = "SOLDMOVE"
+    file = "SOLDMOVE.anim"
+}
+animation = {
+    name = "SOLDRETREAT"
+    file = "SOLDRETREAT.anim"
+}
+animation = {
+    name = "SOLDTRAIN"
+    file = "SOLDTRAIN.anim"
+}
+animation = {
+    name = "BOXERSTND"
+    file = "BOXERSTND.anim"
+}
+animation = {
+    name = "BOXERWLK"
+    file = "BOXERWLK.anim"
+}
+animation = {
+    name = "BOXERATK"
+    file = "BOXERATK.anim"
+}
+entity = {
+    name = "GUMP_entity"
+    pdxmesh = "GUMP"
+    scale = 1
+    cull_radius = 100
+
+    default_state = "idle"
+
+    state = { 
+        name = "idle" 
+        
+        animation = "idle"
+        animation_blend_time = 0.0
+        animation_speed = 1.0
+        looping = yes
+    }
+    state = { 
+        name = "attack" 
+        
+        animation = "attack"
+        animation_blend_time = 0.0
+        animation_speed = 1.0
+        looping = yes
+    }
+    state = { 
+        name = "defend" 
+        
+        animation = "attack"
+        animation_blend_time = 0.0
+        animation_speed = 1.0
+        looping = yes
+    }
+    state = { 
+        name = "support_attack" 
+        
+        animation = "attack"
+        animation_blend_time = 0.0
+        animation_speed = 1.0
+        looping = yes
+    }
+    state = { 
+        name = "move" 
+        
+        animation = "attack"
+        animation_blend_time = 0.0
+        animation_speed = 1.0
+        looping = yes
+    }
+}
+entity = {
+    name = "BOXER_entity"
+    pdxmesh = "BOXER"
+    scale = 1
+    cull_radius = 100
+
+    default_state = "idle"
+
+    state = { 
+        name = "idle" 
+        
+        animation = "idle"
+        animation_blend_time = 0.0
+        animation_speed = 1.0
+        looping = yes
+    }
+    state = { 
+        name = "attack" 
+        
+        animation = "attack"
+        animation_blend_time = 0.0
+        animation_speed = 1.0
+        looping = yes
+    }
+    state = { 
+        name = "defend" 
+        
+        animation = "attack"
+        animation_blend_time = 0.0
+        animation_speed = 1.0
+        looping = yes
+    }
+    state = { 
+        name = "support_attack" 
+        
+        animation = "attack"
+        animation_blend_time = 0.0
+        animation_speed = 1.0
+        looping = yes
+    }
+    state = { 
+        name = "move" 
+        
+        animation = "attack"
+        animation_blend_time = 0.0
+        animation_speed = 1.0
+        looping = yes
+    }
+}
+entity = {
+    name = "DOZER_entity"
+    pdxmesh = "DOZER"
+    scale = 0.87
+    cull_radius = 100
+
+    default_state = "idle"
+
+    state = { 
+        name = "idle" 
+        
+        animation = "idle"
+        animation_blend_time = 0.0
+        animation_speed = 1.0
+        looping = yes
+    }
+    state = { 
+        name = "attack" 
+        
+        animation = "attack"
+        animation_blend_time = 0.0
+        animation_speed = 1.0
+        looping = yes
+    }
+    state = { 
+        name = "defend" 
+        
+        animation = "attack"
+        animation_blend_time = 0.0
+        animation_speed = 1.0
+        looping = yes
+    }
+    state = { 
+        name = "support_attack" 
+        
+        animation = "attack"
+        animation_blend_time = 0.0
+        animation_speed = 1.0
+        looping = yes
+    }
+    state = { 
+        name = "move" 
+        
+        animation = "move"
+        animation_blend_time = 0.0
+        animation_speed = 1.0
+        looping = yes
+    }
+    attach = { 	name = "rifle1"	Bone.002.R = "gunnnna_entity" }
+}
+entity = {
+	name = "gunnnna_entity"
+	pdxmesh = "gunnnn"
+	get_state_from_parent = yes
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "move"	}
+
+	state = {
+	name = "attack"	animation = "attack"
+	event = { time = 1.15 node="muzzle" particle = "rifle_muzzle_particle"  keep_particle = yes light = "muzzle_flash" sound = { soundeffect = infantry_rifle_attack } }
+	event = { time = 2.2 node="cartridge" particle = "rifle_cartridge_particle"  keep_particle = yes sound = { soundeffect = infantry_rifle_cartridge } }
+	}
+
+	state = {
+	name = "defend"
+	event = { time = 0 node="muzzle" particle = "rifle_muzzle_particle"  keep_particle = yes light = "muzzle_flash" sound = { soundeffect = infantry_rifle_attack } }
+	event = { time = 1.2 node="cartridge" particle = "rifle_cartridge_particle"  keep_particle = yes sound = { soundeffect = infantry_rifle_cartridge } }
+	}
+
+	state = {
+	name = "support_attack"	animation = "support_attack"
+	event = { time = 0 node="muzzle" particle = "rifle_muzzle_particle"  keep_particle = yes light = "muzzle_flash" sound = { soundeffect = infantry_rifle_attack } }
+	event = { time = 1.2 node="cartridge" particle = "rifle_cartridge_particle"  keep_particle = yes sound = { soundeffect = infantry_rifle_cartridge } }
+	}
+}
+entity = {
+	name = "infantry_rifle_entity"
+	pdxmesh = "generic_western_european_rifle_infantry_mesh"
+
+	default_state = "idle"
+	state = { name = "attack"			animation = "charge_rifle" 					animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle2 = "idle" } }
+	state = { name = "attack"			animation = "charge_rifle_shoot" 			animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 1 }
+	state = { name = "defend"			animation = "attack" 			animation_blend_time = 0.3  animation_speed = 1.0 }
+	state = { name = "support_attack"	animation = "support_attack" 	animation_blend_time = 0.3 animation_speed = 1.0 }
+	state = { name = "move"				animation = "move" 		 		animation_blend_time = 1.0 animation_speed = 1.0 chance = 1
+		event = { sound = { soundeffect = "infantry_move_animation" } }
+	}
+	state = { name = "move"				animation = "march_move" 		 		animation_blend_time = 1.0 animation_speed = 1.0 chance = 1
+		event = { sound = { soundeffect = "infantry_move_animation" } }
+	}
+	state = { name = "retreat"			animation = "retreat" 	 		animation_blend_time = 0.3 animation_speed = 1.0 }
+	state = { name = "death"			animation = "death" 			animation_blend_time = 0.3 animation_speed = 1.0 }
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 chance = 15 looping = no }
+	state = { name = "idle"				animation = "long_idle02" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "idle"				animation = "long_idle04" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "idle"				animation = "long_idle05" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "training"				animation = "training" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 2 looping = no }
+	state = { name = "training"				animation = "jumping_jacks" 	animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "training"				animation = "pushup" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "training"				animation = "guard_rifle" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "training"				animation = "aim_exercise" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+
+	attach = { 	name = "rifle1"	Bone.002 = "gunnnna_entity" }
+
+	scale = 0.8
+}
+entity = {
+	name = "infantry_entity"
+    clone = infantry_rifle_entity
+    pdxmesh = "generic_western_european_rifle_infantry_mesh"
+}
+entity = {
+    name = middle_eastern_gfx_infantry_entity
+    clone = infantry_entity
+    #pdxmesh = mangg_me
+}
+entity = {
+    name = african_gfx_infantry_entity
+    clone = infantry_entity
+    #pdxmesh = mangg_africa
+}
+entity = {
+    name = asian_gfx_infantry_entity
+    clone = infantry_entity
+    #pdxmesh = mangg_asia
+}
+entity = {
+    name = southamerican_gfx_infantry_entity
+    clone = infantry_entity
+    #pdxmesh = mangg_southamerica
+}
+entity = {
+    name = western_european_gfx_infantry_entity
+    clone = infantry_entity
+    #pdxmesh = mangg_southamerica
+}
+entity = {
+    name = eastern_european_gfx_infantry_entity
+    clone = infantry_entity
+    #pdxmesh = mangg_southamerica
+}
+entity = {
+    name = NGA_infantry_entity
+    clone = infantry_entity
+    pdxmesh = NGA_manng
+}
+entity = {
+    name = MSK_infantry_entity
+    clone = infantry_entity
+    pdxmesh = MSK_manng
+}
+entity = {
+    name = ISP_infantry_entity
+    clone = infantry_entity
+    pdxmesh = ISP_manng
+}
+entity = {
+    name = BIA_infantry_entity
+    clone = infantry_entity
+    pdxmesh = BIA_manng
+}
+entity = {
+    name = commonwealth_gfx_infantry_entity
+    clone = infantry_entity
+    #pdxmesh = mangg_southamerica
+}
+
+#everything else uses the same for now...
+
+##list of cultures
+#middle_eastern
+#eastern_european
+#western_european
+#african
+#asian
+#southamerican
+#commonwealth

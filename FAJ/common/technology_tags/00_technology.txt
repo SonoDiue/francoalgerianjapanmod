@@ -20,7 +20,7 @@ technology_categories = {
 	nuclear
 	industry
 	electronics
-	#robotics
+	robotics
 	land_doctrine
 	air_doctrine
 	naval_doctrine
@@ -181,9 +181,9 @@ technology_folders = {
 	industry_folder = {
 		ledger = civilian
 	}
-	#robotics_folder = {
-	#	ledger = army
-	#}
+	robotics_folder = {
+		ledger = civilian
+	}
 	land_doctrine_folder = {
 		ledger = army
 		doctrine = yes

@@ -30,8 +30,8 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "close_button_nom"
-			position = { x = -30 y = 5 }
-			quadTextureSprite ="GFX_closebutton_soctrend"
+			position = { x = -50 y = 5 }
+			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"
@@ -40,7 +40,7 @@ guiTypes = {
 		}
 		iconType = {
 			name = "nigeria_o_meter_faq"
-			position = { x = -55 y = 5 }
+			position = { x = -80 y = 5 }
 			quadTextureSprite ="GFX_info_soctrend"
 			buttonFont = "Main_14_black"
 			Orientation = "UPPER_RIGHT"

@@ -5,6 +5,11 @@ SpriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
+		name = "GFX_topbar_economy_gift"
+		texturefile = "gfx/interface/topbar/toolbar/topbar_economy_gift.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
 		name = "GFX_topbar_soctrends"
 		texturefile = "gfx/interface/topbar/toolbar/soctrends_button.dds"
 		noOfFrames = 2

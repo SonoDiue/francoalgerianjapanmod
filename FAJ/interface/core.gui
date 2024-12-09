@@ -75,7 +75,7 @@ guiTypes = {
 		name = "ToolTip"
 		#textureFile = "gfx\\interface\\transparency.tga"
 		textureFile = "gfx\\interface\\tiles\\tiles_dialog.tga"
-		font = "sf_typewriter16_inverted"
+		font = "tooltip_tah"
 		borderSize = { x=18 y=18 }
 		position = { x= 560 y=10 }
 		maxWidth = 400 #600 #320
@@ -490,7 +490,7 @@ extendedScrollbarType = {
 		buttonType = {
 			name = "this_is_dog"
 			quadTextureSprite = "GFX_dog"
-			position = { x= 0 y = -90 }
+			position = { x= -100 y = -90 }
 			text = ""
 			clicksound = click_dog
 		}
@@ -498,7 +498,7 @@ extendedScrollbarType = {
 		buttonType = {
 			name = "error_log_button"
 			quadTextureSprite = "GFX_error_log_button"
-			position = { x= 0 y = 00 }
+			position = { x= -100 y = 00 }
 			text = "ERROR"
 			buttonfont = "sf_18mbs"
 			Orientation = "LOWER_RIGHT"

@@ -12,8 +12,7 @@ state={
 #pastoral rural town large_town city large_city metropolis megalopolis
 	state_category=megalopolis
 	history={
-		owner = QIE
-		add_core_of = QIE
+		owner = PRC
 		add_core_of = PRC
 		buildings = {
 			school = 2

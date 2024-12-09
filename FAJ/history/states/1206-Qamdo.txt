@@ -12,7 +12,7 @@ state={
 #pastoral rural town large_town city large_city metropolis megalopolis
 	state_category=wasteland
 	history={
-		owner = PRC
+		owner = TIB
 		add_core_of = PRC
 		add_core_of = TIB
 		buildings = {

@@ -367,7 +367,7 @@ guiTypes = {
 			name = "name_text"
 			position = { x = 50 y = 8 }
 			textureFile = ""
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			borderSize = { x = 0 y = 0 }
 			text = "event name"
 			maxWidth = 450
@@ -653,9 +653,9 @@ guiTypes = {
 			font = "sf_16mbs"
 			borderSize = { x = 0 y = 0 }
 			text = "999"
-			maxWidth = 70
+			maxWidth = 100
 			maxHeight = 32
-			format = right
+			format = left
 		}
 
 		instantTextboxType = {

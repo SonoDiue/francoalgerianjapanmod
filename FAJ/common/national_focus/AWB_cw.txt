@@ -284,7 +284,6 @@ shared_focus = {
 			limit = {
 				is_character = AWB_terreblanche
 			}
-			add_unit_leader_trait = infantry_leader
 		}	
 		log = "[GetDateText]: [Root.GetName]: Focus AWB_annihilate_the_exclave"
 		

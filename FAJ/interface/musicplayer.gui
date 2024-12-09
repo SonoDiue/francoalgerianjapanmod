@@ -165,7 +165,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "track_length"
 			position = { x = -106 y = 8 }
-			font = "sf_typewriter16_inverted"
+			font = "tooltip_tah"
 			text = "9:33"
 			maxWidth = 60
 			maxHeight = 20

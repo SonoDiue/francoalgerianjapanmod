@@ -48,6 +48,33 @@ if = {
 
 	}
 }
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = XIN
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = XIN
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = TIB
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = TIB
+	}
+}
+
 if = {
 	limit = {
 		
@@ -140,20 +167,20 @@ set_popularities = {
         
         dissident_right = 0
         liberalism = 0
-        hardline_socialism = 95
+        hardline_socialism = 25
         
-        autocracy = 0
+        autocracy = 15
         
         
-        reformist_socialism = 5
-        socdem = 0
-        technocracy = 0
+        reformist_socialism = 45
+        socdem = 5
+        technocracy = 10
 
 }
 
 set_politics = {
 	
-	ruling_party = hardline_socialism
+	ruling_party = reformist_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -164,5 +191,5 @@ create_country_leader = {
 	desc = "POLITICS_BO_XILAI_DESC"
 	picture = "Portrait_PRC_Bo_Xilai.dds"
 	expire = "2040.1.1"
-	ideology = mzt
+	ideology = class_soc
 }

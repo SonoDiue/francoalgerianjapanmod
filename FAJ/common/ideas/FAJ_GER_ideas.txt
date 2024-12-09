@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+		GER_FSGW = { #legacy of The First Sigma-Gooner War
+			picture = GER_FSGW
+			allowed = {
+				tag = GER
+			}
+        	available = {
+        	}
+        	cancel = {
+        	}
+			allowed_civil_war = {
+				always = no
+			}			
+			modifier = {
+					offence = -0.01
+					defence = -0.01
+					army_morale_factor = -0.01
+					war_support_factor = -0.01
+					conscription = -0.01
+				}
+			}
+		}
+}	

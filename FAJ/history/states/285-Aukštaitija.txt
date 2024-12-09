@@ -14,7 +14,7 @@ id=285
 		}		
 		owner = SOV
 		buildings = {
-            school = 2
+	            school = 2
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
@@ -22,7 +22,7 @@ id=285
 		add_core_of = SOV
 
 	}
-	provinces={
+	provinces= {
 		530 6296 9246 9357 9374 9404 9438 11226 11498 
 	}
 	manpower=1491785

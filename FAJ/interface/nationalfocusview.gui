@@ -718,7 +718,7 @@ guiTypes = {
 			font = "sf_18mbs"
 			borderSize = {x = 5 y = 0}
 			text = "Description"
-			maxWidth = 480
+			maxWidth = 475
 			maxHeight = 100
 			format = center
 			scrollbarType = standardtext_slider

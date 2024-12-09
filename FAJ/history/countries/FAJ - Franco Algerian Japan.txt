@@ -149,6 +149,22 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = NATO
+set_variable = { FAJ.FACTIONSTATUS = 1 }
+set_variable = { SOI.FACTIONSTATUS = 5 }
+set_variable = { GER.FACTIONSTATUS = 5 }
+set_variable = { SBR.FACTIONSTATUS = 5 }
+set_variable = { MLY.FACTIONSTATUS = 5 }
+set_variable = { PHI.FACTIONSTATUS = 5 }
+set_variable = { PAK.FACTIONSTATUS = 5 }
+set_variable = { EAF.FACTIONSTATUS = 5 }
+set_variable = { HON.FACTIONSTATUS = 5 }
+set_variable = { ENG.FACTIONSTATUS = 5 }
+
+add_ideas = {
+	FAJ_leader
+
+}
 create_country_leader = {
 	name = "The Overseer Council"
 	desc = ""

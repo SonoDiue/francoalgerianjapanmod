@@ -15,8 +15,6 @@ set_variable = { DEBT_million = var:DEBT }
 multiply_variable = { DEBT_trillion = 0.001 }
 multiply_variable = { DEBT_million = 1000 }
 
-set_country_flag = commonwealth_flag
-
 #starting tech
 #recruit_character = Mastercomputer_90_Character #trust me
 set_technology = {
@@ -107,10 +105,7 @@ interwar_artillery = 1
 
 }
 add_ideas = {
-PAK_nat_reg_bal_act
-commonwealth
-PAK_gro_isl_thr
-PAK_frontlines_containment
+FAJ_member
 }
 set_variable = {
 var = SOCTRENDS_DC
@@ -145,11 +140,12 @@ set_popularities = {
         autocracy = 10
         reformist_socialism = 0
         socdem = 5
-        technocracy = 5
+        technocracy = 15
 
 }
 set_country_flag = has_double_leader
-set_country_flag = zaher
+set_country_flag = osama
+
 set_politics = {
 	
 	ruling_party = revolutionary_right

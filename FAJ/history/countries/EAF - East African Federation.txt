@@ -17,12 +17,14 @@ multiply_variable = { DEBT_million = 1000 }
 
 add_ideas = {
 #EAF_newborn_nation
-EAF_linguistic_split
-EAF_overwhelming_poverty
-EAF_sudan_sinkhole
+#EAF_linguistic_split
+#EAF_overwhelming_poverty
+#EAF_sudan_sinkhole
+FAJ_member
 }
 #set_country_flag = has_double_leader
 #set_country_flag = lizzy
+
 
 #starting tech
 #recruit_character = Mastercomputer_90_Character #trust me
@@ -168,9 +170,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Wan Ariff"
+	name = "The Grand Assembly"
 	desc = ""
-	picture = "gfx/leaders/EAF/Portrait_EAF_Wan_Ariff.dds"
+	picture = "gfx/leaders/EAF/Portrait_EAF_assembly.dds"
 	expire = "2040.1.1"
 	ideology = trotism
 	traits = {

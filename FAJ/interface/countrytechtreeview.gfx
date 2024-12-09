@@ -213,6 +213,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/techtree/armyoverview_button_glow.dds"
 		noOfFrames = 2			
 	}
+	spriteType = {
+		name = "GFX_chatback"
+		textureFile = "gfx/interface/chatback.dds"
+	}
 	
 	corneredTileSpriteType = {
 		name = "GFX_tiled_plain_bg"
@@ -391,16 +395,9 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
 	}
 
-	frameAnimatedSpriteType = {
+	spriteType = {
 		name = "GFX_technology_mtgnavalsupportfolder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_item_bg.dds"
 	}
 
 	spriteType = { 
@@ -511,16 +508,9 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 	
-	frameAnimatedSpriteType = {
+	SpriteType = {
 		name = "GFX_technology_currently_researching_item_bg"
-		texturefile = "gfx//interface//researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
+		texturefile = "gfx/interface/techtree/technology_reseaching_test.dds"
 	}
 	
 	### naval doctrine tech entry bgs ###
@@ -545,17 +535,10 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
 	}	
 	
-	frameAnimatedSpriteType = {
+	spriteType = {
 		name = "GFX_technology_naval_doctrine_folder_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
-	}	
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_item_bg.dds"
+	}
 
 	### air doctrine tech entry bgs ###	
 	
@@ -579,17 +562,10 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
 	}	
 	
-	frameAnimatedSpriteType = {
+	spriteType = {
 		name = "GFX_technology_air_doctrine_folder_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
-	}
+		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
+	}	
 
 	#### land doctrine #####
 	
@@ -618,16 +594,9 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
 	}	
 
-	frameAnimatedSpriteType = {
+	spriteType = {
 		name = "GFX_technology_land_doctrine_folder_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_item_bg.dds"
 	}
 
 		##### electronics tech #####
@@ -647,16 +616,9 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
 	}	
 
-	frameAnimatedSpriteType = {
+	spriteType = {
 		name = "GFX_technology_electronics_folder_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_item_bg.dds"
 	}	
 	
 		##### industry tech #####
@@ -676,16 +638,9 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
 	}	
 
-	frameAnimatedSpriteType = {
+	spriteType = {
 		name = "GFX_technology_industry_folder_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_item_bg.dds"
 	}	
 
 #GFX_technology_currently_researching_item_bg
@@ -707,16 +662,9 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
 	}
 
-	frameAnimatedSpriteType = {
+	spriteType = {
 		name = "GFX_technology_naval_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_item_bg.dds"
 	}	
 	
 	spriteType = { 
@@ -755,16 +703,9 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
 	}
 
-	frameAnimatedSpriteType = {
+	spriteType = {
 		name = "GFX_technology_mtgnavalfolder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_item_bg.dds"
 	}
 	
 	spriteType = { 
@@ -826,16 +767,9 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
 	}	
 	
-	frameAnimatedSpriteType = {
+	spriteType = {
 		name = "GFX_technology_support_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_item_bg.dds"
 	}	
 
 	# foreign
@@ -849,16 +783,9 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
 	}
 
-	frameAnimatedSpriteType = {
+	spriteType = {
 		name = "GFX_technology_support_folder_small_foreign_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_item_bg.dds"
 	}
 
 	spriteType = {
@@ -921,17 +848,11 @@ spriteTypes = {
 		pause_on_loop = 0.0
 	}
 
-	frameAnimatedSpriteType = {
+	spriteType = {
 		name = "GFX_technology_infantry_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_item_bg.dds"
 	}	
+
     ##############
 
 		#bba aircraft folder
@@ -951,16 +872,9 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
 	}
 
-	frameAnimatedSpriteType = {
+	spriteType = {
 		name = "GFX_technology_bba_air_techs_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_item_bg.dds"
 	}
 
 	spriteType = {
@@ -1007,16 +921,9 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
 	}	
 	
-	frameAnimatedSpriteType = {
+	spriteType = {
 		name = "GFX_technology_artillery_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_item_bg.dds"
 	}	
     ##############
 
@@ -1037,16 +944,9 @@ spriteType = {
 		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
 	}
 
-	frameAnimatedSpriteType = {
+	spriteType = {
 		name = "GFX_technology_nsb_armour_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_item_bg.dds"
 	}	
     
 	frameAnimatedSpriteType = {

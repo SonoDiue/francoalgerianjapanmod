@@ -411,8 +411,8 @@ guiTypes = {
 				containerWindowType = {
 					name = "national_spirit_container"
 					position = { x = -430 y = -5 }
-					size = { width = 410 height = 82 }
-					verticalScrollbar = "right_vertical_slider"
+					size = { width = 410 height = 105 }
+					horizontalScrollbar = "bottom_horizontal_slider"
 					orientation = upper_right
 					
 					background = {
@@ -423,17 +423,17 @@ guiTypes = {
 					gridboxtype = {
 						name = "national_spirit_ideas_grid"
 						position = { x = 5 y = 0 }
-						size = { width = 410 height = 82 }
-						slotsize = { width = 70 height = 82 }
-						max_slots = { x = 6 y = 1 }
+						size = { width = 710 height = 105 }
+						slotsize = { width = 90 height = 105 }
+						max_slots = { x = 15 y = 1 }
 						format = "UPPER_LEFT"
 					}
 					gridboxtype = {
 						name = "nat_spirit_ideas_grid_over_defined"
 						position = { x = 10 y = 2 }
-						size = { width = 400 height = 68 }
-						slotsize = { width = 60 height = 34 }
-						max_slots_horizontal = 10
+						size = { width = 700 height = 68 }
+						slotsize = { width = 90 height = 34 }
+						max_slots_horizontal = 15
 						format = "UPPER_LEFT"
 					}
 				}
@@ -1134,7 +1134,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"		
-			spriteType ="GFX_generic_diplo_action_bg"
+			spriteType ="GFX_tiled_window_1b_border"
 		}
 		
 		instantTextboxType = {

@@ -94,6 +94,7 @@ add_ideas = {
 HON_football_humiliation
 HON_UFC
 HON_SS
+FAJ_member
 
 }
 TOTA_startup_funny_business_ignore_this = yes

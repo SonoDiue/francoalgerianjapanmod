@@ -100,7 +100,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "active_range_name"
 			format = center
-			position = { x = 120 y = 160 }
+			position = { x = 110 y = 160 }
 			font = "sf_20b"
 			text = "We Are Very Powerful"
 			maxWidth = 300
@@ -115,7 +115,7 @@ guiTypes = {
 		
 		iconType = {
 			name = "power_balance_value"
-			position = { x = 95 y = 125 }
+			position = { x = 95 y = 122 }
 			
 			# NOTE: The sprite name is set by the code!
 		}
@@ -128,12 +128,12 @@ guiTypes = {
 
 		iconType = {
 			name = "left_power_icon"
-			position = { x = 20 y = 84 }
+			position = { x = 15 y = 95 }
 		}
 		
 		iconType = {
 			name = "right_power_icon"
-			position = { x = 458 y = 84 }
+			position = { x = 455 y = 95 }
 		}
 
 		background = {

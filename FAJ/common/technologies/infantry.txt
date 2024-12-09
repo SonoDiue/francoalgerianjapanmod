@@ -839,10 +839,10 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		bicycle_battalion = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
+		#bicycle_battalion = {
+		#	defense = 0.05
+		#	breakthrough = 0.05
+		#}
 		boxer = {
 			defense = 0.02
 			breakthrough = 0.02
@@ -942,10 +942,10 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		bicycle_battalion = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
+		#bicycle_battalion = {
+		#	defense = 0.05
+		#	breakthrough = 0.05
+		#}
 		boxer = {
 			defense = 0.02
 			breakthrough = 0.02
@@ -1025,10 +1025,10 @@ technologies = {
 			defense = 0.06
 			breakthrough = 0.03
 		}
-		bicycle_battalion = {
-			defense = 0.02
-			breakthrough = 0.02
-		}
+		#bicycle_battalion = {
+		#	defense = 0.02
+		#	breakthrough = 0.02
+		#}
 		boxer = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -1109,10 +1109,10 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		bicycle_battalion = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
+		#bicycle_battalion = {
+		#	defense = 0.05
+		#	breakthrough = 0.05
+		#}
 		boxer = {
 			defense = 0.02
 			breakthrough = 0.02
@@ -1198,10 +1198,10 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		bicycle_battalion = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
+		#bicycle_battalion = {
+		#	defense = 0.05
+		#	breakthrough = 0.05
+		#}
 		boxer = {
 			defense = 0.02
 			breakthrough = 0.02
@@ -1280,10 +1280,10 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		bicycle_battalion = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
+		#bicycle_battalion = {
+		#	defense = 0.05
+		#	breakthrough = 0.05
+		#}
 		boxer = {
 			defense = 0.02
 			breakthrough = 0.02
@@ -1362,10 +1362,10 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		bicycle_battalion = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
+		#bicycle_battalion = {
+		#	defense = 0.05
+		#	breakthrough = 0.05
+		#}
 		boxer = {
 			defense = 0.02
 			breakthrough = 0.02
@@ -1697,7 +1697,12 @@ technologies = {
 		}
 	}
 	plate_vest = {
-		#add modifiers later...
+		supply_factor = -0.012
+		unit_upkeep_attrition_factor = 0.01
+		land_reinforce_rate = 0.06
+		army_defence_factor = 0.06
+		army_morale_factor = 0.04
+		army_org_regain = 0.8
 		research_cost = 1
 		start_year = 2000
 		folder = {

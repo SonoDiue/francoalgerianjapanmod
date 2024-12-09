@@ -152,6 +152,11 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	FAJ_member
+
+}
+
 create_country_leader = {
 	name = "Zakwan"
 	desc = ""

@@ -5,7 +5,7 @@ state={
     buildings_max_level_factor = 1
 
 	history={
-		owner = PRC
+		owner = XIN
 		buildings = {
 			school = 2
 			infrastructure = 2
